@@ -1,0 +1,568 @@
+Source        : WES
+Method        : Page_Load
+Date        : 5:03:21 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 5:05:13 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 5:06:17 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 5:06:17 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 5:06:17 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : Prepare
+Date        : 5:10:20 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.Prepare(String sValue) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 390
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ProceedFunction
+Date        : 5:13:06 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at shipping.ProceedFunction(Int32 OrderID, String drpsm1, String isoffline, String rbtype, String tt1, String comments, String shipzip, String trpm, String emailconfimation) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\Shipping.aspx.cs:line 3714
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ProceedFunction
+Date        : 5:13:27 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at shipping.ProceedFunction(Int32 OrderID, String drpsm1, String isoffline, String rbtype, String tt1, String comments, String shipzip, String trpm, String emailconfimation) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\Shipping.aspx.cs:line 3714
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ProceedFunction
+Date        : 5:13:27 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at shipping.ProceedFunction(Int32 OrderID, String drpsm1, String isoffline, String rbtype, String tt1, String comments, String shipzip, String trpm, String emailconfimation) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\Shipping.aspx.cs:line 3714
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 5:20:22 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 5:20:22 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 5:20:23 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : Prepare
+Date        : 5:22:30 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.Prepare(String sValue) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 390
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ProceedFunction
+Date        : 5:24:06 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at shipping.ProceedFunction(Int32 OrderID, String drpsm1, String isoffline, String rbtype, String tt1, String comments, String shipzip, String trpm, String emailconfimation) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\Shipping.aspx.cs:line 3714
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 5:30:44 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 5:30:48 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 5:32:27 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 5:32:27 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 5:32:27 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : Prepare
+Date        : 5:33:14 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.Prepare(String sValue) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 390
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : SendMail
+Date        : 5:39:33 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at shipping.SendMail(Int32 OrderId, Int32 OrderStatus, String shipnotes, String drpSM1, String emailconfimation) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\Shipping.aspx.cs:line 4662
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ProceedFunction
+Date        : 5:39:33 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at shipping.ProceedFunction(Int32 OrderID, String drpsm1, String isoffline, String rbtype, String tt1, String comments, String shipzip, String trpm, String emailconfimation, String Userid, String userrole) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\Shipping.aspx.cs:line 3898
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:08:33 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 6:08:35 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 6:18:55 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 6:18:55 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 6:18:55 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : Prepare
+Date        : 6:19:59 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.Prepare(String sValue) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 390
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ProceedFunction
+Date        : 6:20:38 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at shipping.ProceedFunction(Int32 OrderID, String drpsm1, String isoffline, String rbtype, String tt1, String comments, String shipzip, String trpm, String emailconfimation, String Userid, String userrole, String url, String stemplate) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\Shipping.aspx.cs:line 3868
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ProceedFunction
+Date        : 6:46:28 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at shipping.ProceedFunction(Int32 OrderID, String drpsm1, String isoffline, String rbtype, String tt1, String comments, String shipzip, String trpm, String emailconfimation, String Userid, String userrole, String url, String stemplate) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\Shipping.aspx.cs:line 3868
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 6:53:18 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 6:53:18 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 6:53:18 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : Prepare
+Date        : 6:54:17 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.Prepare(String sValue) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 390
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserStatus
+Date        : 6:54:51 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserStatus(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1517
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserStatus
+Date        : 6:54:52 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserStatus(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1517
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 6:56:22 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 6:56:22 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 6:56:22 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : Prepare
+Date        : 6:57:15 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.Prepare(String sValue) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 390
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserStatus
+Date        : 6:57:52 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserStatus(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1517
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserStatus
+Date        : 6:57:53 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserStatus(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1517
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : SendMail
+Date        : 7:00:16 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at shipping.SendMail(Int32 OrderId, Int32 OrderStatus, String shipnotes, String drpSM1, String emailconfimation, String url, String stemplatepath) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\Shipping.aspx.cs:line 4732
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 7:06:53 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 7:06:57 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 7:08:23 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 7:08:23 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 7:08:23 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : Prepare
+Date        : 7:09:05 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.Prepare(String sValue) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 390
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserStatus
+Date        : 7:10:38 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserStatus(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1517
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserStatus
+Date        : 7:10:41 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserStatus(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1517
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserStatus
+Date        : 7:10:56 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserStatus(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1517
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserStatus
+Date        : 7:12:48 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserStatus(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1517
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserStatus
+Date        : 7:13:25 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserStatus(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1526
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetOptionValuesAll
+Date        : 7:16:34 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 193
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetOptionValuesAll
+Date        : 7:16:34 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 189
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : .ctor
+Date        : 7:16:34 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : The parameter 'address' cannot be an empty string.
+Parameter name: address
+Stack Trace    : at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus, String shipnotes, String drpSM1, String emailconfimation, String url, String stemplatepath, String userrole) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\Shipping.aspx.cs:line 4818
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 7:28:13 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 7:28:14 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 7:28:56 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 7:28:56 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 7:28:57 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1271
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : Prepare
+Date        : 7:29:35 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.Prepare(String sValue) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 455
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : SendMail
+Date        : 7:31:33 PM
+Time        : 7/15/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at shipping.SendMail(Int32 OrderId, Int32 OrderStatus, String shipnotes, String drpSM1, String emailconfimation, String url, String stemplatepath, String userrole) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\Shipping.aspx.cs:line 4786
+^^-------------------------------------------------------------------^^

@@ -1,0 +1,25 @@
+Source        : WES
+Method        : Page_Load
+Date        : 12:24:24 PM
+Time        : 8/1/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 2:47:05 PM
+Time        : 8/1/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 2:47:07 PM
+Time        : 8/1/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 116
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 102
+^^-------------------------------------------------------------------^^

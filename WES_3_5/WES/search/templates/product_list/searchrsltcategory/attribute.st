@@ -1,0 +1,1 @@
+﻿<a href="product_list.aspx?&cid=$TBW_CATEGORY_ID$&val=$TBW_STRING_VALUE$&aid=$TBW_ATTRIBUTE_ID$"  style="font-family: Helvetica, Tahoma, Arial; font-size: 11px; color: #0099FF; text-decoration: none;">$TBW_STRING_VALUE$</a> ($TBW_PRODUCT_COUNT$)&nbsp;&nbsp;    

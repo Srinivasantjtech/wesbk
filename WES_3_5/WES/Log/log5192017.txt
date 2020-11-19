@@ -1,0 +1,39 @@
+Source        : WES
+Method        : Page_Load
+Date        : 10:33:49 AM
+Time        : 5/19/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 10:33:49 AM
+Time        : 5/19/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 115
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 101
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 10:33:53 AM
+Time        : 5/19/2017
+Computer    : P3-sd2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 284
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6504
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 12:42:26 PM
+Time        : 5/19/2017
+Computer    : P3-sd2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 284
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6552
+^^-------------------------------------------------------------------^^

@@ -1,0 +1,331 @@
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 6:33:42 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 7:46:01 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^
+Source        : .Net SqlClient Data Provider
+Method        : OnError
+Date        : 8:02:49 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+Stack Trace    : at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\OrderDB.cs:line 204
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:02:49 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\OrderDB.cs:line 258
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\OrderDB.cs:line 179
+   at TradingBell.WebCat.CommonServices.OrderServices.GetOrderID(Int32 UserID, Int32 OrderStatus) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\OrderServices.cs:line 1612
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : ValidateCommand
+Date        : 8:03:53 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : ExecuteReader requires an open and available Connection. The connection's current state is closed.
+Stack Trace    : at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\OrderDB.cs:line 204
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:03:53 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\OrderDB.cs:line 258
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\OrderDB.cs:line 179
+   at TradingBell.WebCat.CommonServices.OrderServices.GetOrderID(Int32 UserID, Int32 OrderStatus) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\OrderServices.cs:line 1612
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:04:59 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.UserServices.GetCheckOutOption(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 2686
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : ValidateCommand
+Date        : 8:06:03 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : ExecuteReader requires an open and available Connection. The connection's current state is closed.
+Stack Trace    : at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\OrderDB.cs:line 204
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:06:03 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\OrderDB.cs:line 258
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\OrderDB.cs:line 171
+   at TradingBell.WebCat.CommonServices.OrderServices.GetOrderStatus(Int32 OrderID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\OrderServices.cs:line 2227
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : ValidateCommand
+Date        : 8:07:09 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : ExecuteReader requires an open and available Connection. The connection's current state is closed.
+Stack Trace    : at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\OrderDB.cs:line 204
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:07:09 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\OrderDB.cs:line 258
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\OrderDB.cs:line 179
+   at TradingBell.WebCat.CommonServices.OrderServices.GetOrderID(Int32 UserID, Int32 OrderStatus) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\OrderServices.cs:line 1612
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : ValidateCommand
+Date        : 8:08:14 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : ExecuteReader requires an open and available Connection. The connection's current state is closed.
+Stack Trace    : at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\OrderDB.cs:line 204
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:08:14 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\OrderDB.cs:line 258
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\OrderDB.cs:line 171
+   at TradingBell.WebCat.CommonServices.OrderServices.GetOrderStatus(Int32 OrderID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\OrderServices.cs:line 2227
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:09:20 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1262
+   at TradingBell.WebCat.CommonServices.UserServices.GetPaymentoption(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1499
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : get_Item
+Date        : 8:09:20 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3543
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:09:28 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1266
+   at TradingBell.WebCat.CommonServices.UserServices.CheckUserName(String UserEmail) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1859
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:09:32 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1266
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserID(String LOGIN_NAME) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1331
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:10:25 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\HelperServices.cs:line 195
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:10:25 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\HelperServices.cs:line 188
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:10:27 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1266
+   at TradingBell.WebCat.CommonServices.UserServices.CheckUserName(String UserEmail) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1859
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:10:28 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1266
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserID(String LOGIN_NAME) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1331
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:10:28 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\HelperServices.cs:line 195
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:10:28 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\HelperServices.cs:line 188
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:11:18 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\HelperServices.cs:line 195
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:11:18 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\HelperServices.cs:line 188
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:11:49 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1266
+   at TradingBell.WebCat.CommonServices.UserServices.CheckUserName(String UserEmail) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1859
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:11:50 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.RenderHTML(String rType) in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 195
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 8:11:55 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1266
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserID(String LOGIN_NAME) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1331
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 8:12:06 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : get_Item
+Date        : 9:21:29 PM
+Time        : 11/2/2017
+Computer    : P3-sd2
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3628
+^^-------------------------------------------------------------------^^

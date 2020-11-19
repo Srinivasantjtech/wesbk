@@ -1,0 +1,350 @@
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 6:16:11 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in D:\Catalogstudio\WES_2_5\CommonServices\HelperServices.cs:line 192
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 6:16:11 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in D:\Catalogstudio\WES_2_5\CommonServices\HelperServices.cs:line 185
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 6:16:11 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in D:\Catalogstudio\WES_2_5\CommonServices\HelperServices.cs:line 192
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 6:16:11 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in D:\Catalogstudio\WES_2_5\CommonServices\HelperServices.cs:line 185
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 6:18:03 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in D:\Catalogstudio\WES_2_5\CommonServices\HelperServices.cs:line 192
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 6:18:03 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in D:\Catalogstudio\WES_2_5\CommonServices\HelperServices.cs:line 185
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 6:18:03 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in D:\Catalogstudio\WES_2_5\CommonServices\HelperServices.cs:line 192
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 6:18:03 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in D:\Catalogstudio\WES_2_5\CommonServices\HelperServices.cs:line 185
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 6:23:49 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Could not find a part of the path 'D:\Catalogstudio\WES_2_5\WES\xml\subds.xml'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   at System.Data.DataSet.WriteXml(String fileName, XmlWriteMode mode)
+   at System.Data.DataSet.WriteXml(String fileName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2229
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2493
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 6:23:51 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Could not find a part of the path 'D:\Catalogstudio\WES_2_5\WES\xml\subds.xml'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   at System.Data.DataSet.WriteXml(String fileName, XmlWriteMode mode)
+   at System.Data.DataSet.WriteXml(String fileName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2229
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2493
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3519
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 6:24:03 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Could not find a part of the path 'D:\Catalogstudio\WES_2_5\WES\xml\subds.xml'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   at System.Data.DataSet.WriteXml(String fileName, XmlWriteMode mode)
+   at System.Data.DataSet.WriteXml(String fileName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2229
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2493
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 6:24:05 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Could not find a part of the path 'D:\Catalogstudio\WES_2_5\WES\xml\subds.xml'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   at System.Data.DataSet.WriteXml(String fileName, XmlWriteMode mode)
+   at System.Data.DataSet.WriteXml(String fileName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2229
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2493
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3519
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 6:24:53 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Could not find a part of the path 'D:\Catalogstudio\WES_2_5\WES\xml\subds.xml'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   at System.Data.DataSet.WriteXml(String fileName, XmlWriteMode mode)
+   at System.Data.DataSet.WriteXml(String fileName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2229
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2493
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3519
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 6:25:07 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Could not find a part of the path 'D:\Catalogstudio\WES_2_5\WES\xml\subds.xml'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   at System.Data.DataSet.WriteXml(String fileName, XmlWriteMode mode)
+   at System.Data.DataSet.WriteXml(String fileName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2229
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2493
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 6:25:09 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Could not find a part of the path 'D:\Catalogstudio\WES_2_5\WES\xml\subds.xml'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   at System.Data.DataSet.WriteXml(String fileName, XmlWriteMode mode)
+   at System.Data.DataSet.WriteXml(String fileName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2229
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2493
+   at UC_category.ST_Category_Load(String Package, String _SkinRootPath) in D:\Catalogstudio\WES_2_5\WES\UC\category.ascx.cs:line 74
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 6:25:11 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Could not find a part of the path 'D:\Catalogstudio\WES_2_5\WES\xml\subds.xml'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   at System.Data.DataSet.WriteXml(String fileName, XmlWriteMode mode)
+   at System.Data.DataSet.WriteXml(String fileName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2229
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2493
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3519
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 6:25:24 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Could not find a part of the path 'D:\Catalogstudio\WES_2_5\WES\xml\subds.xml'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   at System.Data.DataSet.WriteXml(String fileName, XmlWriteMode mode)
+   at System.Data.DataSet.WriteXml(String fileName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2229
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2493
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 6:25:26 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Could not find a part of the path 'D:\Catalogstudio\WES_2_5\WES\xml\subds.xml'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   at System.Data.DataSet.WriteXml(String fileName, XmlWriteMode mode)
+   at System.Data.DataSet.WriteXml(String fileName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2229
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2493
+   at UC_category.ST_Category_Load(String Package, String _SkinRootPath) in D:\Catalogstudio\WES_2_5\WES\UC\category.ascx.cs:line 74
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 6:25:38 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Could not find a part of the path 'D:\Catalogstudio\WES_2_5\WES\xml\subds.xml'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   at System.Data.DataSet.WriteXml(String fileName, XmlWriteMode mode)
+   at System.Data.DataSet.WriteXml(String fileName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2229
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2493
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3519
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 6:37:49 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Could not find a part of the path 'D:\Catalogstudio\WES_2_5\WES\xml\subds.xml'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   at System.Data.DataSet.WriteXml(String fileName, XmlWriteMode mode)
+   at System.Data.DataSet.WriteXml(String fileName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2229
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2493
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 6:37:53 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Could not find a part of the path 'D:\Catalogstudio\WES_2_5\WES\xml\subds.xml'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Xml.XmlTextWriter..ctor(String filename, Encoding encoding)
+   at System.Data.DataSet.WriteXml(String fileName, XmlWriteMode mode)
+   at System.Data.DataSet.WriteXml(String fileName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2229
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2493
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3519
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:39:21 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Catalogstudio\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 6:39:28 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Column 'PROD_STK_STATUS_DSC' does not belong to table Table.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.Get_Family_Product_ValuesJson(String DataType, DataTable ds, INavigateResults res, IResultRow item1, String name, DataSet Dssdv) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 3444
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:39:32 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Catalogstudio\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 6:39:38 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Column 'PROD_STK_STATUS_DSC' does not belong to table Table.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.Get_Family_Product_ValuesJson(String DataType, DataTable ds, INavigateResults res, IResultRow item1, String name, DataSet Dssdv) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 3444
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:39:45 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Catalogstudio\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 6:39:48 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Column 'PROD_STK_STATUS_DSC' does not belong to table Table.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.Get_Family_Product_ValuesJson(String DataType, DataTable ds, INavigateResults res, IResultRow item1, String name, DataSet Dssdv) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 3444
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:39:50 PM
+Time        : 2/5/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Catalogstudio\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^

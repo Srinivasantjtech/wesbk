@@ -1,0 +1,18 @@
+Source        : System.Data
+Method        : get_Item
+Date        : 11:16:26 AM
+Time        : 6/22/2019
+Computer    : P3-sd14
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at TradingBell.WebCat.CommonServices.OrderServices.SentSignalOrderNotification(String InvoiceNo) in d:\Tradingbell\Production\WES_3_5\CommonServices\OrderServices.cs:line 2136
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : get_Item
+Date        : 11:37:32 AM
+Time        : 6/22/2019
+Computer    : P3-sd14
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at TradingBell.WebCat.CommonServices.OrderServices.SentSignalOrderNotification(String InvoiceNo) in d:\Tradingbell\Production\WES_3_5\CommonServices\OrderServices.cs:line 2136
+^^-------------------------------------------------------------------^^

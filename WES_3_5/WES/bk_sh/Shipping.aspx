@@ -1,0 +1,1796 @@
+<%@ Page Language="C#" MasterPageFile="~/mainpage.master" AutoEventWireup="true" Inherits="shipping" EnableEventValidation="false"
+    Title="Untitled Page"  Culture="en-US" UICulture="en-US" Codebehind="shipping.aspx.cs" %>
+
+<%@ Import Namespace="System.Data" %>
+<%@ Import Namespace ="TradingBell.WebCat.Helpers" %>
+<%@ Import Namespace ="TradingBell.WebCat.CatalogDB" %>
+<%@ Import Namespace ="TradingBell.WebCat.CommonServices" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<%@ Register Src="UI/InvoiceOrder.ascx" TagName="InvoiceOrder" TagPrefix="uc1" %>
+<asp:Content ID="Content2" ContentPlaceHolderID="head" runat="Server">
+    <script type="text/javascript">        window.history.forward(1);
+
+        window.location.hash = "no-back-button";
+        window.location.hash = "Again-No-back-button"; //again because google chrome don't insert first hash into history
+        window.onhashchange = function () { window.location.hash = "no-back-button"; }                                                    
+     </script>
+     
+
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="maincontent" runat="Server">
+    <!--Add JQuery library reference-->
+    <script src="Scripts/jquery-1.5.1.min.js" type="text/javascript"></script>
+
+
+
+    <script type="text/javascript">
+        function Bgcolorchange() {
+            alert("hi");
+           // document.getElementById("MdPinhole").style.display = 'block';
+        }
+        function isAlphabetic() {
+            
+            var ValidChars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890/\\';
+            var sText = document.getElementById("ctl00_maincontent_tt1").value;
+            var IsAlphabetic = true;
+            var Char;
+            var ErrMsg = 'Sorry, but the use of the following special characters is not allowed in the Order No field:' + '\n' + '! ` & ~ ^ * %  $ @ ’ ( “ ) ; [   ] { } ! = < > | * , . -' + '\n' + 'Please update your order no so it longer has any of these restricted characters in it to continue order.';
+            var err = document.getElementById("ctl00_maincontent_txterr");
+            if (err != null) {
+                err.innerHTML = '';
+            }
+            for (i = 0; i < sText.length; i++) {
+                Char = sText.charAt(i);
+
+                if (ValidChars.indexOf(Char) == -1) {
+                    alert(ErrMsg);
+                    document.getElementById("ctl00_maincontent_tt1").value = '';
+                    document.forms[0].elements["<%=tt1.ClientID%>"].focus();
+                    return false;
+                }
+            }
+
+            return isAlphabetic;
+        }
+        function checkphone() {
+            document.getElementById("<%=txtMobileNumber.ClientID%>").val() = "";
+            document.getElementById("<%=hfnothanks.ClientID%>").val() = '1';
+        }
+
+
+
+       
+
+        function checkorderid() {
+            // alert("checkorderid");
+            var msgCheck = "**** NOTE ****" + '\n' + "Courier Pick Up Service needs to be arranged by you." + '\n' + "Please enter the details of Courier Company that you will be arranging to pick up your parcel from us with.";
+
+            var mblnumber = document.forms[0].elements["<%=hfphonenumber.ClientID%>"].value;
+            mblnumber = mblnumber.toString();
+            var a = mblnumber.substring(0, 2);
+           
+            if (document.forms[0].elements["<%=hftt1.ClientID%>"].value == "1" && document.forms[0].elements["<%=tt1.ClientID%>"].value == "")
+            {
+                //           document.forms[0].elements["<%=txterr.ClientID%>"].focus();
+                document.forms[0].elements["<%=tt1.ClientID%>"].focus();
+                document.getElementById("ctl00_maincontent_txterr").style.display = 'block'; 
+                return false;
+
+            }
+            if (document.forms[0].elements["<%=drpSM1.ClientID%>"].value == "Please Select Shipping Method") {
+                alert('Please Select Shipping Method');
+                document.forms[0].elements["<%=drpSM1.ClientID%>"].focus();
+                return false;
+            }
+            else if ((document.forms[0].elements["<%=TextBox1.ClientID%>"].value == msgCheck || document.forms[0].elements["<%=TextBox1.ClientID%>"].value == '' || document.forms[0].elements["<%=TextBox1.ClientID%>"].value == null) && document.forms[0].elements["<%=drpSM1.ClientID%>"].value == "Courier Pickup") {
+                //       alert('Please Enter Comments and Submit Order');
+                ShowCourierMessage();
+                document.forms[0].elements["<%=TextBox1.ClientID%>"].focus();
+                return false;
+            }
+            else if (document.forms[0].elements["<%=drpSM1.ClientID%>"].value == "Counter Pickup" ) {
+                if (document.forms[0].elements["<%=hfphonenumber.ClientID%>"].value == null || document.forms[0].elements["<%=hfphonenumber.ClientID%>"].value == "" || a != "04" || mblnumber.length != 10) {
+                    counterPickup();
+                    return false;
+                } else {
+                    return true;
+                }
+                return (ValidationDropShipOrder());
+            }else {
+                var numaric = document.forms[0].elements["<%=tt1.ClientID%>"].value;
+                for (var j = 0; j < numaric.length; j++) {
+                    var alphaa = numaric.charAt(j);
+                    var hh = alphaa.charCodeAt(0);
+                    //hh == 95 || hh == 45
+                    if ((hh > 47 && hh < 58) || (hh > 64 && hh < 91) || (hh > 96 && hh < 123) || hh == 92 || hh == 47) {
+                    }
+                    else {
+                        if (hh == 32) {
+                            alert("Blank space in order no");
+                        }
+                        else
+                            alert("Please enter valid order no, Order no should have alpha-numeric character.");
+                        return false;
+                    }
+                }
+                return (ValidationDropShipOrder());;
+            }
+    return (ValidationDropShipOrder());
+}
+
+        $(document).ready(function () {
+
+            $("btnNoThanksChange").click(function () {
+                $(".modal-box, .modal-overlay").fadeOut(500, function () {
+                    alert("btnNoThanksChange");
+                    $(".modal-overlay").remove();
+                });
+
+            });
+            if ($find("ShipmentModelPopupExtender").hide() != null) {
+                $find("ShipmentModelPopupExtender").hide();
+            }
+            var msgShipment = "**** NOTE ****" + '\n' + "Courier Pick Up Service needs to be arranged by you." + '\n' + "Please enter the details of Courier Company that you will be" + '\n' + "arranging to pick up your parcel from us with.";
+            var msgOthers = "Type Comments Here";
+
+            $("#smspopup").hide();
+
+            var mblnumber = document.forms[0].elements["<%=hfphonenumber.ClientID%>"].value;
+            mblnumber = mblnumber.toString();
+
+            if ((($("#<%=drpSM1.ClientID%> option:selected").text() == "Courier Pickup") ) && (mblnumber.substring(0, 2) == "04" && mblnumber.length == 10)) {
+                $("#smspopup").hide();
+            }
+
+            if ((($("#<%=drpSM1.ClientID%> option:selected").text() == "Shop Counter Pickup")) && (mblnumber.substring(0, 2) == "04" && mblnumber.length == 10)) {
+               
+                $("#smspopup").show();
+            }
+            $("#<%=drpSM1.ClientID %>").change(function (event) {
+                if ($("#<%=drpSM1.ClientID%> option:selected").text() == "Courier Pickup") {
+                    ShowCourierMessage();
+                    
+                }
+                else if (($("#<%=drpSM1.ClientID%> option:selected").val() == "Counter Pickup") && (mblnumber.substring(0, 2) == "04" && mblnumber.length == 10)) {
+                    $("#smspopup").show();
+                }
+                else if ($("#<%=drpSM1.ClientID%> option:selected").text() == "Mail") {
+                    ShowMailMessage();
+                    $("#smspopup").hide();
+                }
+                else {
+                    $("#smspopup").hide();
+                }
+            });
+        });
+
+      
+
+
+
+        function ShowCourierMessage() {
+            var msg = "**** NOTE ****" + '\n' + "Courier Pick Up Service needs to be arranged by you." + '\n' + "Please enter into the Comments / Notes box the details of Courier Company that you will be arranging to pick up your parcel from us with.";
+            alert(msg);
+        }
+        function ShowMailMessage() {
+            var msg = "**** NOTE ****" + '\n' + " Mail will be used for parcels up to 500 grams including packaging. Parcels over 500 grams will be sent by the most economical way e.g. Courier, Road, etc. ";
+            alert(msg);
+        }
+
+
+        function counterPickup() {
+            
+          
+            var appendthis = ("<div class='modal-overlay js-modal-close'></div>");
+          //  e.preventDefault();
+            $("body").append(appendthis);
+            $(".modal-overlay").fadeTo(500, 0.7);
+            $(".modal-box").css({ "display": "block" });
+            //$(".js-modalbox").fadeIn(500);
+            var modalBox = $(this).attr('data-modal-id');
+            $('#' + modalBox).fadeIn($(this).data());
+            $("[id=divchangepopup]").hide();
+           
+            
+    //        $(".modal-box").attr("display", "block");
+       //     $(".modal-box").css({ "display": "block" });
+            //new line set visile property to popup
+           // document.getElementById("A1").click();
+          
+        }
+
+        function MouseHover() {
+            $find("ShipmentModelPopupExtender").show();
+            //new line set visile property to popup
+            $(".ModalPopupStyleshi").css({ "visibility": "visible" });
+        }
+
+        function MouseOut() {
+            $find("ShipmentModelPopupExtender").hide();
+        }
+        function MouseHover_orderno() {
+
+            document.getElementById("OrderNoPopupPanel").style.display = 'block';
+            
+        }
+
+        function MouseOut_orderno() {
+            document.getElementById("OrderNoPopupPanel").style.display = 'none';
+        }
+        function CheckShippment() {
+
+            switch (document.getElementById("ctl00_maincontent_drpSM1").value) {
+                case 'Mail':
+                    ShowShipmentPanel();
+                    break;
+                case 'Courier':
+                    ShowShipmentPanel();
+                    break;
+                case 'Courier Pickup':
+                    ShowShipmentPanel();
+                    break;
+                case 'Counter Pickup':
+                    ShowShipmentPanel();
+                    break;
+                case 'Drop Shipment Order':
+                    ShowDropShipmentPanel();
+                    break;
+                default:
+                    ShowShipmentPanel();
+                    break;
+            }
+        }
+
+        function ShowDropShipmentPanel() {
+            document.getElementById("DropShipmentRow").style.display = '';
+            document.getElementById("OtherShipmentRow").style.display = 'none';
+            
+        }
+
+        function ShowShipmentPanel() {
+            document.getElementById("OtherShipmentRow").style.display = '';
+            document.getElementById("DropShipmentRow").style.display = 'none';
+            
+        }
+
+        function HidePanels() {            
+            if (document.getElementById("ctl00_maincontent_drpSM1")!=null && document.getElementById("ctl00_maincontent_drpSM1").value!=null && document.getElementById("ctl00_maincontent_drpSM1").value == 'Drop Shipment Order') {
+                document.getElementById("OtherShipmentRow").style.display = 'none';
+                document.getElementById("DropShipmentRow").style.display = '';
+                
+            }
+            else {
+                document.getElementById("OtherShipmentRow").style.display = '';
+                document.getElementById("DropShipmentRow").style.display = 'none';
+                
+            }
+        }
+
+        function ValidationDropShipOrder() {
+            var isCompanyEmpty = false;
+            var isStateEmpty = false;
+            var isPostcodeEmpty = false;
+            var isSuburbEmpty = false;
+            var isadd1key = false;
+            var isadd2key = false;
+            var isPCkey = false;
+
+        
+            //            // * comment by palani
+
+            if ((document.getElementById("ctl00_maincontent_drpSM1").value == 'Drop Shipment Order') && ((document.getElementById("ctl00_maincontent_txtAttentionTo").value == '') || (document.getElementById("ctl00_maincontent_txtAttentionTo").value == null) || (document.getElementById("ctl00_maincontent_txtAttentionTo").value == 'null'))) {
+                document.getElementById("ctl00_maincontent_txtAttentionTo").style.borderColor = "red";
+                document.getElementById("ctl00_maincontent_txtAttentionTo").focus();
+                isCompanyEmpty = true;
+            }
+            else {
+                document.getElementById("ctl00_maincontent_txtAttentionTo").style.borderColor = "ActiveBorder";
+            }
+            //                       
+
+
+            if ((document.getElementById("ctl00_maincontent_drpSM1").value == 'Drop Shipment Order') && ((document.getElementById("ctl00_maincontent_drpState").value == 'Select Ship To State') || (document.getElementById("ctl00_maincontent_drpState").value == null) || (document.getElementById("ctl00_maincontent_drpState").value == 'null'))) {
+                document.getElementById("ctl00_maincontent_drpState").style.borderColor = "red";
+                document.getElementById("ctl00_maincontent_drpState").focus();
+                isStateEmpty = true;
+            }
+            else {
+                document.getElementById("ctl00_maincontent_drpState").style.borderColor = "ActiveBorder";
+            }
+            if ((document.getElementById("ctl00_maincontent_drpSM1").value == 'Drop Shipment Order') && ((document.getElementById("ctl00_maincontent_txtAddressLine1").value == '') || (document.getElementById("ctl00_maincontent_txtAddressLine1").value == null) || (document.getElementById("ctl00_maincontent_txtAddressLine1").value == 'null'))) {
+                document.getElementById("ctl00_maincontent_txtAddressLine1").style.borderColor = "red";
+                document.getElementById("ctl00_maincontent_txtAddressLine1").focus();
+                isStateEmpty = true;
+            }
+            else {
+                document.getElementById("ctl00_maincontent_txtAddressLine1").style.borderColor = "ActiveBorder";
+                //PageMethods.GetDropShipmentKeyExists(document.getElementById("ctl00_maincontent_txtAddressLine1").value,"", OnSuccess1, OnFailure1)
+            }
+
+
+            if ((document.getElementById("ctl00_maincontent_drpSM1").value == 'Drop Shipment Order') && ((document.getElementById("ctl00_maincontent_txtPostCode").value == '') || (document.getElementById("ctl00_maincontent_txtPostCode").value == null) || (document.getElementById("ctl00_maincontent_txtPostCode").value == 'null'))) {
+                document.getElementById("ctl00_maincontent_txtPostCode").style.borderColor = "red";
+                document.getElementById("ctl00_maincontent_txtPostCode").focus();
+                isPostcodeEmpty = true;
+            }
+            else {
+                document.getElementById("ctl00_maincontent_txtPostCode").style.borderColor = "ActiveBorder";
+                // PageMethods.GetDropShipmentKeyExists(document.getElementById("ctl00_maincontent_txtPostCode").value, "PostCode", OnSuccess1, OnFailure1)
+            }
+
+            if ((document.getElementById("ctl00_maincontent_drpSM1").value == 'Drop Shipment Order') && ((document.getElementById("ctl00_maincontent_txtSuburb").value == '') || (document.getElementById("ctl00_maincontent_txtSuburb").value == null) || (document.getElementById("ctl00_maincontent_txtSuburb").value == 'null'))) {
+                document.getElementById("ctl00_maincontent_txtSuburb").style.borderColor = "red";
+                document.getElementById("ctl00_maincontent_txtSuburb").focus();
+                isSuburbEmpty = true;
+            }
+            else {
+                document.getElementById("ctl00_maincontent_txtSuburb").style.borderColor = "ActiveBorder";
+            }          
+
+            if ((isCompanyEmpty == true) || (isStateEmpty == true) || (isPostcodeEmpty == true) || (isSuburbEmpty == true)) {
+                alert('Fill required fields before submit!');
+                return false;
+            }
+            else {
+                return true;
+            }
+
+
+
+
+        }
+    </script>
+  <script type="text/javascript">
+      function DRPshippment() {
+          alert('Non-Standard Delivery Area. We will contact you to confirm costing');
+      }
+      function couponcodekeypress(e) {
+
+          var bv = document.getElementById("<%=txtCouponCode.ClientID%>");
+          var lblerr = document.getElementById("<%=lblcouponerrmsg.ClientID%>");
+          //alert(bv);
+          bv.setAttribute("style", "border-color:#73ACCF #88CEF9 #88CEF9 !important;")
+          //bv.style.border = "1px solid";
+          //bv.style.borderColor = "rgb(178, 178, 178)"
+          lblerr.setAttribute("style","display:none;")
+      }
+      function couponcodeError() {
+          var bv = document.getElementById("<%=txtCouponCode.ClientID%>");
+          bv.style.border = "1px solid";
+          bv.style.borderColor = "red"
+      }
+</script>
+ 
+     <div class="breadcrumb_outer1">
+        <a href="home.aspx" style="float: left" class="toplinkatest" style="text-decoration:none!important;" >HOME >&nbsp;</a>
+           <div class="breadcrumb1"> 
+              <a href="<% =HttpContext.Current.Request.Url.ToString()
+                  %>"  class="breadcrumb_txt1" style="text-transform:none;"> Shipping</a>
+              <a href="home.aspx" class="breadcrumb_close1" >    
+             </a>
+          </div>
+    </div>
+  
+    <asp:HiddenField ID="hfphonenumber" runat="server" />
+    <asp:HiddenField ID="hfordernumber" runat="server" />
+     <asp:HiddenField ID="hfnothanks" runat="server" Value="0" />
+    <asp:HiddenField ID="hfchange" runat="server" Value="0" /> 
+     <table width="100%" cellspacing="0" cellpadding="5" align="center" border="0">
+        <tr>
+            <td align="left" >  
+              
+                
+       <div class="box1" style="width:760px;margin:0 0 0 2px;">    
+       <asp:PlaceHolder runat="server" ID="PHOrderConfirm" Visible="false" EnableViewState ="false">
+      
+                <% 
+                    
+                    if (Convert.ToInt16(Session["USER_ROLE"]) == 3)
+                    {
+                        
+                        
+                %>
+                     <%--<td align="center" style="text-align: center; padding-top: 5px; padding-right: 30px;padding-bottom: 10px;">--%>
+                      <div class="alert yellowbox icon_1">
+                      <h3 style="font-size: 16px;">Order Now Pending Approval</h3>
+                       <p class="p2">
+                         Your order is now pending approval form your company supervisor/s before it can be submitted to us for processing.
+                       <br>
+                         The following member/s in your company will be able to authorise and submite your order:
+                      <br>
+                      <asp:Label ID="lblUserRoleName" runat="server" Visible="true" Font-Names="Arial"  Font-Size="11px" ForeColor="Black" Font-Bold="true" Text=""></asp:Label>
+                      </p>
+                      </div>
+                       
+       
+                            
+
+                               
+                <% 
+                        Session["ORDER_ID"] = "0";
+                        Session["Multipleitems"] = null;
+                    }
+                    else if (Convert.ToInt16(Session["USER_ROLE"]) == 1 || Convert.ToInt16(Session["USER_ROLE"]) == 2)
+                    {
+                %>
+            
+                   <div class="alert greenbox icon_2" style="padding:30px 10px 30px 60px">
+                         <h3 style="font-size: 16px;">Your order has been successfully submitted to us for processing. Thank You!</h3>
+                   </div>
+                 
+                <% 
+                        Session["ORDER_ID"] = "0";
+                        Session["Multipleitems"] = null;
+                    } 
+                %>
+      
+    </asp:PlaceHolder>   
+            <P class="p2 fright"><span class="redx">* </span>Required Fields</P>
+            <div class="clear"></div>
+            <div class="quickorder4">
+                    <table id="Table1" width="100%" runat="server" cellpadding="0" cellspacing="0" border="0" class="shippingtable"  > 
+                    <tr>
+                    <td style="font-size: medium; color: #0099DA;width:43%">           
+                    <b> Enter Your Purchase Order No</b>                                                    
+                    </td>
+                        <td>
+                                
+
+            <div class="ModalPopuporder"  id="OrderNoPopupPanel" style="display:none" onclick="MouseOut_orderno()" >
+                <table width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse;
+                    text-align: left;">
+                    <tr>
+                        <td>
+                          <p class="TableColumnStyle" style="margin-top:0px">
+                              
+                      Enter your own Order Reference Number.
+                                <br/>
+Enable or Disable the ‘Order No’ field as being
+                                <br/>
+Mandatory during the check out of your order.
+                                <br />
+This option can only be enabled / disabled
+                                <br/>
+by your Company Admin in:
+                                <br/>
+    
+                              <a style="color:#0099DA;" href="WebSiteSettings.aspx">My Account > Web Site Setup</a>
+                            </p>
+                         
+                        </td>
+                    </tr>
+                </table>
+               
+            </div>
+        <%--</asp:Panel>--%>
+    
+                               <div  id="moreinfoorder" runat="server">
+                                    <a class="link" href="#">
+                    
+                    <asp:HyperLink ID="HyperLink2" runat="server" onclick="MouseHover_orderno();" CssClass="HyperLinkStyleship">
+
+                    <img id="Img1" runat="server" src="~/images/info.jpg" alt="" onclick="MouseHover_orderno();" style="cursor: pointer;" />
+                     Learn More 
+                     </asp:HyperLink>
+                   </a> 
+                                   <asp:HiddenField ID="hftt1" runat="server" />
+
+                                   </div>
+                        </td>
+                    </tr>                
+                    <tr>
+                    <td >
+
+                    Order No 
+                    
+                         <asp:TextBox style="margin-left:15px;width:210px " MaxLength="12" ID="tt1" runat="server" BackColor="White" CssClass="input_dr" onkeypress="blockspecialcharforOrder(event)" />
+                        <div style="display: inline-block; vertical-align: top;margin-top:-6px " id="divmanorder" runat="server">
+                              <span class="maroonspan" style="margin-bottom:6px;">*</span>      
+                             
+                        </div>
+                    </td>
+                 
+                        <td width="60%">
+
+                             <div  id="divordermandatory" runat="server">
+
+                  
+                      
+<span class="maroonspan">Required Field:This field has been set as Mandatory by your Company Admin </span>
+                                 
+
+ </div>
+                           
+                        </td>
+                   
+                    </tr>
+
+                        
+             
+               <tr> 
+                   <td>
+                        <asp:Label Width="250px" ID="txterr"  style="display:none" runat="server" Text="Please Enter Order No" ForeColor="red" />
+                    </td>
+
+               </tr>
+                    </table>
+             </div>                   
+  <%--  <br />--%>
+           <div class="quickorder4">
+           <div class="form-col-8-8" >      
+                    <h4 class="padbot10" style="font-size: medium; color: #0099DA;">Shipping</h4>   
+                  </div>   
+                   <div class="form-col-2-8">
+                                      <p class="p2">Select Shipment Method
+                                          <span class="redspan">*</span>
+                                      </p>
+                                </div>
+                 <div class="form-col-3-8">
+                      <asp:DropDownList NAME="drpSM1" Width="250px" ID="drpSM1" runat="server" CssClass="txtinput1">
+                                            <asp:ListItem Text="Please Select Shipping Method" Value="Please Select Shipping Method">Please Select Shipping Method</asp:ListItem>
+                                           <asp:ListItem Text="Courier" Value="Courier">Courier</asp:ListItem>
+                                            <asp:ListItem Text="Mail" Value="Mail">Mail</asp:ListItem>                                           
+                                            <asp:ListItem Text="Courier Pickup" Value="Courier Pickup">Courier Pickup</asp:ListItem>
+                                            <asp:ListItem Text="Counter Pickup" Value="Counter Pickup">Shop Counter Pickup</asp:ListItem>
+                     </asp:DropDownList>
+                 </div>
+                 <div class="form-col-3-8">
+                   <a class="link" href="#">
+                    
+                    <asp:HyperLink ID="HyperLink1" runat="server" onclick="MouseHover();" CssClass="HyperLinkStyleship">
+                    <img id="Img11" runat="server" src="~/images/info.jpg" alt="" onclick="MouseHover();" style="cursor: pointer;" />
+                     Learn More About Shipment Method Options 
+                     </asp:HyperLink>
+                   </a> 
+                 </div>
+                 <div class="clear padbot10"></div>  
+                 <div id="OtherShipmentRow">
+                     <div class="form-col-4-8">
+                         <textarea id="Ta2" cols="34"   Class="textarea1" readonly="readonly" disabled="disabled" tabindex="-1" runat="server" rows="10" 
+                                            name="Ta2"></textarea>
+                    </div>
+                     <div class="form-col-4-8">
+                        <textarea id="Ta3" cols="34"  Class="textarea1" readonly="readonly" disabled="disabled" tabindex="-1" runat="server" rows="10" 
+                                            name="Ta3"></textarea>
+                     </div>
+                 </div>
+                 <div class="clear"></div>
+                 <div id="DropShipmentRow">
+                    <div class="alert yellowbox">
+                          <h3 style="font-size:16px;">Please Enter Shipment Delivery Details</h3>
+                          <p class="p2 fright">
+                            <span class="red"  style="color:#FF0000;">* </span>Required Fields
+                          </p>
+                          <div class="clear"></div>
+                        <div class=" form-col-2-8">
+                        <p class="p2">Company Name</p>
+                        </div>
+                        <div class=" form-col-3-8">
+                          <asp:TextBox ID="txtCompany" runat="server" MaxLength="40" Width="242px" CssClass="input_dr" />
+                           <asp:Label Width="150px" ID="Label13" runat="server" ForeColor="red"></asp:Label>
+                        </div>
+                        <div class="clear"></div>
+                        <div class=" form-col-2-8">
+                            <p class="p2">
+                            Attn to / Receivers Code
+                            <span class="red" style="color:#FF0000;">*</span>
+                            </p>
+                        </div>
+                        <div class=" form-col-3-8">
+                            <asp:TextBox ID="txtAttentionTo" runat="server" MaxLength="40" Width="242px" CssClass="input_dr" />
+                            <asp:Label Width="150px" ID="Label27" runat="server" ForeColor="red"></asp:Label>
+                        </div>
+                        <div class="clear"></div>
+                        <div class=" form-col-2-8">
+                           <p class="p2">Receivers Contact Number</p>
+                        </div>
+                        <div class=" form-col-3-8">
+                           <asp:TextBox ID="txtShipPhoneNumber" runat="server" Width="242px" MaxLength="40" CssClass="input_dr" />
+                           <asp:Label Width="150px" ID="Label26" runat="server" ForeColor="red"></asp:Label>
+                        </div>
+                        <div class="clear"></div>
+                         <div class=" form-col-2-8">
+                            <p class="p2">Address Line 1</p>
+                         </div>
+                          <div class=" form-col-3-8">
+                           <asp:TextBox ID="txtAddressLine1" runat="server" MaxLength="40" Width="242px" CssClass="input_dr" />
+                            <asp:Label Width="150px" ID="lbladdline1err" runat="server" ForeColor="red"></asp:Label>
+                          </div>
+                            <div class="clear"></div>
+                             <div class=" form-col-2-8">
+                               <p class="p2">Address Line 2</p>
+                            </div>
+                             <div class=" form-col-3-8">
+                              <asp:TextBox ID="txtAddressLine2" runat="server" MaxLength="40" Width="242px" CssClass="input_dr" />
+                              <asp:Label Width="150px" ID="lbladdline2err" runat="server" ForeColor="red"></asp:Label>
+                             </div>
+                             <div class="clear"></div>
+                             <div class=" form-col-2-8">
+                                <p class="p2">
+                                Suburb
+                                <span class="red" style="color:#FF0000;">*</span>
+                                </p>
+                             </div>
+                               <div class=" form-col-3-8">
+                               <asp:TextBox ID="txtSuburb" runat="server" MaxLength="40" Width="242px" CssClass="input_dr" />
+                               <asp:Label Width="150px" ID="Label21" runat="server" ForeColor="red"></asp:Label>
+                               </div>
+                                <div class="clear"></div>
+                                <div class=" form-col-2-8">
+                                <p class="p2">
+                                State
+                                <span class="red" style="color:#FF0000;">*</span>
+                                </p>
+                                </div>
+                                <div class=" form-col-3-8">
+                                  <asp:DropDownList Visible="true" ID="drpState" runat="server" Width="250px"> 
+                                        <asp:ListItem Text="Select Ship To State"></asp:ListItem>
+                                            <asp:ListItem Text="ACT"></asp:ListItem>
+                                            <asp:ListItem Text="NSW"></asp:ListItem>
+                                            <asp:ListItem Text="NT"></asp:ListItem>
+                                            <asp:ListItem Text="QLD"></asp:ListItem>
+                                            <asp:ListItem Text="SA"></asp:ListItem>
+                                            <asp:ListItem Text="TAS"></asp:ListItem>
+                                            <asp:ListItem Text="VIC"></asp:ListItem>
+                                            <asp:ListItem Text="WA"></asp:ListItem>
+                                        </asp:DropDownList>
+                                        <asp:Label Width="150px" ID="Label22" runat="server" ForeColor="red"></asp:Label>
+                                </div>
+                                    <div class="clear"></div>
+                                    <div class=" form-col-2-8">
+                                    <p class="p2">
+                                        Post Code
+                                        <span class="red" style="color:#FF0000;">*</span>
+                                        </p>
+                                    </div>
+                                    <div class=" form-col-3-8">
+                                    <asp:TextBox ID="txtPostCode" runat="server" MaxLength="4" Width="242px" CssClass="input_dr" />
+                                     <asp:Label Width="150px" ID="lblpostcode2err" runat="server" ForeColor="red"></asp:Label>
+                                     <asp:FilteredTextBoxExtender ID="fteMobile" runat="server" FilterMode="ValidChars" FilterType="Numbers" ValidChars="1234567890" TargetControlID="txtPostCode" />
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class=" form-col-2-8">
+                                    <p class="p2">Country</p>
+                                    </div>
+                                    <div class=" form-col-3-8">
+                                    <asp:TextBox ID="txtCountry" runat="server" CssClass="input_dr" Width="242px" Text="Australia" ReadOnly="True" />
+                                        <asp:Label Width="150px" ID="Label24" runat="server" ForeColor="red"></asp:Label>
+                                    </div>
+                                     <div class="clear"></div>
+                                      <div class=" form-col-2-8">
+                                        <p class="p2">Delivery Instructions</p>
+                                      </div>
+                                      <div class=" form-col-3-8">
+                                      <asp:TextBox ID="txtDeliveryInstructions"  runat="server" Width="242px"    Class="textSkin" CssClass="input_dr" MaxLength="40"   /> 
+                                        <asp:Label Width="150px" ID="Label25" runat="server" ForeColor="red"></asp:Label>
+                                        <asp:FilteredTextBoxExtender ID="FilteredTextBoxExtender1" runat="server" FilterMode="ValidChars" FilterType="Numbers" ValidChars="1234567890" TargetControlID="txtShipPhoneNumber" />
+                                      </div>
+                                      <div class="clear"></div>
+                        </div>
+                        <div class="clear padbot10"></div>
+                         <div class="clear"></div>
+                        <div class="form-col-8-8">
+                                <textarea  id="Ta4" cols="34"   Class="textarea1"  readonly="readonly" disabled="disabled" tabindex="-1" runat="server" rows="10" name="Ta4"></textarea>
+                        </div>
+                         <div class="clear"></div>
+                 </div>
+                    
+ 
+    </div>
+
+           <div id="PopDiv" class="containership">
+        <asp:ModalPopupExtender ID="ModalPopupExtender1" runat="server" BehaviorID="ShipmentModelPopupExtender" TargetControlID="HyperLink1"
+            PopupControlID="ShipmentPopupPanel" OkControlID="btnOk" BackgroundCssClass="modalBackground">
+        </asp:ModalPopupExtender>
+        <asp:Panel ID="ShipmentPopupPanel" runat="server" CssClass="ModalPopupStyleship">
+            <div class="containership">
+                <table width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse;
+                    text-align: left;">
+                    <tr>
+                        <td>
+                            <p class="TableColumnStyle">
+                                <b>Mail</b>
+                                <br />
+                                Goods will be sent using Mail Service.
+                                <br />
+                                Invoice will be included with Parcel Note.
+                                <br />
+                                Dangerous goods cannot be sent by mail, road service only.
+                            </p>
+                            <p class="TableColumnStyle">
+                                <b>Courier Service</b>
+                                <br />
+                                Goods will be sent using Courier Service if under Gross / cubic weight of 3Kg.
+                                <br />
+                                Parcels over 3Kg will be sent by most economical means, eg Road, E-Parcel Service
+                                etc.
+                                <br />
+                                Invoice will be included with Parcel
+                                <br />
+                                Note. Dangerous goods cannot be sent by air, road service only.
+                            </p>
+                            <p class="TableColumnStyle">
+                                <b>Courier Pick Up</b>
+                                <br />
+                                You will need to organise your own courier to pick up parcel from us.
+                                <br />
+                                Please provide details of the courier company who will be
+                                <br />
+                                picking up in the comments box below.
+                                <br />
+                                Goods will be packaged and Invoice included with Parcel
+                            </p>
+                            <p class="TableColumnStyle">
+                                <b>Counter Pick Up</b>
+                                <br />
+                                Your or your company representative will pick up the goods from our trade counter.
+                                <br />
+                                Invoice will supplied at pick up.
+                            </p>
+                            <p class="TableColumnStyle">
+                                <b>Drop Shipment</b>
+                                <br />
+                                We will send goods directly to your customer.
+                                <br />
+                                No invoice will enclosed in the Parcel , a picking slip only will be included.
+                                <br />
+                                Invoice will be sent to you by email.
+                            </p>
+                            <p class="TableColumnStyle">
+                                <b>SHIPPING COSTS</b>
+                                <br />
+                                Please refer to our <a href="Termsandconditions.aspx" style="color: #0099da; text-decoration: blink;"
+                                    onclick="window.open('Termsandconditions.aspx','popup','width=800,height=600,scrollbars=yes,resizable=no,toolbar=no,directories=no,location=no,menubar=no,modal=yes,status=no,left=150,top=25'); return false">
+                                    Terms and Conditions</a>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <div>
+                    <asp:Button ID="btnOk" runat="server" Text="Close" CssClass="ButtonStyleship"  />
+                </div>
+            </div>
+        </asp:Panel>
+
+
+       
+
+    </div>
+     <asp:Button ID="btndummy" runat="server" Text="Close" CssClass="ButtonStyleship" visible="false" />
+          
+
+
+           <div class="quickorder4">
+    <table id="Table3" width="100%"  runat="server" cellpadding="0" cellspacing="0" border="0" >
+        <tr>
+          <%--  <td width="2%">
+                &nbsp;
+            </td>--%>
+            <td width="100%" align="left" >
+                <table width="100%" runat="server" cellpadding="1" cellspacing="0" border="0" style="border-style: none" id="colo2">
+                    <tr>
+                        <td colspan="2" style="font-size:16px; color: #0099DA;">
+                           <%-- <b>Comments / Notes</b>--%>
+                           <div class=" form-col-8-8">
+                              <h4 class="padbot10">Comments / Notes</h4>
+                           </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" width="75%" >
+                           <div class="form-col-6-8">
+                            <asp:TextBox ID="TextBox1"  runat="server" Rows="5" Columns="30" Font-Size="12px" CssClass="textarea1" Width="535px"  Height="72px" Font-Names="arial"  MaxLength="240"  onkeyDown="return checkMaxLength(this,event,'240');" 
+                                TextMode="MultiLine">
+                            </asp:TextBox>
+                            <%--<asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox1"
+                                meta:resourcekey="rgExname" ValidationExpression="^[a-zA-Z0-9~#$^*()_+=[\]{}|\\,.?: -]*$"
+                                Class="vldRegExSkin" Display="Dynamic" ValidationGroup="Mandatory" ErrorMessage="Enter only letters" style="color:red"></asp:RegularExpressionValidator>--%>
+                            <asp:FilteredTextBoxExtender ID="FilteredTextBoxExtender3" runat="server" FilterMode="ValidChars" FilterType="Numbers,UppercaseLetters,LowercaseLetters,Custom" ValidChars="~!@#$%^&*()_+=[\]{};'<>|/\\,.?: -&quot;" TargetControlID="TextBox1" />
+
+                            </div>
+                        </td>
+                        <td align="right">
+                         <%--<asp:ImageButton ID="ImageButton5" runat="server"  AlternateText="Edit/Update Order" CssClass="button normalsiz btngray fleft"
+                                OnClick="ImageButton5_Click" />--%>
+                               <%-- <asp:Button ID="ImageButton5" runat="server" Text="Edit/Update Order" CssClass="buttongray normalsiz btngray fleft" OnClick="ImageButton5_Click" style="margin: 0px 0px 0px 10px;" />--%>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                          <%-- <asp:ImageButton ID="ImageButton4" runat="server" ImageUrl="~/images/submit_order4.jpg"
+                                OnClick="ImageButton4_Click" OnClientClick="return checkorderid()" />--%>
+                                <%--<asp:Button ID="ImageButton4" runat="server" Text="Submit Order" OnClick="ImageButton4_Click" OnClientClick="return checkorderid()" CssClass="button normalsiz btnblue fleft" style="margin: 0px 0px 0px 10px;" />--%>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+          
+        </tr>
+    </table>
+    </div>
+
+           <div class="quickorder4">
+     <table id="Table4" width="100%" runat="server" cellpadding="0" cellspacing="0" border="0" style="padding-left:5px" >
+        <tr>
+            <td >
+                   <div class=" form-col-8-8">
+                         <h4 class="padbot10" style="font-size:16px; color: #0099DA;">Your Order Contents</h4>
+                   </div> 
+ 
+    
+                       
+     </td>
+    </tr>
+    <tr>
+       <td>
+           <asp:Panel ID="PnlOrderContents" Visible="true" runat="server">
+                    <%
+                       HelperServices objHelperServices = new HelperServices();
+                       
+                        OrderServices objOrderServices = new OrderServices();
+                        ProductServices objProductServices = new ProductServices();
+                        //ProductFamily oProdFam = new ProductFamily();
+                        DataSet dsOItem = new DataSet();
+
+                        int OrderID = 0;
+                        int Userid;
+                        int ProductId;
+                        decimal subtot = 0.00M;
+                        decimal taxamt = 0.00M;
+                        decimal Total = 0.00M;
+
+                        string SelProductId = "";
+                        string OrdStatus = "";
+
+                        int OpenOrdStatusID = (int)OrderServices.OrderStatus.OPEN;
+
+                        Userid = objHelperServices.CI(Session["USER_ID"]);
+
+                        if (!string.IsNullOrEmpty(Request["OrderID"]))
+                        {
+                            OrderID = Convert.ToInt32(Request["OrderID"].ToString());
+                        }
+                        else
+                        {
+                            OrderID = objOrderServices.GetOrderID(Userid, OpenOrdStatusID);
+                        }
+
+                       
+
+                        OrdStatus = objOrderServices.GetOrderStatus(OrderID);
+                        ProductId = objHelperServices.CI(Request.QueryString["Pid"]);
+                    %>
+                    
+                    <table width="100%"  class="orderdettable"  > 
+                             
+                        <tr  height="5px">
+                            <td bgcolor="#F2F2F2" align="left" style="border-style: none solid solid none; border-width: thin; border-color: #E7E7E7;border: thin solid #E7E7E7; padding: 0px 0 0 9px !important;" width="13%">
+                                <b>Order Code</b>
+                            </td>
+                            <td style="border-style: none solid solid none; border-width: thin; border-color: #E7E7E7;border: thin solid #E7E7E7;padding: 0px 0 0 9px !important;"
+                                bgcolor="#F2F2F2" align="left" width="10%">
+                                <b>Quantity</b>
+                            </td>
+                            <td style="border-style: none solid solid none; border-width: thin; border-color: #E7E7E7;border: thin solid #E7E7E7;padding: 0px 0 0 9px !important;"
+                                colspan="2" bgcolor="#F2F2F2" align="left" width="30%">
+                                <b>Description</b>
+                            </td>
+                            <%-- <td  
+                              style="border-style: none solid solid none; border-width: thin; border-color: #E7E7E7" 
+                              bgcolor="White" align="center"  width="10%">
+                              <b>Availability</b></td>--%>
+                            <td style="border-style: none solid solid none; border-width: thin; border-color: #E7E7E7;border: thin solid #E7E7E7;padding: 0px 0 0 9px !important;"
+                                bgcolor="#F2F2F2" align="left" width="20%">
+                                <b>Cost (Ex. GST)</b>
+                            </td>
+                            <td style="border-style: none none solid none; border-width: thin; border-color: #E7E7E7;border: thin solid #E7E7E7;padding: 0px 0 0 9px !important;"
+                                bgcolor="#F2F2F2" align="left" width="19%">
+                                <b>Extension Amount (Ex. GST)</b>
+                            </td>
+                        </tr>
+                        <%   	  
+                            OrderServices.OrderInfo oOrderInfo = new OrderServices.OrderInfo();
+                            oOrderInfo = objOrderServices.GetOrder(OrderID);
+                            
+                            dsOItem = objOrderServices.GetOrderItems(OrderID);
+                            string cSymbol = objHelperServices.GetOptionValues("CURRENCYFORMAT").ToString();
+                            decimal ProdShippCost = 0.00M;
+                            decimal TotalShipCost = 0.00M;
+
+                            SelProductId = "";
+                            if (OrdStatus == OrderServices.OrderStatus.OPEN.ToString() || OrdStatus == "CAU_PENDING")
+                            {
+                                if (dsOItem != null)
+                                {
+                                    int i = 0;
+                                    foreach (DataRow rItem in dsOItem.Tables[0].Rows)
+                                    {
+                                        decimal ProductUnitPrice;
+                                        int pid;
+                                        int maxqty;
+                                        int minQty;
+                                        int FId = 0;
+                                         double OrderItemId1 = 0;
+                                        string sty = "style=\"border-style: none solid none none; border-width: thin; border-color: #E7E7E7\" ";
+                                        string styl = "style=\"border-style: none none none none; border-width: thin; border-color: #E7E7E7\" ";
+                                        if (rItem["PRODUCT_ID"].ToString() == dsOItem.Tables[0].Rows[dsOItem.Tables[0].Rows.Count - 1]["PRODUCT_ID"].ToString())
+                                        {
+                                            sty = "style=\"border-style: none solid none none; border-width: thin; border-color: #E7E7E7\" ";
+                                            styl = "style=\"border-style: none none none none; border-width: thin; border-color: #E7E7E7\" ";
+                                        }
+                                        pid = objHelperServices.CI(rItem["PRODUCT_ID"].ToString());
+                                        OrderItemId1 = objHelperServices.CD(rItem["ORDER_ITEM_ID"].ToString());
+                                        //FId = objHelperServices.CI(rItem["FAMILY_ID"].ToString()); 
+                                        FId = objProductServices.GetFamilyID(pid);
+                                        int pQty = objOrderServices.GetOrderItemQty(pid, OrderID,OrderItemId1);
+
+                                        maxqty = objHelperServices.CI(rItem["QTY_AVAIL"].ToString());
+                                        maxqty = maxqty + objHelperServices.CI(Request.Form["txtQty"] + pQty);
+                                        minQty = objHelperServices.CI(rItem["MIN_ORD_QTY"].ToString());
+                                        ProductUnitPrice = objHelperServices.CDEC(rItem["PRICE_EXT_APPLIED"].ToString());
+                                        ProductUnitPrice = objHelperServices.CDEC(ProductUnitPrice.ToString("N4"));
+                                        //ProdShippCost = CalculateShippingCost(OrderID, pid, ProductUnitPrice, pQty);
+                                        //TotalShipCost = objHelperServices.CDEC(TotalShipCost + ProdShippCost); 
+                                        int Qty = objHelperServices.CI(rItem["QTY"].ToString());
+                                        decimal ProdTotal = Math.Round(Qty * ProductUnitPrice, 2,MidpointRounding.AwayFromZero);
+                                        //decimal ProdTotal = Qty * ProductUnitPrice;
+                                        subtot = subtot + ProdTotal;
+                                        string Desc = rItem["DESCRIPTION"].ToString().Replace("<ars>g</ars>", "&rarr;").Replace("<sps>l</sps>", "<font face=\"Symbol\">l</font>");
+                                        string Available = rItem["PRODUCT_STATUS"].ToString();
+                                        // int FId=oProd.getpr
+                                        if (Request["SelAll"] != "1")
+                                        {
+                                            SelProductId = "";
+                                            Session["SelProduct"] = null;
+                                            CheckBox chk = new CheckBox();
+                        %>
+                        <tr>
+                            <td  bgcolor="White" align="left" class="">
+                                <%Response.Write("<a class=\"toplinkatest\" href =ProductDetails.aspx?&Pid=" + pid + "&fid=" + FId.ToString() + ">" + rItem["CATALOG_ITEM_NO"].ToString() + "</a>");%>
+                            </td>
+                            <td  bgcolor="White" class="Numeric" align="left">
+                                <%Response.Write("<input type =\"Text\" Id=\"txtQtyId" + i + "_" + maxqty + "\" Name =\"txtQty" + i + "\" size=\"5\" style=\"height:15px;width:83px;padding:2px;border:#878787 1px solid\" disabled=\"disabled\" runat =\"server\" onBlur=\"javascript:return Check(" + i + "," + maxqty + "," + minQty + "," + Qty + ");\" value =\"" + Qty + "\">"); %>
+                            </td>
+                            <td  bgcolor="White" colspan="2">
+                                <%Response.Write(Desc);%>
+                            </td>
+                            <%--   <td <% Response.Write(sty); %>="" 
+                                                            bgcolor="White" ="" ><%Response.Write(Available);%></td>--%>
+                            <td  bgcolor="White" align="left" class="NumericField"
+                                style="width: 130px;text-align:left;">
+                                <%Response.Write(cSymbol + " " + objHelperServices.CheckPriceValueDecimal(ProductUnitPrice.ToString("#,#0.0000")));%>
+                            </td>
+                            <td  bgcolor="White" align="center" class="NumericField" style="text-align:left;">
+                                <%Response.Write(cSymbol + " " + ProdTotal.ToString("#,#0.00")); %>
+                            </td>
+                            <%Response.Write("<input type=\"hidden\" Name=\"txtPid" + i + "\" runat=\"server\" value=\"" + pid + "\">"); %>
+                            <%Response.Write("<input type=\"hidden\" Name=\"txtCatItem" + i + "\" runat=\"server\" value=\"" + rItem["CATALOG_ITEM_NO"].ToString() + "\">"); %>
+                            <%Response.Write("<input type=\"hidden\" Name=\"txtMaxQty" + i + "\" runat=\"server\" value=\"" + maxqty + "\">"); %>
+                            <%Response.Write("<input type=\"hidden\" Name=\"txtMinQty" + i + "\" runat=\"server\" value=\"" + minQty + "\">"); %>
+                            <%Response.Write("<input type=\"hidden\" Name=\"txtUntPrice" + i + "\" runat=\"server\" value=\"" + ProductUnitPrice.ToString("#,#0.00") + "\">"); %>
+                            <% Response.Write("<input type=\"hidden\" Name=\"txtPrdTprice" + i + "\" runat=\"server\" value=\"" + ProdTotal.ToString("#,#0.00") + "\">"); %>
+                        </tr>
+                        <%  
+                               i = i + 1;
+                                        }
+                                        else if (Request["SelAll"] == "0")
+                                        {
+                                            SelProductId = "";
+                                            Session["SelProduct"] = null;
+                        %>
+                        <tr>
+                            <td 
+                                bgcolor="White" align="left" class="style20ship">
+                                <%Response.Write("<a href =ProductFeatures.aspx?Fid=" + FId + "&Pid" + pid + "&Min=" + minQty + "&Max" + maxqty + ");>" + rItem["CATALOG_ITEM_NO"].ToString() + "</a>");%>
+                            </td>
+                            <td 
+                                bgcolor="White" class="style21ship" align="left">
+                                <%Response.Write("<input type =\"Text\" Id=\"txtQtyId" + i + "_" + maxqty + "\" Name =\"txtQty" + i + "\" size=\"7\" disabled=\"disabled\" runat =\"server\" onBlur=\"javascript:Check(" + i + "," + maxqty + ");\" value =\"" + Qty + "\">"); %>
+                            </td>
+                            <td 
+                                colspan="2" bgcolor="White" class="style21ship">
+                                <%Response.Write(Desc); %>AN2
+                            </td>
+                            <%--<td style="border-style: none none none solid; border-width: thin; border-color: #E7E7E7"
+                                bgcolor="White" class="style20">
+                                <%Response.Write(Available); %>
+                            </td>--%>
+                            <td 
+                                bgcolor="White" class="style22ship" align="left" style="width: 130px;text-align:left;">
+                                <%Response.Write(cSymbol + " " + objHelperServices.CheckPriceValueDecimal(ProductUnitPrice.ToString("#,#0.0000")));%>
+                            </td>
+                            <%--								                                <td class="NumericField" align="center"><%Response.Write(cSymbol + ProdShippCost.ToString("#,#0.00")); %></td>
+                            --%>
+                            <td 
+                                bgcolor="White" class="style23ship" align="left" width="20%">
+                                <%Response.Write(cSymbol + " " + ProdTotal.ToString("#,#0.00")); %>
+                            </td>
+                            <%Response.Write("<input type=\"hidden\" Name=\"txtPid" + i + "\" runat=\"server\" value=\"" + pid + "\">"); %>
+                            <%Response.Write("<input type=\"hidden\" Name=\"txtCatItem" + i + "\" runat=\"server\" value=\"" + rItem["CATALOG_ITEM_NO"].ToString() + "\">"); %>
+                            <%Response.Write("<input type=\"hidden\" Name=\"txtMaxQty" + i + "\" runat=\"server\" value=\"" + maxqty + "\">"); %>
+                            <%Response.Write("<input type=\"hidden\" Name=\"txtsPrdId" + i + "\" runat=\"server\" value=\"" + pid + "\">"); %>
+                            <%Response.Write("<input type=\"hidden\" Name=\"txtUntPrice" + i + "\" runat=\"server\" value=\"" + ProductUnitPrice.ToString("#,#0.00") + "\">"); %>
+                            <%Response.Write("<input type=\"hidden\" Name=\"txtPrdTprice" + i + "\" runat=\"server\" value=\"" + ProdTotal.ToString("#,#0.00") + "\">"); %>
+                        </tr>
+                        <%
+                              i = i + 1;
+                                        }
+                                        else
+                                        { 
+                        %>
+                        <tr>
+                            <td 
+                                bgcolor="White" align="left" class="">
+                                <%Response.Write("<a href =ProductFeatures.aspx?Fid=" + FId + "&Pid=" + pid + "&Min=" + minQty + "&Max=" + maxqty + ");>" + rItem["CATALOG_ITEM_NO"].ToString() + "</a>");%>
+                            </td>
+                            <td 
+                                bgcolor="White" class="Numeric" align="left">
+                                <%Response.Write("<input type =\"Text\" Id=\"txtQtyId" + i + "_" + maxqty + "\" Name =\"txtQty" + i + "\" size=\"7\"  disabled=\"disabled\" runat =\"server\" onBlur=\"javascript:Check(" + i + "," + maxqty + ");\" value =\"" + Qty + "\">"); %>
+                            </td>
+                            <td 
+                                colspan="2" bgcolor="White" class="style21ship">
+                                <%Response.Write(Desc); %>AN1
+                            </td>
+                          
+                            <td 
+                                bgcolor="White" class="style23ship" align="left" style="width: 130px;text-align:left;" >
+                                <%Response.Write(cSymbol + " " + objHelperServices.CheckPriceValueDecimal(ProductUnitPrice.ToString("#,#0.0000")));%>
+                            </td>
+                            <%--								                                <td class="NumericField" align="center"><%Response.Write(cSymbol + ProdShippCost.ToString("#,#0.00")); %></td>
+                            --%>
+                            <td 
+                                bgcolor="White" class="NumericField" align="left" style="text-align:left;">
+                                <%Response.Write(cSymbol + " " + ProdTotal.ToString("#,#0.00")); %>
+                            </td>
+                            <%Response.Write("<input type=\"hidden\" Name=\"txtPid" + i + "\" runat=\"server\" value=\"" + pid + "\">"); %>
+                            <%Response.Write("<input type=\"hidden\" Name=\"txtCatItem" + i + "\" runat=\"server\" value=\"" + rItem["CATALOG_ITEM_NO"].ToString() + "\">"); %>
+                            <%Response.Write("<input type=\"hidden\" Name=\"txtMaxQty" + i + "\" runat=\"server\" value=\"" + maxqty + "\">"); %>
+                            <%Response.Write("<input type=\"hidden\" Name=\"txtsPrdId" + i + "\" runat=\"server\" value=\"" + pid + "\">"); %>
+                            <%Response.Write("<input type=\"hidden\" Name=\"txtUntPrice" + i + "\" runat=\"server\" value=\"" + ProductUnitPrice.ToString("#,#0.00") + "\">"); %>
+                            <% Response.Write("<input type=\"hidden\" Name=\"txtPrdTprice" + i + "\" runat=\"server\" value=\"" + ProdTotal.ToString("#,#0.00") + "\">"); %>
+                        </tr>
+                        <%   
+                               SelProductId = SelProductId + "," + pid;
+                               i = i + 1;
+                                        } //End of SelAll
+                                    } //End of for each.
+                                    dsOItem.Dispose();
+                                }//End of dataset empty. 
+                            } // End Of Order Status Check
+                            if (SelProductId != "")
+                            {
+                                SelProductId = SelProductId.Substring(1, SelProductId.Length - 1);
+                                Session["SelProduct"] = SelProductId;
+                            }
+                        %>
+                        <!-- End Up Here-->
+                       
+                        <tr>
+                            <%if (objOrderServices.IsNativeCountry(OrderID) == 0)
+                              {
+                                   %>
+                                <td colspan="4" rowspan="5" bgcolor="white" valign="top" align="right">
+                            <%}
+                              else
+                              { %>
+                                <td colspan="4" rowspan="3" bgcolor="white" valign="top" align="right">
+                                <%} %>
+                                <font color="red">Availability & Cost is only Estimate. Actual Invoice may vary.</font>
+                            </td>
+                           <%-- <td bgcolor="white"  >
+                            </td>--%>
+                            <td class="NumericField" colspan="1" bgcolor="white"  align="left" style="text-align:left;">
+                                Sub Total
+                            </td>
+                            <td class="NumericField" bgcolor="white" align="left" style="text-align:left;">
+                                <%
+                                    
+                                    Response.Write(cSymbol + " " + oOrderInfo.ProdTotalPrice); 
+                                    %>
+                            </td>
+                        </tr>
+                        
+                      
+                           
+
+                            <%
+                           
+                                if (objOrderServices.IsNativeCountry(OrderID) == 0)   
+                            {
+                                %>
+                                 <tr>
+                          
+                            <td class="NumericField" colspan="1" style="height: 21px;text-align:left;" align="left">
+                                Shipping Charge <br />
+                                <span style="font-size: 4"></span>
+                            </td>
+                            <td class="NumericField" style="height: 21px;text-align:left;" align="left">
+                                To Be Advised                                
+                                          </td>
+                                </tr>
+                       
+
+                                <%
+                           }                                                                 
+                           else {   %>
+                            <tr>
+                                <td align="left" class="NumericField" colspan="1" style="height: 21px; text-align: left;">Tax Amount(GST)<br /> <span style="font-size: 4"></span></td>
+                                <td align="left" class="NumericField" style="height: 21px; text-align: left;">
+                                    <%       
+                                   
+                                    Response.Write(cSymbol + " " + oOrderInfo.TaxAmount);
+                                    %></td>
+                            </tr>
+                        <% } %>
+                            <tr align="right">
+                                <td align="left" class="NumericFieldship" colspan="1" style="height: 21px; border-style: none solid none none; border-width: thin; border-color: #E7E7E7"><%
+                                    if (objOrderServices.IsNativeCountry(OrderID) == 0)
+                                    {                                        
+                                     %><strong>Est. Total </strong>
+                                    <br />
+                                    <%
+                                    }
+                                    else
+                                    {
+                                         %><strong>Est. Total Inc GST</strong><br /> <%
+                                    } %><span style="font-size: 4">(Freight not included)</span> </td>
+                                <td align="left" class="NumericFieldship" style="height: 21px; border-style: none solid none none; border-width: thin; border-color: #E7E7E7"><strong><%
+                                    //=objHelperServices.GetOptionValues("CURRENCYFORMAT").ToString() + " " + objHelperServices.CDEC(objHelperServices.FixDecPlace(Total))
+                                     Response.Write(cSymbol + " " + oOrderInfo.TotalAmount);
+                                        %></strong></td>
+                            </tr>
+                            <tr style="display: none;">
+                                <td colspan="6">
+                                    <div style="margin: 10px 10px 10px 10px; text-align: right;">
+                                        Coupon Code : <span class="redx"></span>
+                                        <asp:TextBox ID="txtCouponCode" runat="server" BackColor="White" CssClass="input_dr" MaxLength="20" onkeypress="blockspecialcharacters(event);couponcodekeypress(event);" Width="150px" />
+                                        <br />
+                                        <asp:Label ID="lblcouponerrmsg" runat="server" ForeColor="red" Visible="false" Width="250px" />
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="6" style="text-align: right">
+                                    <asp:Button ID="ImageButton1" runat="server" class="buttongray normalsiz btngray fleft" OnClick="ImageButton1_Click" style="margin: 10px 0 10px 490px;" Text="Edit/Update Order" />
+                                    <asp:Button ID="ImageButton2" runat="server" class="button normalsiz btnblue fleft" OnClick="ImageButton4_Click" OnClientClick="return checkorderid()" style="margin: 10px 0 10px 10px" Text="Submit Order" ValidationGroup="Mandatory" data-modal-id="popup1" />
+                                    <br />
+                                    <div id="smspopup" class="chechout_notify">
+                                        <img src="/images/images.png" />
+                                        <%--<p>
+                                            SMS Order ready notification message will be sent to:</p>--%>
+                                         <asp:Label ID="lblorderreadytext" runat="server" Text="SMS Order ready notification message will be sent to:"></asp:Label>
+                                        <asp:Label ID="lblorderready" runat="server" Text="" 
+                                            Style="font-weight:bolder;font-size: 14px;vertical-align: middle;color: #666; "></asp:Label>
+                                      
+                                        <a class="js-open-modal btn" href="#" data-modal-id="divchangepopup">Change</a>
+                                      
+                                        <%-- <asp:LinkButton ID="btnchangemobile" runat="server" OnClientClick="counterPickup()" >Change</asp:LinkButton>--%>
+                                    </div>
+                                </td>
+                            </tr>
+                           
+                      
+                    </table>
+                            
+                </asp:Panel>
+
+         <div id="popup1" class="modal-box">
+
+ <div class="modal-body">
+                       <h2 class="pophead">Get notified by SMS when your </h2>  <h2 class="pophead">Order is Ready for Pick Up</h2>
+                       <div class="entermobile">
+                           <label>Enter Your Mobile Number:</label>
+                           <%--<input type="text" class="pp_input" />--%>
+                           <asp:TextBox ID="txtMobileNumber" runat="server" CssClass="pp_input" MaxLength="10"></asp:TextBox>
+                           <div class="clearfix"></div>
+                           <asp:RequiredFieldValidator ID="rfMobileNumber" runat="server" Class="vldRequiredSkin"
+                                                ValidationGroup="x" Display="Dynamic" ErrorMessage="Enter Mobile Number" ControlToValidate="txtMobileNumber" style="color:red"></asp:RequiredFieldValidator>
+                            <asp:RegularExpressionValidator ID="reMobileNumber" runat="server" ControlToValidate="txtMobileNumber"
+                                 ValidationExpression="^(04)\d{8}$"
+                                Class="vldRegExSkin" Display="Dynamic" ValidationGroup="x" ErrorMessage="Mobile No. must start with 04 and must be 10 digit" style="color:red"></asp:RegularExpressionValidator>
+                            <asp:FilteredTextBoxExtender ID="FilteredTextBoxExtender4" runat="server" FilterMode="ValidChars" FilterType="Numbers" ValidChars="1234567890" TargetControlID="txtMobileNumber" />
+
+                       </div>
+                       
+                       <div class="btns">
+                           <asp:CheckBox ID="chksavemobile" runat="server" Checked="true" />
+                            <label class="lbl">Save number for future orders</label>
+                           <asp:Button ID="notifymeBtn" runat="server" Text="Ok, Notify Me" CssClass="notifyme"  ValidationGroup="x" OnClick="ImageButton4_Click" />
+                           <asp:Button ID="noThanksBtn" runat="server" Text="No, Thanks" CssClass="nothanks" OnClick="BtnNothanks_Click" />
+                       </div>
+                   </div>
+  
+  
+</div>
+               
+             <div id="divchangepopup" class="modal-box">
+
+ <div class="modal-body">
+                       <h2 class="pophead">Get notified by SMS when your </h2>  <h2 class="pophead">Order is Ready for Pick Up</h2>
+                       <div class="entermobile">
+                           <label>Enter New Number:</label>
+                           <%--<input type="text" class="pp_input" />--%>
+                           <asp:TextBox ID="txtchangemobilenumber" runat="server" CssClass="pp_input" MaxLength="10"></asp:TextBox>
+                           <div class="clearfix"></div>
+                           <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" Class="vldRequiredSkin"
+                                                ValidationGroup="y" Display="Dynamic" ErrorMessage="Enter Mobile Number" ControlToValidate="txtchangemobilenumber" style="color:red"></asp:RequiredFieldValidator>
+                            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtchangemobilenumber"
+                                 ValidationExpression="^(04)\d{8}$"
+                                Class="vldRegExSkin" Display="Dynamic" ValidationGroup="y" ErrorMessage="Mobile No. must start with 04 and must be 10 digit" style="color:red"></asp:RegularExpressionValidator>
+                            <asp:FilteredTextBoxExtender ID="FilteredTextBoxExtender2" runat="server" FilterMode="ValidChars" FilterType="Numbers" ValidChars="1234567890" TargetControlID="txtMobileNumber" />
+
+                       </div>
+                       
+                       <div class="btns">
+                           <asp:CheckBox ID="cbmobilechange" runat="server" Checked="true" />
+                            <label class="lbl">Save number for future orders</label>
+                           <asp:Button ID="btnMobileNoChange" runat="server" Text="Ok, Notify Me" CssClass="notifyme"  ValidationGroup="y" OnClick="MobileNoChange_Click" />
+                           <asp:Button ID="btnNoThanksChange" runat="server" Text="No, Thanks" CssClass="nothanks" OnClick="btnNoThanksChange_Click" />
+                       </div>
+                   </div>
+  
+  
+</div>
+           <asp:Panel ID="PnlOrderInvoice" runat="server" Visible="false">
+                    <uc1:InvoiceOrder ID="InvoiceOrder2" runat="server" />
+                </asp:Panel>
+       </td>
+    </tr>
+    </table>
+    </div>
+   <%-- <br />--%>
+       </div>
+          </td>
+        </tr>
+      
+    </table>
+    <%--                                          <asp:DropDownList Visible="false"  ID="drpShipState" runat="server" Width ="230px" Class="DropdownlistSkin"  >   </asp:DropDownList>
+    --%>
+    <%
+        if (1 == 2)
+       { %>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtbillFName" runat="server"
+        MaxLength="50" Class="textSkin" Width="225px"></asp:TextBox>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtbillLName" runat="server"
+        MaxLength="50" Class="textSkin" Width="225px"></asp:TextBox>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtbillMName" runat="server"
+        MaxLength="50" Class="textSkin" Width="225px"></asp:TextBox>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtbilladd1" runat="server" MaxLength="50"
+        Class="textSkin" Width="225px"></asp:TextBox>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtbilladd2" runat="server" MaxLength="50"
+        Class="textSkin" Width="225px"></asp:TextBox>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtbilladd3" runat="server" MaxLength="50"
+        Class="textSkin" Width="225px"></asp:TextBox>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtbillcity" runat="server" MaxLength="50"
+        Class="textSkin" Width="225px"></asp:TextBox>
+    <asp:TextBox Visible="false" autocomplete="off" ID="drpBillState" runat="server"
+        MaxLength="50" Class="textSkin" Width="225px"></asp:TextBox>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtbillzip" runat="server" MaxLength="20"
+        Class="textSkin" Width="225px"></asp:TextBox>
+    <asp:DropDownList Visible="false" ID="drpBillCountry" runat="server" Width="230px"
+        AutoPostBack="true" Class="DropdownlistSkin">
+    </asp:DropDownList>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtbillphone" runat="server"
+        MaxLength="50" Class="textSkin" Width="225px"></asp:TextBox>
+    <asp:DropDownList Visible="false" ID="cmbProvider" runat="server" Width="150px">
+        <asp:ListItem Text="UPS"></asp:ListItem>
+        <asp:ListItem Text="DHL"></asp:ListItem>
+        <asp:ListItem Text="FedEX"></asp:ListItem>
+        <asp:ListItem Text="USPS"></asp:ListItem>
+    </asp:DropDownList>
+    <asp:DropDownList Visible="false" ID="cmbShipMethod" runat="server" Width="150px">
+        <asp:ListItem Text="Ground" Value="Ground"></asp:ListItem>
+        <asp:ListItem Text="SecondDay" Value="SecondDay"></asp:ListItem>
+        <asp:ListItem Text="Overnight" Value="Overnight"></asp:ListItem>
+    </asp:DropDownList>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtSFName" Class="textSkin"
+        Width="225px" runat="server" MaxLength="50"></asp:TextBox>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtSMName" Class="textSkin"
+        Width="225px" runat="server" MaxLength="50"></asp:TextBox>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtSLName" runat="server" MaxLength="50"
+        Class="textSkin" Width="225px"></asp:TextBox>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtSAdd1" runat="server" MaxLength="50"
+        Class="textSkin" Width="225px"></asp:TextBox>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtSAdd2" runat="server" MaxLength="50"
+        Class="textSkin" Width="225px"></asp:TextBox>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtSAdd3" runat="server" MaxLength="50"
+        Class="textSkin" Width="225px"></asp:TextBox>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtSCity" runat="server" MaxLength="50"
+        Class="textSkin" Width="225px"></asp:TextBox>
+    <asp:TextBox Visible="false" autocomplete="off" ID="drpShipState" runat="server"
+        MaxLength="50" Class="textSkin" Width="225px"></asp:TextBox>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtSZip" runat="server" MaxLength="20"
+        Class="textSkin" Width="225px" OnTextChanged="txtSZip_TextChanged"></asp:TextBox>
+    <asp:DropDownList Visible="false" ID="drpShipCountry" runat="server" Width="230px"
+        AutoPostBack="true" Class="DropdownlistSkin">
+    </asp:DropDownList>
+    <asp:TextBox Visible="false" autocomplete="off" ID="txtSPhone" runat="server" MaxLength="50"
+        Class="textSkin" Width="225px"></asp:TextBox>
+    &nbsp;<table align="center" width="558">
+        <!--Site Map-->
+        <tr class="tablerow">
+            <td class="StaticText" align="left">
+                <b>
+                    <asp:Label ID="lblCheck" runat="Server" meta:resourcekey="lblCheck"></asp:Label></b>
+                <asp:Label ID="lblShoppingCart" runat="Server" meta:resourcekey="lblShoppingCart"></asp:Label>
+                > <b>
+                    <asp:Label ID="lblShip" runat="Server" meta:resourcekey="lblShip" ForeColor="Blue"></asp:Label></b>
+                >
+                <asp:Label ID="lblBill" runat="Server" meta:resourcekey="lblBill"></asp:Label>
+                >
+                <asp:Label ID="lblReviewOrder" runat="Server" meta:resourcekey="lblReviewOrder"></asp:Label>
+                >
+                <asp:Label ID="lblConfirm" runat="Server" meta:resourcekey="lblConfirm"></asp:Label>
+            </td>
+        </tr>
+        <tr runat="server" id="tbNoItems">
+            <td style="height: 21px">
+                <asp:LinkButton ID="ShippingLink" runat="server" Class="ErrorLinkSkin" meta:resourcekey="lbllinkcart"
+                    ForeColor="Blue" PostBackUrl="~/OrderDetails.aspx" />
+            </td>
+        </tr>
+        <!--Shipping Details-->
+        <tr>
+            <td align="center">
+                &nbsp;<asp:Label ID="LblStar" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"
+                    Width="1px"></asp:Label>&nbsp;
+                <asp:Label ID="lblRequired" runat="server" meta:resourcekey="lblRequired" Class="lblNormalSkin"></asp:Label>
+            </td>
+        </tr>
+        <tr>
+            <td align="left">
+                <!--- Billing Informations-->
+                <table id="tblBasebill" width="560" class="BaseTblBorder" align="left" border="0"
+                    cellpadding="3" cellspacing="0">
+                    <tr>
+                        <td colspan="100%" background="images/17.gif" class="TableRowHead">
+                            <asp:Label ID="BillingHeader" runat="Server" meta:resourcekey="lblBillingDetails"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <asp:CheckBox ID="ChkbillingAdd" runat="server" meta:resourcekey="ChkbillingAdd"
+                                Class="CheckBoxSkin" AutoPostBack="True" Checked="True" OnCheckedChanged="ChkbillingAdd_CheckedChanged" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="Label3" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"></asp:Label>
+                        </td>
+                        <td style="width: 144px;">
+                            <asp:Label ID="lblBillFName" runat="server" meta:resourcekey="lblBillFName" Class="lblNormalSkin"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:RequiredFieldValidator ID="ReqFName" ControlToValidate="txtbillFName" Class="vldRequiredSkin"
+                                runat="server" meta:resourcekey="rfvFName" ValidationGroup="ShipBillGroup"></asp:RequiredFieldValidator>
+                            <asp:RegularExpressionValidator ID="RegFname" runat="server" ControlToValidate="txtbillFName"
+                                meta:resourcekey="rgExname" ValidationExpression="[a-zA-z]+([ '-][a-zA-Z]+)*"
+                                Class="vldRegExSkin" Display="static" ValidationGroup="Mandatory"></asp:RegularExpressionValidator>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 10px">
+                            <asp:Label ID="Label5" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"></asp:Label>
+                        </td>
+                        <td style="width: 144px">
+                            <asp:Label ID="lblBillLName" runat="server" meta:resourcekey="lblBillLName" Class="lblNormalSkin"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator16" ControlToValidate="txtbillLName"
+                                Class="vldRequiredSkin" runat="server" meta:resourcekey="rfvLName" ValidationGroup="ShipBillGroup"></asp:RequiredFieldValidator>
+                            <asp:RegularExpressionValidator ID="RegLName" runat="server" ControlToValidate="txtbillLName"
+                                meta:resourcekey="rgExname" ValidationExpression="[a-zA-z]+([ '-][a-zA-Z]+)*"
+                                Class="vldRegExSkin" Display="static" ValidationGroup="Mandatory"></asp:RegularExpressionValidator>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 10px">
+                            <asp:Label ID="Label2" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"></asp:Label>
+                        </td>
+                        <td style="width: 144px">
+                            <asp:Label ID="BillAdd1" runat="server" meta:resourcekey="lblSAdd" Class="lblNormalSkin"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator9" ControlToValidate="txtbilladd1"
+                                Class="vldRequiredSkin" runat="server" meta:resourcekey="rfvAdd1" ValidationGroup="ShipBillGroup"></asp:RequiredFieldValidator>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 10px">
+                        </td>
+                        <td style="width: 144px">
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 10px">
+                        </td>
+                        <td style="width: 144px">
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 10px">
+                            <asp:Label ID="Label4" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"></asp:Label>
+                        </td>
+                        <td style="width: 144px">
+                            <asp:Label ID="BillCity" runat="Server" meta:resourcekey="lblCity" Class="lblNormalSkin"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator10" ControlToValidate="txtbillcity"
+                                Class="vldRequiredSkin" runat="server" meta:resourcekey="rfvCity" ValidationGroup="ShipBillGroup"></asp:RequiredFieldValidator>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 10px">
+                            <asp:Label ID="Label6" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"></asp:Label>
+                        </td>
+                        <td style="width: 144px">
+                            <asp:Label ID="BillState" runat="Server" meta:resourcekey="lblState" Class="lblNormalSkin"></asp:Label>
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 10px">
+                            <asp:Label ID="Label15" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"></asp:Label>
+                        </td>
+                        <td style="width: 144px">
+                            <asp:Label ID="BillZip" runat="Server" meta:resourcekey="lblZip" Class="lblNormalSkin"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator13" ControlToValidate="txtbillzip"
+                                Class="vldRequiredSkin" runat="server" meta:resourcekey="rfvZip" ValidationGroup="ShipBillGroup"></asp:RequiredFieldValidator>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 10px">
+                            <asp:Label ID="Label10" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"></asp:Label>
+                        </td>
+                        <td style="width: 144px">
+                            <asp:Label ID="BillCountry" runat="Server" meta:resourcekey="lblCountry" Class="lblNormalSkin"></asp:Label>
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 10px">
+                            <asp:Label ID="Label18" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"></asp:Label>
+                        </td>
+                        <td style="width: 144px">
+                            <asp:Label ID="BillPhone" runat="Server" meta:resourcekey="lblPhone" Class="lblNormalSkin"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator14" ControlToValidate="txtbillphone"
+                                Class="vldRequiredSkin" runat="server" meta:resourcekey="rfvPhone" ValidationGroup="ShipBillGroup"></asp:RequiredFieldValidator>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <asp:CheckBox ID="ChkBillDefaultaddr" runat="server" Class="CheckBoxSkin" meta:resourcekey="ChkBillingDefaultAddr"
+                                AutoPostBack="True" OnCheckedChanged="ChkDefaultBillAdd_CheckedChanged" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td align="left">
+                <table id="tblBase" width="560" class="BaseTblBorder" border="0px" cellpadding="3"
+                    cellspacing="0">
+                    <tr>
+                        <td class="TableRowHead" background="images/17.gif">
+                            <asp:Label ID="lblShippingDetails" runat="Server" meta:resourcekey="lblShippingDetails"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table id="TblInner" border="0" cellpadding="3" cellspacing="0" width="100%">
+                                <tr>
+                                    <td colspan="3">
+                                        <asp:CheckBox ID="ChkShippingAdd" runat="server" Class="CheckBoxSkin" meta:resourcekey="ChkShippingAdd"
+                                            AutoPostBack="True" Checked="True" OnCheckedChanged="ChkShippingAdd_CheckedChanged" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 10px">
+                                    </td>
+                                    <td style="width: 135px">
+                                        <asp:Label ID="lblProvider" runat="server" meta:resourcekey="lblProvider" Class="lblNormalSkin"></asp:Label>
+                                    </td>
+                                    <td style="width: 376px">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 10px">
+                                    </td>
+                                    <td style="width: 135px">
+                                        <asp:Label ID="lblMethod" runat="server" meta:resourcekey="lblMethod" Class="lblNormalSkin"></asp:Label>
+                                    </td>
+                                    <td style="width: 376px">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 10px">
+                                        <asp:Label ID="Label20" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"></asp:Label>
+                                    </td>
+                                    <td style="width: 135px">
+                                        <asp:Label ID="lblSFName" runat="server" meta:resourcekey="lblSFName" Class="lblNormalSkin"></asp:Label>
+                                    </td>
+                                    <td style="width: 376px">
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ControlToValidate="txtSFName"
+                                            Class="vldRequiredSkin" runat="server" meta:resourcekey="rfvFName" ValidationGroup="ShipBillGroup"></asp:RequiredFieldValidator>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 10px">
+                                        <asp:Label ID="Label7" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"></asp:Label>
+                                    </td>
+                                    <td style="width: 135px">
+                                        <asp:Label ID="lblSLName" runat="server" meta:resourcekey="lblSLName" Class="lblNormalSkin"></asp:Label>
+                                    </td>
+                                    <td style="width: 376px">
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" ControlToValidate="txtSLName"
+                                            Class="vldRequiredSkin" runat="server" meta:resourcekey="rfvLastName" ValidationGroup="ShipBillGroup"></asp:RequiredFieldValidator>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 10px">
+                                        <asp:Label ID="Label8" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"></asp:Label>
+                                    </td>
+                                    <td style="width: 135px">
+                                        <asp:Label ID="lblSAdd" runat="server" meta:resourcekey="lblSAdd" Class="lblNormalSkin"></asp:Label>
+                                    </td>
+                                    <td style="width: 376px">
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" ControlToValidate="txtSAdd1"
+                                            Class="vldRequiredSkin" runat="server" meta:resourcekey="rfvAdd1" ValidationGroup="ShipBillGroup"></asp:RequiredFieldValidator>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 10px">
+                                    </td>
+                                    <td style="width: 135px">
+                                    </td>
+                                    <td style="width: 376px">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 10px">
+                                    </td>
+                                    <td style="width: 135px">
+                                    </td>
+                                    <td style="width: 376px">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 10px">
+                                        <asp:Label ID="Label11" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"></asp:Label>
+                                    </td>
+                                    <td style="width: 135px">
+                                        <asp:Label ID="lblCity" runat="Server" meta:resourcekey="lblCity" Class="lblNormalSkin"></asp:Label>
+                                    </td>
+                                    <td style="width: 376px">
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" ControlToValidate="txtSCity"
+                                            Class="vldRequiredSkin" runat="server" meta:resourcekey="rfvCity" ValidationGroup="ShipBillGroup"></asp:RequiredFieldValidator>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 10px">
+                                        <asp:Label ID="Label12" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"></asp:Label>
+                                    </td>
+                                    <td style="width: 135px">
+                                        <asp:Label ID="lblState" runat="Server" meta:resourcekey="lblState" Class="lblNormalSkin"></asp:Label>
+                                    </td>
+                                    <td style="width: 376px">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 10px">
+                                        <asp:Label ID="Label14" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"></asp:Label>
+                                    </td>
+                                    <td style="width: 135px">
+                                        <asp:Label ID="lblZip" runat="Server" meta:resourcekey="lblZip" Class="lblNormalSkin"></asp:Label>
+                                    </td>
+                                    <td style="width: 376px">
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator7" ControlToValidate="txtSZip"
+                                            Class="vldRequiredSkin" runat="server" meta:resourcekey="rfvZip" ValidationGroup="ShipBillGroup"></asp:RequiredFieldValidator>
+                                        <asp:Label ID="lblFDMsg" runat="server"></asp:Label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 10px">
+                                        <asp:Label ID="Label16" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"></asp:Label>
+                                    </td>
+                                    <td style="width: 135px">
+                                        <asp:Label ID="lblCountry" runat="Server" meta:resourcekey="lblCountry" Class="lblNormalSkin"></asp:Label>
+                                    </td>
+                                    <td style="width: 376px">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 10px">
+                                        <asp:Label ID="Label1" runat="server" Class="lblRequiredSkin" meta:resourcekey="LblStar"></asp:Label>
+                                    </td>
+                                    <td style="width: 135px">
+                                        <asp:Label ID="lblPhone" runat="Server" meta:resourcekey="lblPhone" Class="lblNormalSkin"></asp:Label>
+                                    </td>
+                                    <td style="width: 376px">
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator8" ControlToValidate="txtSPhone"
+                                            Class="vldRequiredSkin" runat="server" meta:resourcekey="rfvPhone" ValidationGroup="ShipBillGroup"></asp:RequiredFieldValidator>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <asp:CheckBox ID="ChkShipDefaultaddr" runat="server" Class="CheckBoxSkin" meta:resourcekey="ChkShippingDefaultAddr"
+                                            AutoPostBack="True" OnCheckedChanged="ChkDefaultShipAdd_CheckedChanged" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!--Shipping Details end here-->
+        <!--Proceded to Next Page-->
+        <tr>
+            <td align="right">
+                <asp:Button ID="btnShipProceed" Class="btnNormalSkin" runat="server" meta:resourcekey="btnShipProceed"
+                    OnClick="btnShipProceed_Click" ValidationGroup="ShipBillGroup" />&nbsp;<table border="0">
+                        <tr>
+                            <td class="tablerow" align="right" style="height: 26px">
+                                &nbsp;
+                            </td>
+                        </tr>
+                    </table>
+            </td>
+        </tr>
+        <!-- Proceed to NExt Page end up here-->
+    </table>
+    <% } %>
+
+   <asp:Button ID="btnHiddenTestPopupExtender" runat="server" Style="display: none;
+        visibility: hidden"></asp:Button>
+    <div id="PopupOrderMsg" align="center" runat ="server">
+        <asp:Panel ID="ModalPanel" runat="server" CssClass="PopUpDisplayStyleship">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;"
+                align="center">
+                <tr style="height: 5px">
+                    <td colspan="3">
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr style="height: 10px">
+                    <td width="100%" align="center" colspan="3">
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr style="height: 10px">
+                    <td width="100%" align="center" colspan="3" class="TextContentStyleship">
+                       Account Activation Required before you can proceed to check out.
+                        <br />
+                        Please check your email for account activation link as this was emailed to you when you registered your account.
+                        <br />
+                        If you would like us to send you the Activation Email again. <a Href="ConfirmMessage.aspx?Result=REMAILACTIVATION" class="toplinkatest">Please Click Here</a>
+                    </td>
+                </tr>
+                <tr style="height: 10px">
+                    <td width="100%" align="center" colspan="3">
+                        &nbsp;
+                    </td>
+                </tr>
+            
+                <tr style="height: 10px">
+                    <td width="35%" align="right">
+                       <%-- <asp:Button ID="ForgotPassword" runat="server" Text="Close"
+                            Width="205px"  CssClass="ButtonStyle" OnClick="btnForgotPassword_Click" />--%>
+                    </td>
+                    <td width="30%">
+                         <asp:Button ID="ForgotPassword" runat="server" Text="Close"
+                            Width="205px"  CssClass="button normalsiz btnblue" OnClick="btnForgotPassword_Click" />
+                    </td>
+                    <td width="35%" align="left">
+                        <%--<asp:Button ID="Close" runat="server" Text="Close" Width="165px"
+                            CssClass="ButtonStyle" OnClick="btnClose_Click" />--%>
+                    </td>
+                </tr>
+            </table>
+        </asp:Panel>
+    </div>   
+     <div id="ResetPassAlertMsg" align="center" runat ="server">
+        <asp:Panel ID="pnlResetPassAlert" runat="server" CssClass="PopUpDisplayStyleship">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;"
+                align="center">
+                <tr style="height: 5px">
+                    <td colspan="3">
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr style="height: 10px">
+                    <td width="100%" align="center" colspan="3">
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr style="height: 10px">
+                    <td width="100%" align="center" colspan="3" class="TextContentStyleship">
+                       Your password was reseted,Change password action required before you can proceed to check out.
+                        <br />
+                         Please check your email for reseted password as this was emailed to you.
+                        <br />
+                    </td>
+                </tr>
+                <tr style="height: 10px">
+                    <td width="100%" align="center" colspan="3">
+                        &nbsp;
+                    </td>
+                </tr>
+            
+                <tr style="height: 10px">
+                    <td width="35%" align="right">
+                       <%-- <asp:Button ID="ForgotPassword" runat="server" Text="Close"
+                            Width="205px"  CssClass="ButtonStyle" OnClick="btnForgotPassword_Click" />--%>
+                    </td>
+                    <td width="30%">
+                         <asp:Button ID="btnGoHome" runat="server" Text="Close"
+                            Width="205px"  CssClass="button normalsiz btnblue" OnClick="btnGoHome_Click" PostBackUrl="~/Shipping.aspx?RPWD=true" />
+                    </td>
+                    <td width="35%" align="left">
+                        <%--<asp:Button ID="Close" runat="server" Text="Close" Width="165px"
+                            CssClass="ButtonStyle" OnClick="btnClose_Click" />--%>
+                    </td>
+                </tr>
+            </table>
+        </asp:Panel>
+    </div>   
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+
+        var appendthis =  ("<div class='modal-overlay js-modal-close'></div>");
+
+        $('a[data-modal-id]').click(function(e) {
+            e.preventDefault();
+            $("body").append(appendthis);
+            $(".modal-overlay").fadeTo(500, 0.7);
+            //$(".js-modalbox").fadeIn(500);
+            var modalBox = $(this).attr('data-modal-id');
+            $('#'+modalBox).fadeIn($(this).data());
+        });
+
+    
+  
+        $(".js-modal-close, .modal-overlay").click(function() {
+            $(".modal-box, .modal-overlay").fadeOut(500, function() {
+                $(".modal-overlay").remove();
+            });
+ 
+        });
+ 
+        $(window).resize(function() {
+            $(".modal-box").css({
+                top: ($(window).height() - $(".modal-box").outerHeight()) / 2,
+                left: ($(window).width() - $(".modal-box").outerWidth()) / 2
+            });
+        });
+ 
+        $(window).resize();
+ 
+    });
+    </script>
+</asp:Content>
+
+  

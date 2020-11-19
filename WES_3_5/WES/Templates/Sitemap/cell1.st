@@ -1,0 +1,1 @@
+- <a href="product_list.aspx?&ld=0&pcr=$TBT_PARENT_CATEGORY_ID$&cid=$TBT_CATEGORY_ID$&byp=$TBT_CUSTOM_NUM_FIELD3$&qf=1" class="tx_4">$TBT_CATEGORY_NAME$</a><br/>

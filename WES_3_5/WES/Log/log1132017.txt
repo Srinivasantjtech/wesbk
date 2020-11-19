@@ -1,0 +1,76 @@
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 11:16:36 AM
+Time        : 11/3/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 12:50:46 PM
+Time        : 11/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\HelperServices.cs:line 195
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 12:51:50 PM
+Time        : 11/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\HelperServices.cs:line 188
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 12:52:05 PM
+Time        : 11/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\HelperServices.cs:line 195
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 12:52:05 PM
+Time        : 11/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\HelperServices.cs:line 188
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 3:08:33 PM
+Time        : 11/3/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 4:12:10 PM
+Time        : 11/3/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^

@@ -1,0 +1,334 @@
+Source        : System
+Method        : Send
+Date        : 10:23:27 AM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Failure sending mail.
+Stack Trace    : at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in f:\Catalogstudio\VS_2012\WES_2_5\WES\Shipping.aspx.cs:line 2592
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 11:56:58 AM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 11:56:59 AM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 12:25:09 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 12:25:09 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 3:04:52 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64_Decode
+Date        : 3:05:03 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Invalid length for a Base-64 char array or string.
+Stack Trace    : at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 3:05:03 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 3:05:03 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 3:05:03 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 3:05:03 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 3:05:33 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetBillingAddress
+Date        : 3:09:22 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at shipping.GetBillingAddress(Int32 OrderID) in f:\Catalogstudio\VS_2012\WES_2_5\WES\Shipping.aspx.cs:line 2849
+   at shipping.SendMail_AfterPaymentSP(Int32 OrderId, Int32 OrderStatus, Boolean isau) in f:\Catalogstudio\VS_2012\WES_2_5\WES\Shipping.aspx.cs:line 3990
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 3:09:22 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildBillAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 161
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 3:09:22 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildShippAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 226
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 3:09:23 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 3:09:23 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 3:09:23 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : Antlr3.StringTemplate
+Method        : LookupTemplate
+Date        : 3:21:49 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Can't find template TopCache\Main.st; group hierarchy is [main]
+Stack Trace    : at Antlr3.ST.StringTemplateGroup.LookupTemplate(StringTemplate enclosingInstance, String name)
+   at Antlr3.ST.StringTemplateGroup.GetInstanceOf(StringTemplate enclosingInstance, String name)
+   at Antlr3.ST.StringTemplateGroup.GetInstanceOf(String name)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load_cache() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3397
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64_Decode
+Date        : 3:42:25 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Invalid length for a Base-64 char array or string.
+Stack Trace    : at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 3:42:25 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 3:42:25 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 3:42:25 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 3:42:25 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64_Decode
+Date        : 3:44:05 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Invalid length for a Base-64 char array or string.
+Stack Trace    : at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 3:44:05 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 3:44:06 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 3:44:06 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 3:44:07 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 4:44:19 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 4:46:03 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : The operation has timed out
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6526
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Send
+Date        : 4:58:36 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Failure sending mail.
+Stack Trace    : at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in f:\Catalogstudio\VS_2012\WES_2_5\WES\Shipping.aspx.cs:line 2736
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Add
+Date        : 5:31:51 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses
+Stack Trace    : at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at shipping.SendMail_AfterPaymentSP(Int32 OrderId, Int32 OrderStatus, Boolean isau) in f:\Catalogstudio\VS_2012\WES_2_5\WES\Shipping.aspx.cs:line 4347
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Send
+Date        : 5:34:21 PM
+Time        : 10/23/2017
+Computer    : P3-sd2
+Error        : Failure sending mail.
+Stack Trace    : at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in f:\Catalogstudio\VS_2012\WES_2_5\WES\Shipping.aspx.cs:line 2736
+^^-------------------------------------------------------------------^^

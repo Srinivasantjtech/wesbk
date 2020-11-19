@@ -1,0 +1,206 @@
+Source        : WES
+Method        : Page_Load
+Date        : 5:45:52 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 5:47:06 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Tradingbell\Development\VS_2017\WES_3_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 324
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Tradingbell\Development\VS_2017\WES_3_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 229
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in D:\Tradingbell\Development\VS_2017\WES_3_5\EasyAsk\EasyAsk_WES.cs:line 6866
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:03:04 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 6:03:41 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Tradingbell\Development\VS_2017\WES_3_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 324
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Tradingbell\Development\VS_2017\WES_3_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 229
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in D:\Tradingbell\Development\VS_2017\WES_3_5\EasyAsk\EasyAsk_WES.cs:line 6866
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:16:53 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:17:48 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:20:24 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:39:10 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:40:11 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 7:01:32 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 7:10:59 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : CategoryProductList_RenderHTMLJson
+Date        : 7:13:01 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_categorylist.CategoryProductList_RenderHTMLJson(String package, String SkinRootPath) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\UC\categorylist.ascx.cs:line 2120
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 7:17:13 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : CategoryProductList_RenderHTMLJson
+Date        : 7:17:31 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_categorylist.CategoryProductList_RenderHTMLJson(String package, String SkinRootPath) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\UC\categorylist.ascx.cs:line 2120
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 7:20:19 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 7:26:13 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 7:33:25 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 7:35:36 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 7:48:05 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 9:54:06 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 9:59:43 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 10:09:27 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 10:12:34 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 10:14:01 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 10:19:47 PM
+Time        : 6/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^

@@ -1,0 +1,175 @@
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:06:55 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:06:55 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:06:55 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Send
+Date        : 1:07:42 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Failure sending mail.
+Stack Trace    : at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\WES\Shipping.aspx.cs:line 3210
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 1:09:58 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Send
+Date        : 1:16:03 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Failure sending mail.
+Stack Trace    : at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\WES\Shipping.aspx.cs:line 3210
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Send
+Date        : 1:17:50 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Failure sending mail.
+Stack Trace    : at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\WES\Shipping.aspx.cs:line 3210
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 1:19:52 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Send
+Date        : 1:27:19 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Failure sending mail.
+Stack Trace    : at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\WES\Shipping.aspx.cs:line 3210
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 1:47:37 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 1:47:38 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 116
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 102
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:44:17 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : AbortInternal
+Date        : 3:44:35 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Thread was being aborted.
+Stack Trace    : at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.RedirectPermanent(String url)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6854
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Send
+Date        : 3:50:25 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Failure sending mail.
+Stack Trace    : at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\WES\Shipping.aspx.cs:line 3210
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:51:03 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : get_Item
+Date        : 4:54:55 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at TradingBell.WebCat.CommonServices.OrderServices.SentSignalOrderNotification(String InvoiceNo) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\CommonServices\OrderServices.cs:line 2123
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : SendMail_AfterPaymentSP
+Date        : 4:56:05 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at BillInfoSP.SendMail_AfterPaymentSP(Int32 OrderId, Int32 OrderStatus, Boolean isau) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\WES\BillInfoSP.aspx.cs:line 649
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : get_Item
+Date        : 5:06:52 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at TradingBell.WebCat.CommonServices.OrderServices.SentSignalOrderNotification(String InvoiceNo) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\CommonServices\OrderServices.cs:line 2123
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : SendMail_AfterPaymentSP
+Date        : 5:06:58 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at BillInfoSP.SendMail_AfterPaymentSP(Int32 OrderId, Int32 OrderStatus, Boolean isau) in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\WES\BillInfoSP.aspx.cs:line 651
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : get_Item
+Date        : 5:32:54 PM
+Time        : 12/4/2017
+Computer    : P3-sd2
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in f:\Catalogstudio\VS_2012\WES_2_5_NEW\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3630
+^^-------------------------------------------------------------------^^

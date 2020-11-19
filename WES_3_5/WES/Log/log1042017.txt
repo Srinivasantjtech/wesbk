@@ -1,0 +1,144 @@
+Source        : WES
+Method        : Page_Load
+Date        : 10:37:32 AM
+Time        : 10/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 10:38:02 AM
+Time        : 10/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 116
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 102
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 10:39:22 AM
+Time        : 10/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 10:39:36 AM
+Time        : 10/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 116
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 102
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 10:39:50 AM
+Time        : 10/4/2017
+Computer    : P3-sd2
+Error        : The operation has timed out
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 284
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6515
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 10:41:13 AM
+Time        : 10/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 10:41:15 AM
+Time        : 10/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 116
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 102
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 11:08:30 AM
+Time        : 10/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 11:08:50 AM
+Time        : 10/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 116
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 102
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 11:09:08 AM
+Time        : 10/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetPriceCode(String userid) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1017
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 11:09:17 AM
+Time        : 10/4/2017
+Computer    : P3-sd2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 284
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6515
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 11:17:47 AM
+Time        : 10/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\HelperServices.cs:line 188
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 11:30:50 AM
+Time        : 10/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 11:30:52 AM
+Time        : 10/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 116
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 102
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 11:33:36 AM
+Time        : 10/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 11:33:54 AM
+Time        : 10/4/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 116
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 102
+^^-------------------------------------------------------------------^^

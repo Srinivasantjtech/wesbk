@@ -1,0 +1,158 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+using System.Data;
+using System.Data.SqlClient;
+using System.Configuration;
+using StringTemplate = Antlr.StringTemplate.StringTemplate;
+using StringTemplateGroup = Antlr.StringTemplate.StringTemplateGroup;
+
+public partial class search_searchrsltcategory : System.Web.UI.UserControl
+{
+    Helper oHelper = new Helper();
+    ErrorHandler oErr = new ErrorHandler();
+    DataSet dscat = new DataSet();
+    int iCatalogId;
+    int iInventoryLevelCheck;
+    string stemplatepath = "";
+    SqlConnection oCon = new SqlConnection(ConfigurationManager.ConnectionStrings["TBWebCatShoppingCartConnString"].ToString());
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        try
+        {
+            //added string templated path by M/A
+            stemplatepath = Server.MapPath(ConfigurationManager.AppSettings["StringTemplatePath"].ToString());
+            if (IsPostBack)
+            {
+                GetStoreConfig();
+            }
+            else
+            {
+                GetStoreConfig();
+            }
+        }
+        catch (Exception ex)
+        {
+            oErr.ErrorMsg = ex;
+            oErr.CreateLog();
+        }
+    }
+
+    private void GetStoreConfig()
+    {
+        try
+        {
+            //Modify and develop a generic method to get these vars from store config table
+            iCatalogId = Convert.ToInt32(Session["CATALOG_ID"].ToString());
+            iInventoryLevelCheck = Convert.ToInt32(Session["INVENTORY_LEVEL_CHECK"].ToString());
+        }
+        catch (Exception ex)
+        {
+            oErr.ErrorMsg = ex;
+            oErr.CreateLog();
+        }
+    }
+    
+    protected string ST_Categories()
+    {
+        if (Session["PS_SEARCH_RESULTS"] == null)
+        {
+            return "";
+        }
+        StringTemplateGroup _stg_container = null;
+        StringTemplateGroup _stg_records = null;
+        StringTemplate _stmpl_container = null;
+        StringTemplate _stmpl_records = null;
+        
+        string sHTML = "";
+        if (Convert.ToInt32(Session["PS_SEARCH_RESULTS"].ToString()) > 0 )
+        {
+            try
+            {
+                oCon.Open();
+                PowerSearch ps = new PowerSearch(oCon);
+                ps.USER_SESSION_ID = Session.SessionID;
+                ps.CATALOG_ID = iCatalogId;
+                ps.INVENTORY_CHECK = iInventoryLevelCheck;
+                string sCategoryIds="";
+
+                if (Request.QueryString["__EVENTTARGET"] == "CATEGORYFILTER" && Request.QueryString["__EVENTARGUMENT"] != null)
+                {
+                     sCategoryIds= Request.QueryString["__EVENTARGUMENT"].ToString();
+                     ps.CATEGORY_ID = sCategoryIds;
+                }
+                else if (Request.QueryString["cyid"] != null)
+                {
+                    if (Request.QueryString["cyid"].ToString().Length > 0)
+                    {
+                        ps.CATEGORY_ID = Request.QueryString["cyid"].ToString();
+                    }
+                }
+
+                dscat = ps.GetCategories();
+
+                TBWDataList[] lstrecords = new TBWDataList[0];
+                TBWDataList[] lstrows = new TBWDataList[0];
+                _stg_records = new StringTemplateGroup("searchrsltcategoryrecords", stemplatepath);
+                
+                lstrecords = new TBWDataList[dscat.Tables[0].Rows.Count + 1];
+                int ictrecords = 0;
+                int icolstart = 0;
+                int icol = Convert.ToInt32(Session["SEARCH_CATEGORY_COLS"].ToString());
+                lstrows = new TBWDataList[icol];
+                if (dscat.Tables[0].Rows.Count < icol)
+                {
+                    icol = dscat.Tables[0].Rows.Count;
+                }
+                foreach (DataRow dr in dscat.Tables[0].Rows)
+                {
+                    _stmpl_records = _stg_records.GetInstanceOf("searchrsltcategory" + "\\" + "categories");
+                    _stmpl_records.SetAttribute("TBW_CATEGORY_NAME_WITH_COUNT", dr["CATEGORY_NAME_WITH_COUNT"].ToString());
+                    _stmpl_records.SetAttribute("TBW_CATEGORY_ID", dr["CATEGORY_ID"].ToString());
+                    lstrows[icolstart] = new TBWDataList(_stmpl_records.ToString());
+                    icolstart++;
+
+                    if (icolstart == icol)
+                    {
+                        _stg_container = new StringTemplateGroup("searchrsltcategorycontaner", stemplatepath);
+                        _stmpl_container = _stg_container.GetInstanceOf("searchrsltcategory" + "\\" + "categorycontainer");
+                        _stmpl_container.SetAttribute("TBWDataList", lstrows);
+
+                        lstrecords[ictrecords] = new TBWDataList(_stmpl_container.ToString());
+                        ictrecords++;
+                        icolstart = 0;
+                    }
+                }
+
+                _stg_container = new StringTemplateGroup("searchrsltcategorymain", stemplatepath);
+                _stmpl_container = _stg_container.GetInstanceOf("searchrsltcategory" + "\\" + "main");
+                _stmpl_container.SetAttribute("TBWDataList", lstrecords);
+                if (dscat.Tables[0].Rows.Count == 0)
+                {
+                    sHTML = "";
+                }
+                else
+                {
+                    sHTML = _stmpl_container.ToString();
+                }
+                
+            }
+            catch (Exception ex)
+            {
+                sHTML = ex.Message;
+            }
+            finally
+            {
+                if (oCon != null)
+                {
+                    oCon.Close();
+                }
+            }
+        }
+        return sHTML;
+    }
+}

@@ -1,0 +1,165 @@
+Source        : WES
+Method        : Page_Load
+Date        : 8:49:19 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 8:49:20 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 8:51:01 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 8:51:03 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 8:51:53 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 8:51:55 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 8:52:43 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 8:52:45 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 8:53:25 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1291
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 8:53:25 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1291
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 8:53:26 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1291
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : Prepare
+Date        : 8:55:28 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.Prepare(String sValue) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 455
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 8:55:29 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1291
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : Prepare
+Date        : 8:55:29 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.Prepare(String sValue) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 455
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : Prepare
+Date        : 8:55:29 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.Prepare(String sValue) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 455
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : Prepare
+Date        : 8:55:32 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.Prepare(String sValue) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 455
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetOptionValuesAll
+Date        : 10:15:10 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 258
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetOptionValuesAll
+Date        : 10:15:10 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 254
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Send
+Date        : 10:15:31 PM
+Time        : 7/19/2020
+Computer    : P3-sd14
+Error        : Failure sending mail.
+Stack Trace    : at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus, String shipnotes, String drpSM1, String emailconfimation, String url, String stemplatepath, String userrole) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\Shipping.aspx.cs:line 4865
+^^-------------------------------------------------------------------^^

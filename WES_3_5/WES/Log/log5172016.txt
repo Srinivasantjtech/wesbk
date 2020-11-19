@@ -1,0 +1,40 @@
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 11:16:42 AM
+Time        : 5/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in D:\Catalogstudio\WES_2_5\CommonServices\HelperServices.cs:line 192
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 11:16:42 AM
+Time        : 5/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in D:\Catalogstudio\WES_2_5\CommonServices\HelperServices.cs:line 185
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 11:16:42 AM
+Time        : 5/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in D:\Catalogstudio\WES_2_5\CommonServices\HelperServices.cs:line 192
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 11:16:42 AM
+Time        : 5/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in D:\Catalogstudio\WES_2_5\CatalogDB\HelperDB.cs:line 1258
+   at TradingBell.WebCat.CommonServices.HelperServices.GetOptionValuesAll(Boolean Reset) in D:\Catalogstudio\WES_2_5\CommonServices\HelperServices.cs:line 185
+^^-------------------------------------------------------------------^^

@@ -1,0 +1,140 @@
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 4:44:00 PM
+Time        : 9/17/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 5:11:28 PM
+Time        : 9/17/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 5:11:48 PM
+Time        : 9/17/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : Bind
+Date        : 6:19:52 PM
+Time        : 9/17/2020
+Computer    : P3-sd14
+Error        : Cannot find column [ATTRIBUTE_ID].
+Stack Trace    : at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.DataTable.Select(String filterExpression)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.BuildRecordsTemplateColumn() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 1255
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.RenderHTML(String rType) in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 216
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:20:06 PM
+Time        : 9/17/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 6:20:12 PM
+Time        : 9/17/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 6:20:35 PM
+Time        : 9/17/2020
+Computer    : P3-sd14
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Tradingbell\Development\VS_2017\WES_3_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 324
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in D:\Tradingbell\Development\VS_2017\WES_3_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 293
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in D:\Tradingbell\Development\VS_2017\WES_3_5\EasyAsk\EasyAsk_WES.cs:line 7046
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:22:40 PM
+Time        : 9/17/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 6:22:55 PM
+Time        : 9/17/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 7:17:54 PM
+Time        : 9/17/2020
+Computer    : P3-sd14
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Tradingbell\Development\VS_2017\WES_3_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 324
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in D:\Tradingbell\Development\VS_2017\WES_3_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 293
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in D:\Tradingbell\Development\VS_2017\WES_3_5\EasyAsk\EasyAsk_WES.cs:line 7091
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 7:17:56 PM
+Time        : 9/17/2020
+Computer    : P3-sd14
+Error        : Column 'PRODUCT_TH_IMAGE' does not belong to table FamilyPro.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at UC_family.ConstructFamilyDatajson(String familyid, DataRow[] SourceFtb, DataSet tempDs, Int32 tableinx) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\UC\family.ascx.cs:line 134
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 7:17:56 PM
+Time        : 9/17/2020
+Computer    : P3-sd14
+Error        : Column 'PRODUCT_TH_IMAGE' does not belong to table FamilyPro.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at UC_family.ConstructFamilyDatajson(String familyid, DataRow[] SourceFtb, DataSet tempDs, Int32 tableinx) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\UC\family.ascx.cs:line 134
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 7:17:56 PM
+Time        : 9/17/2020
+Computer    : P3-sd14
+Error        : Column 'STATUS' does not belong to table TOTAL_PAGES.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Family_Load(DataSet dsrecords) in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4848
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ST_Familypage
+Date        : 7:17:56 PM
+Time        : 9/17/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_family.ST_Familypage(String fid, String Rawurl) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\UC\family.ascx.cs:line 1705
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 10:18:17 PM
+Time        : 9/17/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^

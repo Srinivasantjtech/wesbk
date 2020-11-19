@@ -1,0 +1,40 @@
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 1:23:15 PM
+Time        : 10/30/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 7:47:41 PM
+Time        : 10/30/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 8:52:12 PM
+Time        : 10/30/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 9:02:28 PM
+Time        : 10/30/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 9:12:10 PM
+Time        : 10/30/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^

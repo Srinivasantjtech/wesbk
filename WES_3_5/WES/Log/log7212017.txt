@@ -1,0 +1,14 @@
+Source        : WebDev.WebHost40
+Method        : get_LocalIP
+Date        : 7:18:49 PM
+Time        : 7/21/2017
+Computer    : P3-sd2
+Error        : Object '/57ae1a1d_e554_47b8_a459_e7cf5dd31c48/_b+xbr6r44pciogddrxfunhh_672.rem' has been disconnected or does not exist at the server.
+Stack Trace    : at Microsoft.VisualStudio.WebHost.Connection.get_LocalIP()
+   at Microsoft.VisualStudio.WebHost.Request.GetLocalAddress()
+   at System.Web.HttpRequest.FillInServerVariablesCollection()
+   at System.Web.HttpServerVarsCollection.Populate()
+   at System.Web.HttpServerVarsCollection.Get(String name)
+   at System.Web.HttpRequest.get_Item(String key)
+   at OrderDetails.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\OrderDetails.aspx.cs:line 286
+^^-------------------------------------------------------------------^^

@@ -1,0 +1,62 @@
+Source        : WES
+Method        : Page_Load
+Date        : 5:20:11 PM
+Time        : 11/21/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 5:20:16 PM
+Time        : 11/21/2016
+Computer    : P3-sd2
+Error        : Column 'Category_Name' does not belong to table ParentCategory.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at UC_maincategory.ST_Categories() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\maincategory.ascx.cs:line 971
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 5:54:55 PM
+Time        : 11/21/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 5:58:17 PM
+Time        : 11/21/2016
+Computer    : P3-sd2
+Error        : Column 'Category_Name' does not belong to table ParentCategory.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at UC_maincategory.ST_Categories() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\maincategory.ascx.cs:line 971
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 5:58:54 PM
+Time        : 11/21/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 6:02:48 PM
+Time        : 11/21/2016
+Computer    : P3-sd2
+Error        : Column 'Category_Name' does not belong to table ParentCategory.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at UC_maincategory.ST_Categories() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\maincategory.ascx.cs:line 971
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:08:51 PM
+Time        : 11/21/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^

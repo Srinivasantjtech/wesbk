@@ -1,0 +1,30 @@
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 2:32:44 PM
+Time        : 8/5/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1292
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 2:32:44 PM
+Time        : 8/5/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1292
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 2:32:44 PM
+Time        : 8/5/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1292
+^^-------------------------------------------------------------------^^

@@ -1,0 +1,20 @@
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 11:25:53 AM
+Time        : 7/14/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1266
+   at TradingBell.WebCat.CommonServices.UserServices.CheckUserName(String UserEmail) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1759
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 11:26:22 AM
+Time        : 7/14/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1266
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserID(String LOGIN_NAME) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1331
+^^-------------------------------------------------------------------^^

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9E003E83-B25A-4B17-A5D0-53A030B4FAB5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TradingBell.WebCat.CommonServices</RootNamespace>
+    <AssemblyName>TradingBell.WebCat.CommonServices</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\WES\dll\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.StringTemplate">
+      <HintPath>..\WES\dll\Antlr3.StringTemplate.dll</HintPath>
+    </Reference>
+    <Reference Include="PayPalCoreSDK">
+      <HintPath>..\WES\bin\PayPalCoreSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="PayPalMerchantSDK">
+      <HintPath>..\WES\bin\PayPalMerchantSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BuyerGroupServices.cs" />
+    <Compile Include="CategoryServices.cs" />
+    <Compile Include="CompanyGroupServices.cs" />
+    <Compile Include="CountryServices.cs" />
+    <Compile Include="EasyAskServices.cs" />
+    <Compile Include="FamilyServices.cs" />
+    <Compile Include="GetdataFromEA.cs" />
+    <Compile Include="HelperServices.cs" />
+    <Compile Include="NotificationServices.cs" />
+    <Compile Include="NotificationVariablesServices.cs" />
+    <Compile Include="OrderServices.cs" />
+    <Compile Include="PaymentServices.cs" />
+    <Compile Include="PayOnlineService.cs" />
+    <Compile Include="PayPalAPIService.cs" />
+    <Compile Include="PayPalService.cs" />
+    <Compile Include="PowerSearchServices.cs" />
+    <Compile Include="ProductPromotionServices.cs" />
+    <Compile Include="ProductServices.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuoteServices.cs" />
+    <Compile Include="SecurePayService.cs" />
+    <Compile Include="UrlRewriteServices.cs" />
+    <Compile Include="UserServices.cs" />
+    <Compile Include="UserSessionServices.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CatalogDB\CatalogDB.csproj">
+      <Project>{7A492C69-5995-41BB-90D1-96EBB650F7F1}</Project>
+      <Name>CatalogDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Helper\Helpers.csproj">
+      <Project>{6FB9CAD4-7481-4C2C-95CD-299F24E1979D}</Project>
+      <Name>Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

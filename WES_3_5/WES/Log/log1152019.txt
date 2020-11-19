@@ -1,0 +1,78 @@
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 11:18:33 AM
+Time        : 11/5/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in d:\Tradingbell\Production\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 11:19:03 AM
+Time        : 11/5/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in d:\Tradingbell\Production\WES_3_5\CatalogDB\HelperDB.cs:line 1380
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in d:\Tradingbell\Production\WES_3_5\CatalogDB\HelperDB.cs:line 1260
+   at TradingBell.WebCat.CommonServices.ProductServices.GetStockStatus(Int32 ProductID, Int32 user_id) in d:\Tradingbell\Production\WES_3_5\CommonServices\ProductServices.cs:line 503
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 11:19:06 AM
+Time        : 11/5/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in d:\Tradingbell\Production\WES_3_5\CatalogDB\HelperDB.cs:line 1380
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in d:\Tradingbell\Production\WES_3_5\CatalogDB\HelperDB.cs:line 1260
+   at TradingBell.WebCat.CommonServices.ProductServices.GetStockStatus(Int32 ProductID, Int32 user_id) in d:\Tradingbell\Production\WES_3_5\CommonServices\ProductServices.cs:line 503
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 11:19:06 AM
+Time        : 11/5/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in d:\Tradingbell\Production\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 12:51:50 PM
+Time        : 11/5/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in d:\Tradingbell\Production\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 12:53:24 PM
+Time        : 11/5/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in d:\Tradingbell\Production\WES_3_5\CatalogDB\HelperDB.cs:line 1380
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in d:\Tradingbell\Production\WES_3_5\CatalogDB\HelperDB.cs:line 1260
+   at TradingBell.WebCat.CommonServices.ProductServices.GetStockStatus(Int32 ProductID, Int32 user_id) in d:\Tradingbell\Production\WES_3_5\CommonServices\ProductServices.cs:line 503
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 1:05:36 PM
+Time        : 11/5/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in d:\Tradingbell\Production\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 1:12:55 PM
+Time        : 11/5/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in d:\Tradingbell\Production\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 1:13:02 PM
+Time        : 11/5/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in d:\Tradingbell\Production\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^

@@ -1,0 +1,25 @@
+Source        : WES
+Method        : Page_Load
+Date        : 12:06:10 PM
+Time        : 3/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Development\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 12:06:47 PM
+Time        : 3/4/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Development\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : get_Item
+Date        : 12:11:19 PM
+Time        : 3/4/2020
+Computer    : P3-sd14
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at TradingBell.WebCat.CommonServices.OrderServices.SentSignalOrderNotification(String InvoiceNo) in d:\Tradingbell\Development\WES_3_5\CommonServices\OrderServices.cs:line 2177
+^^-------------------------------------------------------------------^^

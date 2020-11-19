@@ -1,0 +1,303 @@
+Source        : mscorlib
+Method        : WinIOError
+Date        : 4:01:19 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 4:01:21 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3519
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 4:02:50 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3519
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 4:02:56 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 4:02:57 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at UC_category.ST_Category_Load(String Package, String _SkinRootPath) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\category.ascx.cs:line 74
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 4:02:57 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3519
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 5:26:09 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 5:27:07 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at product_list.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\product_list.aspx.cs:line 47
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 5:27:07 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproductfamily.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 111
+   at search_searchrsltproductfamily.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 97
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:31:58 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:32:23 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at product_list.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\product_list.aspx.cs:line 47
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 6:32:23 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproductfamily.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 111
+   at search_searchrsltproductfamily.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 97
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:53:42 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 6:54:13 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at product_list.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\product_list.aspx.cs:line 47
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 6:54:13 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproductfamily.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 111
+   at search_searchrsltproductfamily.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 97
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 7:27:26 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 7:28:50 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at product_list.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\product_list.aspx.cs:line 47
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 7:28:50 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproductfamily.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 111
+   at search_searchrsltproductfamily.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 97
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : RegisterName
+Date        : 7:30:16 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : A DataTable named '8126' already belongs to this DataSet.
+Stack Trace    : at System.Data.DataTableCollection.RegisterName(String name, String tbNamespace)
+   at System.Data.DataTableCollection.BaseAdd(DataTable table)
+   at System.Data.DataTableCollection.Add(DataTable table)
+   at System.Data.DataTableCollection.Add(String name)
+   at UC_family.ConstructFamilyDatajson(String familyid, DataRow[] SourceFtb, DataSet tempDs, Int32 tableinx) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 113
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 7:37:17 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : The operation has timed out
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userPageOp(String path, String curPage, String pageOp) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 275
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6240
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : RegisterName
+Date        : 7:37:18 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : A DataTable named '8126' already belongs to this DataSet.
+Stack Trace    : at System.Data.DataTableCollection.RegisterName(String name, String tbNamespace)
+   at System.Data.DataTableCollection.BaseAdd(DataTable table)
+   at System.Data.DataTableCollection.Add(DataTable table)
+   at System.Data.DataTableCollection.Add(String name)
+   at UC_family.ConstructFamilyDatajson(String familyid, DataRow[] SourceFtb, DataSet tempDs, Int32 tableinx) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 113
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 7:40:15 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : The operation has timed out
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2239
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2523
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 7:41:56 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : The operation has timed out
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2239
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2523
+   at UC_category.ST_Category_Load(String Package, String _SkinRootPath) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\category.ascx.cs:line 74
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : RegisterName
+Date        : 7:47:00 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : A DataTable named '8126' already belongs to this DataSet.
+Stack Trace    : at System.Data.DataTableCollection.RegisterName(String name, String tbNamespace)
+   at System.Data.DataTableCollection.BaseAdd(DataTable table)
+   at System.Data.DataTableCollection.Add(DataTable table)
+   at System.Data.DataTableCollection.Add(String name)
+   at UC_family.ConstructFamilyDatajson(String familyid, DataRow[] SourceFtb, DataSet tempDs, Int32 tableinx) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 113
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 7:51:00 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : The operation has timed out
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 284
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6152
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ST_Product_Download
+Date        : 7:51:00 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_family.ST_Product_Download(DataSet TmpDs) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 700
+   at UC_family.ST_Family_Download() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 519
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 7:52:50 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : The operation has timed out
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 284
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6152
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ST_Product_Download
+Date        : 7:52:50 PM
+Time        : 11/17/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_family.ST_Product_Download(DataSet TmpDs) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 700
+   at UC_family.ST_Family_Download() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 519
+^^-------------------------------------------------------------------^^

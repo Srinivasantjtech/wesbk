@@ -1,0 +1,27 @@
+Source        : System
+Method        : Send
+Date        : 1:28:19 PM
+Time        : 2/7/2019
+Computer    : P3-sd14
+Error        : Failure sending mail.
+Stack Trace    : at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at WES.OrderPickReady_Mail.SendMail(Int32 OrderId, Int32 OrderStatus, Boolean isau) in d:\Tradingbell\Production\WES_2_5\WES\OrderPickReady_Mail.aspx.cs:line 407
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Send
+Date        : 1:41:46 PM
+Time        : 2/7/2019
+Computer    : P3-sd14
+Error        : Failure sending mail.
+Stack Trace    : at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at WES.OrderPickReady_Mail.SendMail(Int32 OrderId, Int32 OrderStatus, Boolean isau) in d:\Tradingbell\Production\WES_2_5\WES\OrderPickReady_Mail.aspx.cs:line 407
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Send
+Date        : 1:42:09 PM
+Time        : 2/7/2019
+Computer    : P3-sd14
+Error        : Failure sending mail.
+Stack Trace    : at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at WES.OrderPickReady_Mail.SendMail(Int32 OrderId, Int32 OrderStatus, Boolean isau) in d:\Tradingbell\Production\WES_2_5\WES\OrderPickReady_Mail.aspx.cs:line 407
+^^-------------------------------------------------------------------^^

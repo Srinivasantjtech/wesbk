@@ -1,0 +1,108 @@
+<div class="box_pro_div">
+
+  <div align="center">
+    $if(TBT_SUB_FAMILY)$ <a href="family.aspx?&fid=$FAMILY_ID$&cid=$CATEGORY_ID$&ProductResult=SUCCESS&pcr=$PARENT_CATEGORY_ID$&Path=$FAMILY_EA_PATH$"  class="hoverblack">
+      <img  alt="" data-original="prodimages$ATTRIBUTE_ID_747$" class="lazy"/>
+    </a> $else$ <a href="productdetails.aspx?&pid=$TBT_PRODUCT_ID$&fid=$FAMILY_ID$&cid=$CATEGORY_ID$&pcr=$PARENT_CATEGORY_ID$&Path=$PRODUCT_EA_PATH$"  class="hoverblack">
+      <img  alt="" data-original="prodimages$ATTRIBUTE_ID_747$" class="lazy"/>
+    </a> $endif$
+
+    <div class="familyheader" style="height:30px;">
+      $if(TBT_SUB_FAMILY)$ <strong>
+        <a href="family.aspx?&fid=$FAMILY_ID$&cid=$CATEGORY_ID$&ProductResult=SUCCESS&pcr=$PARENT_CATEGORY_ID$&Path=$FAMILY_EA_PATH$" style="text-decoration:none;">$FAMILY_NAME$</a>
+      </strong> $else$ <strong>
+        <a href="productdetails.aspx?&pid=$TBT_PRODUCT_ID$&fid=$FAMILY_ID$&cid=$CATEGORY_ID$&pcr=$PARENT_CATEGORY_ID$&Path=$PRODUCT_EA_PATH$" style="text-decoration:none;">$FAMILY_NAME$</a>
+      </strong> $endif$
+    </div> $if(ATTRIBUTEDESC_GV)$
+
+    <p style="white-space: inherit;margin-left: -7px;height:67px;width:180px;word-wrap:break-word;"> $ATTRIBUTEDESC$... </p> $else$
+
+    <p style="white-space: inherit;margin-left: -7px;height:67px;width:180px;word-wrap:break-word;"> $ATTRIBUTEDESC$ </p> $endif$
+    $if(TBT_BUY_PRODUCT)$
+    $if(TBT_SUB_PRODUCT)$
+    <div class="substituteordercode" >
+      <a href="productdetails.aspx?&pid=$TBT_PRODUCT_ID$&fid=$FAMILY_ID$&cid=$CATEGORY_ID$&pcr=$PARENT_CATEGORY_ID$&Path=$PRODUCT_EA_PATH$" style="text-decoration:none;">
+        <strong> Order No: $ATTRIBUTE_ID_1$ </strong>
+        <br/>
+      
+
+      </a>
+    </div>
+        $else$
+    <div class="viewprodetailsps" >
+      <a href="productdetails.aspx?&pid=$TBT_PRODUCT_ID$&fid=$FAMILY_ID$&cid=$CATEGORY_ID$&pcr=$PARENT_CATEGORY_ID$&Path=$PRODUCT_EA_PATH$" style="text-decoration:none;">
+        <strong> Order No: $ATTRIBUTE_ID_1$ </strong>
+        <br/>
+      
+        <strong> Cost: &#36;$TBT_USER_PRICE$ </strong>
+      
+      </a>
+    </div>
+    $endif$
+    $if(TBT_WITH_LOGIN)$
+    $if(TBT_HIDE_BUY)$
+    <div style="width:170px">
+      <p class="ordercode">
+      $PRODUCT_STATUS$
+      </p>
+    </div>
+    $elseif(TBT_SUB_PRODUCT)$
+    <div class="substitute_wrap">
+      <!--<div class="substitute_head">
+
+        <img src="images/subproduct_icon.jpg">
+
+          <h5> SUBSTITUTE PRODUCT </h5>
+
+        </div>-->
+      <div class="substitute_details">
+        <!--<b class="pink">
+          <a href="productdetails.aspx?&pid=$PRODUCT_ID$&fid=$FAMILY_ID$&byp=$BYP$&cid=$CATEGORY_ID$&path=$PRODUCT_EA_PATH$" class="hoverblack_1" > $ATTRIBUTE_ID_1$</a>
+        </b>-->
+        <p> Product is unavailable and replaced with code: </p>
+		  <a href="$TBT_REP_EA_PATH$">
+			  <b class="green">$TBT_REP_NIL_CODE$</b>
+		  </a>
+			  <a href="$TBT_REP_EA_PATH$"> View Substitute Product</a>
+      </div>
+
+    </div>
+
+    $else$
+    <div>
+      <input name="txt$TBT_PRODUCT_ID$_$TBT_QTY_AVAIL$_$TBT_MIN_ORD_QTY$_$TBT_FAMILY_ID$"   value="1" style="float:left;height: 24px;margin: 0px 0px 0px 15px;width:40px;background-color:white;border:1px solid #86B7CD;text-align: center;" size="2" type="text" maxlength="6" onkeyup="callproductqtykeypress(event)" onkeydown="return keyct(event)" id="txt$TBT_PRODUCT_ID$_$TBT_QTY_AVAIL$_$TBT_MIN_ORD_QTY$_$TBT_FAMILY_ID$"/>
+
+		<div class="costable">
+
+			<div class="pricepopup">
+
+				<div id="popupouterdiv$divcount$">
+
+					<!--<div class="popupaero">
+            </div> $TBT_PRODUCT_PRICE_TABLE$-->
+				</div>
+				<a style="cursor:pointer;margin: -1px 28px 0px 0px;"  class="btnbuy button smallsiz btngreen costable" onClick="productbuy('txt$TBT_PRODUCT_ID$_$TBT_QTY_AVAIL$_$TBT_MIN_ORD_QTY$_$TBT_FAMILY_ID$','$TBT_PRODUCT_ID$');"  onmouseover="mouseOver('$PRODUCT_CODE$','$TBT_PRODUCT_ID$','$divcount$')"> Buy </a>
+			</div>
+		</div>
+    </div>
+    $endif$
+    $else$
+    $if(TBT_SUB_FAMILY)$ <a href="family.aspx?&pid=$PRODUCT_ID$&fid=$FAMILY_ID$&byp=$BYP$&cid=$CATEGORY_ID$&path=$FAMILY_EA_PATH$" class="moreinfo button smallsiz btnblue " style="font-family:arial;"> More Info </a> $else$ <a href="productdetails.aspx?&pid=$PRODUCT_ID$&fid=$FAMILY_ID$&byp=$BYP$&cid=$CATEGORY_ID$&path=$PRODUCT_EA_PATH$" class="moreinfo button smallsiz btnblue " style="font-family:arial;"> More Info </a> $endif$
+    $endif$
+    $else$
+    $if(TBT_WITH_LOGIN)$
+
+    <div class="viewprodetails12" >
+      $if(TBT_SUB_FAMILY)$ <a href="family.aspx?&fid=$FAMILY_ID$&cid=$CATEGORY_ID$&ProductResult=SUCCESS&pcr=$PARENT_CATEGORY_ID$&Path=$FAMILY_EA_PATH$"  >  </a> $else$ <a href="productdetails.aspx?&pid=$TBT_PRODUCT_ID$&fid=$FAMILY_ID$&cid=$CATEGORY_ID$&pcr=$PARENT_CATEGORY_ID$&Path=$PRODUCT_EA_PATH$" >  </a> $endif$
+      $if(TBT_SUB_FAMILY)$ <a href="family.aspx?&fid=$FAMILY_ID$&cid=$CATEGORY_ID$&ProductResult=SUCCESS&pcr=$PARENT_CATEGORY_ID$&Path=$FAMILY_EA_PATH$" >
+        <strong>View</strong>:$PRODUCT_COUNT$ of $FAMILY_PRODUCT_COUNT$
+      </a> $else$ <a href="productdetails.aspx?&pid=$TBT_PRODUCT_ID$&fid=$FAMILY_ID$&cid=$CATEGORY_ID$&pcr=$PARENT_CATEGORY_ID$&Path=$PRODUCT_EA_PATH$" >
+        <strong>View</strong>:$PRODUCT_COUNT$ of $FAMILY_PRODUCT_COUNT$
+      </a> $endif$ <br/> <strong>
+        $if(TBT_MIN_PRICE_SHOW)$ Starting From: $TBT_MIN_PRICE$<br/> $endif$
+      </strong>
+    </div > $endif$
+    $if(TBT_SUB_FAMILY)$ <a href="family.aspx?&pid=$PRODUCT_ID$&fid=$FAMILY_ID$&byp=$BYP$&cid=$CATEGORY_ID$&path=$FAMILY_EA_PATH$" class="moreinfo button smallsiz btnblue " style="font-family:arial;"> More Info </a> $else$ <a href="productdetails.aspx?&pid=$PRODUCT_ID$&fid=$FAMILY_ID$&byp=$BYP$&cid=$CATEGORY_ID$&path=$PRODUCT_EA_PATH$" class="moreinfo button smallsiz btnblue " style="font-family:arial;"> More Info </a> $endif$
+    $endif$
+  </div>
+</div>

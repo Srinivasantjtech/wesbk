@@ -1,0 +1,366 @@
+﻿
+.btnNormalSkin
+{
+    font-family :Arial Unicode MS, Arial;
+    font-size:10px;
+    background-color:White;
+    border-color:Black;
+    border-style:solid;
+    border-width:thick;
+}
+.CompanylinkSkin
+{
+    font-family:Arial Unicode MS, Arial;
+    font-size:11px;
+    text-decoration:none;
+    color :#6D6D6D;
+}
+.TopLevelSkin
+{
+    font-family:Arial Unicode MS, Arial;
+    font-size:9px;
+    text-decoration:none;
+    color:#FFFFFF;
+}
+.MainLinkSkin
+{
+    font-family:Arial Unicode MS, Arial;
+    font-size:11px;
+    text-decoration:none;
+    color:#FFFFFF;
+}
+.CommonLinkSkin
+{
+    font-family:Arial Unicode MS, Arial;
+    font-size:11px;
+    text-decoration:none;
+    color:#7D7D7D;
+}
+.SearchLinkSkin
+{
+    font-family:Arial Unicode MS, Arial;
+    font-size:11px;
+    text-decoration:none;
+    color:#FFA800;
+}
+.HLCommonLinkSkin
+{
+        font-family:Arial Unicode MS, Arial;
+    font-size:9px;
+    text-decoration:none;
+    color:#6D6D6D;
+}
+.DropdownlistSkin
+{
+      font-family:Arial Unicode MS, Arial;
+    font-size:11px;    
+    color:#7D7D7D;
+    
+}
+.lblSearchSkin
+{
+     font-family:Arial Unicode MS, Arial;
+    font-size:11px;    
+    color:#FFA800;
+}
+.lblCompanySkin
+{
+     font-family:Arial Unicode MS, Arial;
+    font-size:20px;    
+    color:#FFFFFF;
+    font-weight:bold;  
+}
+.lblComPhoneSkin
+{
+     font-family:Arial Unicode MS, Arial;
+    font-size:10px;    
+    color:#6D6D6D;
+    font-weight:bold;  
+}
+.CopyRightsSkin
+{
+     font-family:Arial Unicode MS, Arial;
+    font-size:9px;    
+    color:#6D6D6D;
+    text-decoration:none; 
+}
+.lblStaticSkin
+{
+     font-family:Arial Unicode MS, Arial;
+    font-size:12px;    
+    color:black;
+    font-weight:bold;    
+}
+.lblRequiredSkin
+{
+     font-family:Arial Unicode MS, Arial;
+    font-size:12px;    
+    color:red;
+    font-weight:bold;    
+}
+.lblNormalSkin
+{
+     font-family:Arial Unicode MS, Arial;
+    font-size:12px;    
+    color:black;
+    font-weight:normal;    
+}
+.lblWarningSkin
+{
+     font-family:Arial Unicode MS, Arial;
+    font-size:8px;    
+    color:red;
+    font-weight:bold;    
+}
+.lblBoldSkin
+{
+     font-family:Arial Unicode MS, Arial;
+    font-size:12px;    
+    color:#7D7D7D;
+    font-weight:bold;    
+}
+.lblBoldHeadSkin
+{
+     font-family:Arial Unicode MS, Arial;
+    font-size:12px;    
+    color:#FFFFFF;
+    font-weight:bold;    
+}
+.lblResultSkin
+{
+     font-family:Arial Unicode MS, Arial;
+    font-size:12px;    
+    color:green;
+    font-weight:bold;    
+}
+.lblErrorSkin
+{
+     font-family:Arial Unicode MS, Arial;
+    font-size:13px;    
+    color:red;
+    font-weight:bold;    
+}
+.lblCartSkin
+{
+     font-family:Arial Unicode MS, Arial;
+    font-size:13px;    
+    color:#003366;
+    font-weight:bold;    
+}
+.lblGraySkin
+{
+     font-family:Arial Unicode MS, Arial;
+    font-size:11px;    
+    color:#6D6D6D;
+    font-weight:normal;    
+}
+.lblCartSkinHome
+{
+     font-family:Arial Unicode MS, Arial;
+    font-size:13px;    
+    color:white;
+    font-weight:bold;    
+}
+.vldRequiredSkin
+{
+         font-family:Arial Unicode MS, Arial;
+    font-size:10px;    
+ 
+}
+.vldCompareSkin
+{
+         font-family:Arial Unicode MS, Arial;
+    font-size:10px;    
+ 
+}
+.vldRegExSkin
+{
+         font-family:Arial Unicode MS, Arial;
+    font-size:10px;    
+ 
+}
+.vldRangeSkin
+{
+         font-family:Arial Unicode MS, Arial;
+    font-size:10px;    
+ 
+}
+.vldCustomSkin
+{
+         font-family:Arial Unicode MS, Arial;
+    font-size:10px;    
+ 
+}
+.textSkin
+{
+    font-family:Tahoma, Arial, Verdana;
+    background-color :White;
+}
+.RadioSkin
+{
+         font-family:Arial Unicode MS, Arial;
+    font-size:10px;    
+}
+.CheckBoxSkin
+{
+         font-family:Arial Unicode MS, Arial;
+    font-size:11px;    
+    background-color:White;
+}
+.CheckBoxSkin1
+{
+         font-family:Arial Unicode MS, Arial;
+    font-size:11px;    
+    background-color:#F2F2F2;
+}
+.BulletedListSkin
+{
+         font-family:Arial Unicode MS, Arial;
+    font-size:11px;    
+    text-decoration:none;
+}
+body {padding:0; margin:0; color:#000000}
+br{font-size:10px}
+  .s{font-family: Arial Unicode MS, Arial; font-size:11px;  color:#9A9A9A; text-decoration:none}
+  .green{font-family: Arial Unicode MS, Arial; font-size:11px;  color:#9CE438;}
+  .red{font-family: Arial Unicode MS, Arial; font-size:11px;  color:#2C7F06;}
+  .Price{font-family: Arial Unicode MS, Arial;font-size: 11px;color: #d3d3d3;text-decoration: line-through;}
+  .HeadLink{font-family: Arial Unicode MS, Arial; font-size:11px; color:#FFFFFF; text-decoration:none;}
+  .Link{font-family: Arial Unicode MS, Arial; font-size:11px; color:#7d7d7d; text-decoration:none;}
+  .TBTextSmallBold{color: black;font-weight: bold;font-size: 8pt;font-family: Arial Unicode MS, Arial;text-transform: capitalize;}
+  .TBTextSmall{color: black;font-size: 8pt;font-family: Arial Unicode MS, Arial;text-transform: capitalize;}
+  .aref{font-family: Arial Unicode MS, Arial; font-size:9px;  color:#7D7D7D;  text-decoration:none}
+  .Numeric{font-size: 11px;color: black;font-family: Arial Unicode MS, Arial;background-color:white;}
+  .b1{font-family: Arial Unicode MS, Arial; font-size:11px;  color:#7D7D7D;  text-decoration:none}
+  .TableRowHead{font-family: Helvetica, Tahoma, Arial; font-size: 11px; color: #FFF; text-decoration: none; font-weight: bold; background-image:url(../../Images/17.gif); height:20px; }
+  .BaseTblBorder{border-right: #ece9d8 2px solid;border-top: #ece9d8 2px solid;border-left: #ece9d8 2px solid;border-bottom: #ece9d8 2px solid;}
+  .BaseTable1{border-right: thin ;border-top: thin ;border-left: thin ;border-bottom: thin ;background-color: #7D7D7D;}
+  .PageHead{font-weight: bold;font-size: 16px;color: #FFFFFF;font-family: Arial Unicode MS, Arial;background-color:#7D7D7D;}
+  .TableRow{font-size: 10px;color: black;font-family: Arial Unicode MS, Arial;background-color:white;}
+  .TableFirstRow{font-size: 10px;color: black;font-family: Arial Unicode MS, Arial;background-color:Scrollbar;}
+  .TableOpenedQuote{font-size: 10px;color: black;font-family: Arial Unicode MS, Arial;background-color:yellow;}
+  .NumericField{font-size: 11px;color: black;font-family: Arial Unicode MS, Arial;text-align:right;background-color:white;}
+  .TableAltRow{font-size: 10px;color: black;font-family: Arial Unicode MS, Arial;background-color:PaleGoldenrod;}
+  .StaticText{color: black;font-size: 8pt;font-family: Arial Unicode MS, Arial;text-transform: capitalize;}
+/* Dynamic Tables Style[Supplier List]  */
+   .TableHead
+{
+    border-width: 0px;
+    width: 650px;
+    background-color: #6D6D6D;
+    font-family: Arial Unicode MS, Arial;
+    font-weight: bold;
+    font-size: 11px;
+    color: White;
+    text-decoration:none;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+.TableText
+{
+ border-width: 0px;
+ width: 650px;
+ color: black;
+ font-size: 8pt;
+ font-family: Arial Unicode MS, Arial;
+ font-weight:normal;
+ text-decoration:none;
+ 
+}
+
+/* TBGrid Style */
+.TBPrdAltRow{background-color:PaleGoldenrod; font-family: Arial Unicode MS, Arial; Font-Size:10px;border-style:Solid; border-width:1px;}
+.TBPrdHeader{background-color:#7D7D7D;font-weight:bold;font-family: Arial Unicode MS, Arial;font-size:11px;border-style:Solid;border-color:#7D7D7D; border-width:1px;color:White;}
+.TBPrdRow{font-family: Arial Unicode MS, Arial; Font-Size:10px;border-style:Solid; border-width:1px; } 
+
+.style1 {
+	font-family:Arial Unicode MS, Arial; 
+	font-size: 10px;
+	color: #333333;
+}
+.style2 {
+	/*font-family:Arial Unicode MS, Arial; */
+	font-family:Arial;
+	font-size: 11px;
+	color: #333333;
+}
+.style3 {
+	font-family:Arial Unicode MS, Arial; 
+	font-size: 12px;
+	color: #990000;
+	font-weight: bold;
+}
+.style4 {
+	font-family:Arial Unicode MS, Arial; 
+	font-size: 16px;
+	color: #990000;
+	font-weight: bold;
+}
+.style5 {
+	font-family:Arial Unicode MS, Arial; 
+	font-size: 6px;
+	color: #333333;
+}
+.pre {
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+	}
+
+a:link {
+	color: #333333;
+	/*color: #0071CF ;*/
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	text-decoration: underline;
+	color: #CC0000;
+}
+a:active {
+	text-decoration: none;
+	color: #000000;
+}
+.pg-normal 
+{
+	color: black;
+	font-weight: normal;
+	font-family:Arial Unicode MS, Arial;
+	font-size: 10px;
+	text-decoration: none;cursor: pointer;
+	}
+.pg-selected 
+{
+	color:red;
+	font-weight: normal;
+	font-family:Arial Unicode MS, Arial;
+	font-size: 10px;
+	text-decoration: underline;cursor: pointer;
+}
+.ParentCategory {
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size: 20px;
+	color: #990000;	
+	font-weight:bold;
+}
+.ChildCategory {
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	color: blue;
+	font-weight:lighter;	
+}
+.Navheader
+{
+    background-image:url(../../Images/nav-header-bg.gif);    
+    height:30px;
+    width:100%;
+    font-family:Arial, Helvetica, sans-serif; 
+	font-size: 20px;
+}

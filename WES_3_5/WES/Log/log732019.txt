@@ -1,0 +1,93 @@
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 12:41:34 PM
+Time        : 7/3/2019
+Computer    : P3-sd14
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value, IFormatProvider provider)
+   at TradingBell.WebCat.CommonServices.HelperServices.CI(Object obj) in d:\Tradingbell\Production\WES_3_5\CommonServices\HelperServices.cs:line 466
+^^-------------------------------------------------------------------^^
+Source        : System.Web
+Method        : get_Request
+Date        : 12:42:46 PM
+Time        : 7/3/2019
+Computer    : P3-sd14
+Error        : Request is not available in this context
+Stack Trace    : at System.Web.UI.Page.get_Request()
+   at homepageST.btnContinueOrder_Click(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\home.aspx.cs:line 160
+^^-------------------------------------------------------------------^^
+Source        : System.Web
+Method        : get_Request
+Date        : 1:01:48 PM
+Time        : 7/3/2019
+Computer    : P3-sd14
+Error        : Request is not available in this context
+Stack Trace    : at System.Web.UI.Page.get_Request()
+   at OrderDetails.AddOrderItem(Int32 OrID, Int32 UsrID) in d:\Tradingbell\Production\WES_3_5\WES\OrderDetails.aspx.cs:line 1274
+^^-------------------------------------------------------------------^^
+Source        : System.Web
+Method        : get_Request
+Date        : 2:57:38 PM
+Time        : 7/3/2019
+Computer    : P3-sd14
+Error        : Request is not available in this context
+Stack Trace    : at System.Web.UI.Page.get_Request()
+   at OrderDetails.AddOrderItem(Int32 OrID, Int32 UsrID) in d:\Tradingbell\Production\WES_3_5\WES\OrderDetails.aspx.cs:line 1275
+^^-------------------------------------------------------------------^^
+Source        : System.Web
+Method        : get_Request
+Date        : 3:00:11 PM
+Time        : 7/3/2019
+Computer    : P3-sd14
+Error        : Request is not available in this context
+Stack Trace    : at System.Web.UI.Page.get_Request()
+   at OrderDetails.AddOrderItem(Int32 OrID, Int32 UsrID) in d:\Tradingbell\Production\WES_3_5\WES\OrderDetails.aspx.cs:line 1275
+^^-------------------------------------------------------------------^^
+Source        : System.Web
+Method        : get_Request
+Date        : 3:01:28 PM
+Time        : 7/3/2019
+Computer    : P3-sd14
+Error        : Request is not available in this context
+Stack Trace    : at System.Web.UI.Page.get_Request()
+   at OrderDetails.AddOrderItem(Int32 OrID, Int32 UsrID) in d:\Tradingbell\Production\WES_3_5\WES\OrderDetails.aspx.cs:line 1278
+^^-------------------------------------------------------------------^^
+Source        : System.Web
+Method        : get_Request
+Date        : 3:25:25 PM
+Time        : 7/3/2019
+Computer    : P3-sd14
+Error        : Request is not available in this context
+Stack Trace    : at System.Web.UI.Page.get_Request()
+   at OrderDetails.AddOrderItem(Int32 OrID, Int32 UsrID) in d:\Tradingbell\Production\WES_3_5\WES\OrderDetails.aspx.cs:line 1295
+^^-------------------------------------------------------------------^^
+Source        : System.Web
+Method        : get_Response
+Date        : 3:32:37 PM
+Time        : 7/3/2019
+Computer    : P3-sd14
+Error        : Response is not available in this context.
+Stack Trace    : at System.Web.UI.Page.get_Response()
+   at OrderDetails.AddOrderItem(Int32 OrID, Int32 UsrID) in d:\Tradingbell\Production\WES_3_5\WES\OrderDetails.aspx.cs:line 1822
+^^-------------------------------------------------------------------^^
+Source        : System.Web
+Method        : get_Response
+Date        : 3:38:42 PM
+Time        : 7/3/2019
+Computer    : P3-sd14
+Error        : Response is not available in this context.
+Stack Trace    : at System.Web.UI.Page.get_Response()
+   at OrderDetails.AddOrderItem(Int32 OrID, Int32 UsrID) in d:\Tradingbell\Production\WES_3_5\WES\OrderDetails.aspx.cs:line 1823
+^^-------------------------------------------------------------------^^
+Source        : System.Web
+Method        : get_Response
+Date        : 3:43:41 PM
+Time        : 7/3/2019
+Computer    : P3-sd14
+Error        : Response is not available in this context.
+Stack Trace    : at System.Web.UI.Page.get_Response()
+   at OrderDetails.AddOrderItem(Int32 OrID, Int32 UsrID) in d:\Tradingbell\Production\WES_3_5\WES\OrderDetails.aspx.cs:line 1823
+^^-------------------------------------------------------------------^^

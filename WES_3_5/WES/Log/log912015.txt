@@ -1,0 +1,130 @@
+Source        : System
+Method        : GetResponse
+Date        : 10:29:26 AM
+Time        : 9/1/2015
+Computer    : P3-SD2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2195
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2473
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3338
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 10:29:38 AM
+Time        : 9/1/2015
+Computer    : P3-SD2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2195
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2473
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3497
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 10:31:04 AM
+Time        : 9/1/2015
+Computer    : P3-SD2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2195
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2473
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3338
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 10:31:06 AM
+Time        : 9/1/2015
+Computer    : P3-SD2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2195
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2473
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3497
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 10:31:23 AM
+Time        : 9/1/2015
+Computer    : P3-SD2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2195
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2473
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3338
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 10:31:26 AM
+Time        : 9/1/2015
+Computer    : P3-SD2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2195
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2473
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3497
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 10:31:37 AM
+Time        : 9/1/2015
+Computer    : P3-SD2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2195
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2473
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3338
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 10:31:40 AM
+Time        : 9/1/2015
+Computer    : P3-SD2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2195
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2473
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3497
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 10:31:59 AM
+Time        : 9/1/2015
+Computer    : P3-SD2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2195
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2473
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3338
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 10:32:01 AM
+Time        : 9/1/2015
+Computer    : P3-SD2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType, Boolean CreateXml) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2195
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2473
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in D:\Catalogstudio\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3497
+^^-------------------------------------------------------------------^^

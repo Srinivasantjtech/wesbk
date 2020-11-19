@@ -1,0 +1,65 @@
+Source        : WES
+Method        : Page_Load
+Date        : 5:15:33 PM
+Time        : 6/7/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Catalogstudio\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 5:15:45 PM
+Time        : 6/7/2016
+Computer    : P3-sd2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6086
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Category_RenderHTML
+Date        : 5:15:46 PM
+Time        : 6/7/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_categorylist.Category_RenderHTML(String Package, String SkinRootPath) in D:\Catalogstudio\WES_2_5\WES\UC\categorylist.ascx.cs:line 2180
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 5:15:56 PM
+Time        : 6/7/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Catalogstudio\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 5:15:59 PM
+Time        : 6/7/2016
+Computer    : P3-sd2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6083
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 5:17:40 PM
+Time        : 6/7/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Catalogstudio\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 5:17:44 PM
+Time        : 6/7/2016
+Computer    : P3-sd2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6083
+^^-------------------------------------------------------------------^^

@@ -1,0 +1,47 @@
+<gallery>
+	<!-- The line below sets the path to the folder where the images are stored -->
+	<setup path="/images/img_flash/"/>
+	<!-- The following lines set  the names of your images and thumbnails -->
+	<!--<item>
+		<thumb>t1.jpg</thumb>
+		<img>1.jpg</img>
+		<caption>Comments</caption>
+		<imgLink>product_list.aspx?&cid=WES1128&&byp=1</imgLink>
+	</item>
+	<item>
+		<thumb>t2.jpg</thumb>
+		<img>2.jpg</img>
+		<caption>Comments</caption>
+		<imgLink>family.aspx?&fid=117265</imgLink>
+	</item>
+	<item>
+		<thumb>t3.jpg</thumb>
+		<img>3.jpg</img>
+		<caption>Comments</caption>
+		<imgLink>categorylist.aspx?&ld=0&cid=WES210582&byp=2</imgLink>
+	</item>-->
+  <item>
+    <thumb>t1.jpg</thumb>
+    <img>11.jpg</img>
+    <caption>Comments</caption>
+    <imgLink>product_list.aspx?&ld=0&cid=WES1128N&byp=1&qf=1</imgLink>
+  </item>
+  <item>
+    <thumb>t2.jpg</thumb>
+    <img>12.jpg</img>
+    <caption>Comments</caption>
+    <imgLink>product_list.aspx?&ld=0&cid=WES995N&byp=1&qf=1</imgLink>
+  </item>
+  <item>
+    <thumb>t3.jpg</thumb>
+    <img>13.jpg</img>
+    <caption>Comments</caption>
+    <imgLink>family.aspx?&fid=9408</imgLink>
+  </item>
+  <item>
+    <thumb>t4.jpg</thumb>
+    <img>14.jpg</img>
+    <caption>Comments</caption>
+    <imgLink>categorylist.aspx?&ld=0&cid=WES0830&byp=2</imgLink>
+  </item>
+</gallery>

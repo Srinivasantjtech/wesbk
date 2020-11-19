@@ -1,0 +1,53 @@
+Source        : WES
+Method        : SendMail
+Date        : 3:36:32 PM
+Time        : 2/18/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in d:\Tradingbell\Production\WES_2_5\WES\Shipping.aspx.cs:line 2438
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : Bind
+Date        : 3:36:58 PM
+Time        : 2/18/2019
+Computer    : P3-sd14
+Error        : Cannot find column [FAMILY_ID].
+Stack Trace    : at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.DataTable.Select(String filterExpression)
+   at UC_family.GetFamilyAllData(String _Fid) in d:\Tradingbell\Production\WES_2_5\WES\UC\family.ascx.cs:line 1321
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : get_Item
+Date        : 3:36:59 PM
+Time        : 2/18/2019
+Computer    : P3-sd14
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UC_family.ST_Product_Download(DataSet TmpDs) in d:\Tradingbell\Production\WES_2_5\WES\UC\family.ascx.cs:line 728
+   at UC_family.ST_Family_Download() in d:\Tradingbell\Production\WES_2_5\WES\UC\family.ascx.cs:line 520
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ST_Familypage
+Date        : 3:36:59 PM
+Time        : 2/18/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_family.ST_Familypage(String fid, String Rawurl) in d:\Tradingbell\Production\WES_2_5\WES\UC\family.ascx.cs:line 1705
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : AbortInternal
+Date        : 3:36:59 PM
+Time        : 2/18/2019
+Computer    : P3-sd14
+Error        : Thread was being aborted.
+Stack Trace    : at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at UC_family.ST_BulkBuyPP() in d:\Tradingbell\Production\WES_2_5\WES\UC\family.ascx.cs:line 1491
+^^-------------------------------------------------------------------^^

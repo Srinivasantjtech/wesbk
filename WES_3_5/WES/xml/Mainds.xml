@@ -1,0 +1,543 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <CATEGORY_NAME>Audio Speakers &amp; PA</CATEGORY_NAME>
+    <CATEGORY_ID>WES-04D</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC>Complete range for Audio and Public Address Solutions. Headphones, Speaker Boxes, Ceiling and In-Wall, Speaker Drivers, Kits and Building Components, Multi-Room and PA Systems, 100V and 8 Ohm, Microphone and Instrument, Amplifiers, etc.</SHORT_DESC>
+    <IMAGE_FILE />
+    <IMAGE_FILE2>\media\pdf\wescat2014\03_Audio_Speakers_PA.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>03 - Audio Speakers PA</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2>/media/ebook/wescat2014/index.html#271</CUSTOM_TEXT_FIELD2>
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////Audio Speakers &amp; PA</EA_PATH>
+    <SUB_COUNT>13</SUB_COUNT>
+    <CATEGORY_NAME_TOP>Audio Speakers&lt;br/&gt;&amp; PA</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>AUTOCAT</CATEGORY_NAME>
+    <CATEGORY_ID>AC1</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE>/z_nathan_do_not_delete/imgtest/oct271014_th/20140117#pi_psdtest.jpg</IMAGE_FILE>
+    <IMAGE_FILE2>\z_nathan_do_not_delete\IMGTEST\OCT271014\TESTCAT5.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>AUTOPDF271014</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2>\media\sep250914</CUSTOM_TEXT_FIELD2>
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOCAT</EA_PATH>
+    <SUB_COUNT>4</SUB_COUNT>
+    <CATEGORY_NAME_TOP>AUTOCAT</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>AUTOMAINCAT</CATEGORY_NAME>
+    <CATEGORY_ID>CT3</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE>/z_nathan_do_not_delete/imgtest/dec414!_th/20140117#pi_psdtest.jpg</IMAGE_FILE>
+    <IMAGE_FILE2>\z_nathan_do_not_delete\IMGTEST\Dec414!\TESTCAT5.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>AUTOMAINCAT</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT</EA_PATH>
+    <SUB_COUNT>3</SUB_COUNT>
+    <CATEGORY_NAME_TOP>AUTOMAINCAT</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>AUTOMAINCAT2</CATEGORY_NAME>
+    <CATEGORY_ID>CT4</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE>/z_nathan_do_not_delete/imgtest/dec414!_th/20140117__pi_giftest.jpg</IMAGE_FILE>
+    <IMAGE_FILE2>\z_nathan_do_not_delete\IMGTEST\Dec414!\TESTCAT5.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>AUTOMAINCAT2</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2>\media\sep250914</CUSTOM_TEXT_FIELD2>
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2</EA_PATH>
+    <SUB_COUNT>4</SUB_COUNT>
+    <CATEGORY_NAME_TOP>AUTOMAINCAT2</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>Automotive</CATEGORY_NAME>
+    <CATEGORY_ID>WES-08H</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC>Car Audio Accessories including Amplifiers, Speakers, Reversing Cameras, Monitors, Antennas, Power, Lighting, etc. Auto Electrician and Installation Parts and Accessories.</SHORT_DESC>
+    <IMAGE_FILE />
+    <IMAGE_FILE2>\media\pdf\wescat2014\09_Automotive.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>09 - Automotive</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2>/media/ebook/wescat2014/index.html#1033</CUSTOM_TEXT_FIELD2>
+    <CUSTOM_NUM_FIELD3>2</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////Automotive</EA_PATH>
+    <SUB_COUNT>10</SUB_COUNT>
+    <CATEGORY_NAME_TOP>Automotive</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>AV TV SAT Installation</CATEGORY_NAME>
+    <CATEGORY_ID>WES-02B</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC>Audio-Visual, Television, Satellite accessories for domestic and professional installations. This range includes Antennas, Format Converters, Signal Extenders, Switching, etc. as well as Home Theatre accessories including DVB/DAB, Remote Controls, etc.</SHORT_DESC>
+    <IMAGE_FILE />
+    <IMAGE_FILE2>\media\pdf\wescat2014\01_AV_TV_SAT_Install.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>01 - AV TV SAT Installation</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2>/media/ebook/wescat2014/index.html#9</CUSTOM_TEXT_FIELD2>
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AV TV SAT Installation</EA_PATH>
+    <SUB_COUNT>17</SUB_COUNT>
+    <CATEGORY_NAME_TOP>AV TV SAT&lt;br/&gt;Installation</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>Cables &amp; Connectors</CATEGORY_NAME>
+    <CATEGORY_ID>WES-03C</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC>Prepared Interconnects and plug adaptors for Home Theatre and electronics or make your own with cable, plugs, sockets and jacks available.</SHORT_DESC>
+    <IMAGE_FILE />
+    <IMAGE_FILE2>\media\pdf\wescat2014\02_Cables_Connectors.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>02 - Cables &amp; Connectors</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2>/media/ebook/wescat2014/index.html#157</CUSTOM_TEXT_FIELD2>
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////Cables &amp; Connectors</EA_PATH>
+    <SUB_COUNT>6</SUB_COUNT>
+    <CATEGORY_NAME_TOP>Cables &amp;&lt;br/&gt;Connectors</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>CAT26</CATEGORY_NAME>
+    <CATEGORY_ID>CAT26</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE>/z_nathan_do_not_delete/imgtest/oct261015!/26oct_th/jpgtest__12092013.jpg</IMAGE_FILE>
+    <IMAGE_FILE2>\z_nathan_do_not_delete\IMGTEST\OCT261015!\26OCT\12092013_A.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>CAT26</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////CAT26</EA_PATH>
+    <SUB_COUNT>2</SUB_COUNT>
+    <CATEGORY_NAME_TOP>CAT26</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>CAT27</CATEGORY_NAME>
+    <CATEGORY_ID>CAT27</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE>/z_nathan_do_not_delete/imgtest/oct261015!/26oct_th/giftest__12092013.jpg</IMAGE_FILE>
+    <IMAGE_FILE2>\z_nathan_do_not_delete\IMGTEST\OCT261015!\26OCT\12092013_B.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>CAT27</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////CAT27</EA_PATH>
+    <SUB_COUNT>3</SUB_COUNT>
+    <CATEGORY_NAME_TOP>CAT27</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>CATROOT</CATEGORY_NAME>
+    <CATEGORY_ID>RC1-[C1],2</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE />
+    <IMAGE_FILE2 />
+    <IMAGE_NAME />
+    <IMAGE_NAME2 />
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>2</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////CATROOT</EA_PATH>
+    <SUB_COUNT>0</SUB_COUNT>
+    <CATEGORY_NAME_TOP>CATROOT</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>CATROOT2</CATEGORY_NAME>
+    <CATEGORY_ID>RC2</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE>/z_nathan_do_not_delete/imgtest/sep_250914!_th/20140117__pi_giftest.jpg</IMAGE_FILE>
+    <IMAGE_FILE2>\z_nathan_do_not_delete\IMGTEST\SEP_250914!\TESTCAT5.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>CATROOT2PDF</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////CATROOT2</EA_PATH>
+    <SUB_COUNT>2</SUB_COUNT>
+    <CATEGORY_NAME_TOP>CATROOT2</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>CATROOT6</CATEGORY_NAME>
+    <CATEGORY_ID>RC5</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE />
+    <IMAGE_FILE2 />
+    <IMAGE_NAME />
+    <IMAGE_NAME2 />
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////CATROOT6</EA_PATH>
+    <SUB_COUNT>2</SUB_COUNT>
+    <CATEGORY_NAME_TOP>CATROOT6</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>CATSUB</CATEGORY_NAME>
+    <CATEGORY_ID>ST1-[C3]</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE>/z_nathan_do_not_delete/imgtest/dec414!_th/20140117;pi_tifftest.jpg</IMAGE_FILE>
+    <IMAGE_FILE2>\z_nathan_do_not_delete\IMGTEST\Dec414!\TESTCAT5.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>CATSUB</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2>\media\sep250914</CUSTOM_TEXT_FIELD2>
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////CATSUB</EA_PATH>
+    <SUB_COUNT>0</SUB_COUNT>
+    <CATEGORY_NAME_TOP>CATSUB</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>Cellular Accessories</CATEGORY_NAME>
+    <CATEGORY_ID>WES0830</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC>Accessories for Mobile phones such as batteries, leather cases, high gain out door antennae, AC and Car Chargers.</SHORT_DESC>
+    <IMAGE_FILE />
+    <IMAGE_FILE2>\media\pdf\wescat2014\06_Communications.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>06 - Communications</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2>/media/ebook/wescat2014/index.html#683</CUSTOM_TEXT_FIELD2>
+    <CUSTOM_NUM_FIELD3>2</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////Cellular Accessories</EA_PATH>
+    <SUB_COUNT>15</SUB_COUNT>
+    <CATEGORY_NAME_TOP>Cellular&lt;br/&gt;Accessories</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>Communication Accessories</CATEGORY_NAME>
+    <CATEGORY_ID>WES-06F</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC>Citizen Band and UHF Radio Accessories including Antennas, Connectors, Microphones, etc.</SHORT_DESC>
+    <IMAGE_FILE />
+    <IMAGE_FILE2>\media\pdf\wescat2014\06_Communications.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>06 - Communications</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2>/media/ebook/wescat2014/index.html#685</CUSTOM_TEXT_FIELD2>
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////Communication Accessories</EA_PATH>
+    <SUB_COUNT>3</SUB_COUNT>
+    <CATEGORY_NAME_TOP>Communication&lt;br/&gt;Accessories</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>CYPConverters</CATEGORY_NAME>
+    <CATEGORY_ID>SPF-CYP</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC>Cypress Converters Australia deliver market leading connectivity solutions that enhance the capability of Audio Visual products in any installation environment.</SHORT_DESC>
+    <IMAGE_FILE />
+    <IMAGE_FILE2 />
+    <IMAGE_NAME />
+    <IMAGE_NAME2 />
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////CYPConverters</EA_PATH>
+    <SUB_COUNT>7</SUB_COUNT>
+    <CATEGORY_NAME_TOP>CYPConverters</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>Data &amp; Computer</CATEGORY_NAME>
+    <CATEGORY_ID>WES-05E</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC>Accessories and Peripherals for home and office IT. Media, Networking, WiFi, Modems, Hubs, VOIP and other Peripherals. Rack, Power, PC Cards, Connectors and Cables. USB Accessories. Fans and Cooling. CAT5 and CAT6. Gaming console accessories.</SHORT_DESC>
+    <IMAGE_FILE />
+    <IMAGE_FILE2>\media\pdf\wescat2014\04_Data_Computer.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>04 - Data Computer Accessories</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2>/media/ebook/wescat2014/index.html#433</CUSTOM_TEXT_FIELD2>
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////Data &amp; Computer</EA_PATH>
+    <SUB_COUNT>35</SUB_COUNT>
+    <CATEGORY_NAME_TOP>Data &amp; Computer</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>Electrical Wholesalers Online</CATEGORY_NAME>
+    <CATEGORY_ID>SPF-EWO</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC>Wagner Online Electrical Wholesaler Sydney specialises in Electrical Supplies and Data Comms Supplies. We have Extensive range of products including LED down lights, Energy saving LED lighting, Power points and outlets, Switches, Power cables, Antenna cables, Network cables, Network Patch panels, Data racks, cabinets Cable accessories.</SHORT_DESC>
+    <IMAGE_FILE />
+    <IMAGE_FILE2 />
+    <IMAGE_NAME />
+    <IMAGE_NAME2 />
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////Electrical Wholesalers Online</EA_PATH>
+    <SUB_COUNT>2</SUB_COUNT>
+    <CATEGORY_NAME_TOP>Electrical&lt;br/&gt;Wholesalers Online</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>Electronic Components</CATEGORY_NAME>
+    <CATEGORY_ID>WES-11K</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE />
+    <IMAGE_FILE2>\media\pdf\wescat2014\10_Electronic_Components.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>10 - Electronic Components</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2>/media/ebook/wescat2014/index.html#1121</CUSTOM_TEXT_FIELD2>
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////Electronic Components</EA_PATH>
+    <SUB_COUNT>21</SUB_COUNT>
+    <CATEGORY_NAME_TOP>Electronic&lt;br/&gt;Components</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>Headphones</CATEGORY_NAME>
+    <CATEGORY_ID>RC8</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE />
+    <IMAGE_FILE2>\z_nathan_do_not_delete\IMGTEST\200115TEST\Section_01.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>test</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////Headphones</EA_PATH>
+    <SUB_COUNT>9</SUB_COUNT>
+    <CATEGORY_NAME_TOP>Headphones</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>I am a test</CATEGORY_NAME>
+    <CATEGORY_ID>JIM001AAA</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE />
+    <IMAGE_FILE2 />
+    <IMAGE_NAME />
+    <IMAGE_NAME2 />
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////I am a test</EA_PATH>
+    <SUB_COUNT>2</SUB_COUNT>
+    <CATEGORY_NAME_TOP>I am a test</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>Linux Test</CATEGORY_NAME>
+    <CATEGORY_ID>WESLINUX</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE>/section17_th/alc5524-135_b.jpg</IMAGE_FILE>
+    <IMAGE_FILE2 />
+    <IMAGE_NAME />
+    <IMAGE_NAME2 />
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////Linux Test</EA_PATH>
+    <SUB_COUNT>2</SUB_COUNT>
+    <CATEGORY_NAME_TOP>Linux Test</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>MAINCAT</CATEGORY_NAME>
+    <CATEGORY_ID>CT1</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE>/z_nathan_do_not_delete/imgtest/dec414!_th/20140117_giftest.jpg</IMAGE_FILE>
+    <IMAGE_FILE2>\z_nathan_do_not_delete\IMGTEST\Dec414!\TESTCAT5.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>MAINCAT</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2>\media\sep250914</CUSTOM_TEXT_FIELD2>
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////MAINCAT</EA_PATH>
+    <SUB_COUNT>2</SUB_COUNT>
+    <CATEGORY_NAME_TOP>MAINCAT</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>MAINCAT1</CATEGORY_NAME>
+    <CATEGORY_ID>CT2</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE>/z_nathan_do_not_delete/imgtest/dec414!_th/20140117.pi_pngtest.jpg</IMAGE_FILE>
+    <IMAGE_FILE2>\z_nathan_do_not_delete\IMGTEST\Dec414!\TESTCAT5.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>MAINCAT1</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////MAINCAT1</EA_PATH>
+    <SUB_COUNT>2</SUB_COUNT>
+    <CATEGORY_NAME_TOP>MAINCAT1</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>New Products</CATEGORY_NAME>
+    <CATEGORY_ID>WESNEWS</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE />
+    <IMAGE_FILE2 />
+    <IMAGE_NAME />
+    <IMAGE_NAME2 />
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>3</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////New Products</EA_PATH>
+    <SUB_COUNT>38</SUB_COUNT>
+    <CATEGORY_NAME_TOP>New Products</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>NOKIA</CATEGORY_NAME>
+    <CATEGORY_ID>MICRO1</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE />
+    <IMAGE_FILE2 />
+    <IMAGE_NAME />
+    <IMAGE_NAME2 />
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////NOKIA</EA_PATH>
+    <SUB_COUNT>3</SUB_COUNT>
+    <CATEGORY_NAME_TOP>NOKIA</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>Power &amp; Lighting</CATEGORY_NAME>
+    <CATEGORY_ID>WES-01A,2</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE />
+    <IMAGE_FILE2 />
+    <IMAGE_NAME />
+    <IMAGE_NAME2 />
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>2</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////Power &amp; Lighting</EA_PATH>
+    <SUB_COUNT>0</SUB_COUNT>
+    <CATEGORY_NAME_TOP>Power &amp;&lt;br/&gt;Lighting</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>ROOTCAT2</CATEGORY_NAME>
+    <CATEGORY_ID>CR2</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC>TEST SHORT</SHORT_DESC>
+    <IMAGE_FILE>/z_nathan_do_not_delete/imgtest/oct1214!_th/20140117_pi_jpgtest.jpg</IMAGE_FILE>
+    <IMAGE_FILE2>\z_nathan_do_not_delete\IMGTEST\OCT1214!\TESTCAT5.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>ROOTCAT2PDF</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////ROOTCAT2</EA_PATH>
+    <SUB_COUNT>2</SUB_COUNT>
+    <CATEGORY_NAME_TOP>ROOTCAT2</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>ROOTCAT3</CATEGORY_NAME>
+    <CATEGORY_ID>CR3</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE />
+    <IMAGE_FILE2 />
+    <IMAGE_NAME />
+    <IMAGE_NAME2 />
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////ROOTCAT3</EA_PATH>
+    <SUB_COUNT>3</SUB_COUNT>
+    <CATEGORY_NAME_TOP>ROOTCAT3</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>Security</CATEGORY_NAME>
+    <CATEGORY_ID>WES-07G</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC>Surveillance systems including Cameras, IP, DVR, NVR. Door entry systems. Alarm systems and accessories.</SHORT_DESC>
+    <IMAGE_FILE />
+    <IMAGE_FILE2>\media\pdf\wescat2014\05_Security_Surveillance.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>05 - Security Surveillance</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2>/media/ebook/wescat2014/index.html#609</CUSTOM_TEXT_FIELD2>
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////Security</EA_PATH>
+    <SUB_COUNT>10</SUB_COUNT>
+    <CATEGORY_NAME_TOP>Security</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>Service &amp; Repair Parts</CATEGORY_NAME>
+    <CATEGORY_ID>WES-12L</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE />
+    <IMAGE_FILE2>\media\pdf\wescat2014\11_Service_Repair.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>11 - Service and Repair</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2>/media/ebook/wescat2014/index.html#1211</CUSTOM_TEXT_FIELD2>
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////Service &amp; Repair Parts</EA_PATH>
+    <SUB_COUNT>7</SUB_COUNT>
+    <CATEGORY_NAME_TOP>Service&lt;br/&gt;&amp; Repair Parts</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>SUPPLIER2</CATEGORY_NAME>
+    <CATEGORY_ID>WES-SUPPLIER2</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE />
+    <IMAGE_FILE2 />
+    <IMAGE_NAME />
+    <IMAGE_NAME2 />
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////SUPPLIER2</EA_PATH>
+    <SUB_COUNT>1</SUB_COUNT>
+    <CATEGORY_NAME_TOP>SUPPLIER2</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>Tools &amp; Test</CATEGORY_NAME>
+    <CATEGORY_ID>WES-10J</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC>Hand tools including screw drivers, cutters, etc.</SHORT_DESC>
+    <IMAGE_FILE />
+    <IMAGE_FILE2>\media\pdf\wescat2014\07_Tools_Test_Equipment.pdf</IMAGE_FILE2>
+    <IMAGE_NAME />
+    <IMAGE_NAME2>07 - Tools and Test Equipment</IMAGE_NAME2>
+    <CUSTOM_TEXT_FIELD2>/media/ebook/wescat2014/index.html#775</CUSTOM_TEXT_FIELD2>
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////Tools &amp; Test</EA_PATH>
+    <SUB_COUNT>5</SUB_COUNT>
+    <CATEGORY_NAME_TOP>Tools &amp;&lt;br/&gt;Test</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>VIP-VISION</CATEGORY_NAME>
+    <CATEGORY_ID>SPF-VIPVISION</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC>VIP Vision is the premier IP surveillance solution for enterprise and commercial applications. We believe that for CCTV to truly grant peace of mind, it must function seamlessly with your existing business operations. The VIP Vision range delivers powerful, scalable IP CCTV systems, with an emphasis on functionality, ease of use and ease of installation across the range.</SHORT_DESC>
+    <IMAGE_FILE />
+    <IMAGE_FILE2 />
+    <IMAGE_NAME />
+    <IMAGE_NAME2 />
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////VIP-VISION</EA_PATH>
+    <SUB_COUNT>4</SUB_COUNT>
+    <CATEGORY_NAME_TOP>VIP-VISION</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>VIP-VISION1</CATEGORY_NAME>
+    <CATEGORY_ID>WES-VIPVISION</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE />
+    <IMAGE_FILE2 />
+    <IMAGE_NAME />
+    <IMAGE_NAME2 />
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////VIP-VISION1</EA_PATH>
+    <SUB_COUNT>4</SUB_COUNT>
+    <CATEGORY_NAME_TOP>VIP-VISION1</CATEGORY_NAME_TOP>
+  </Table1>
+  <Table1>
+    <CATEGORY_NAME>VIP-VISION2</CATEGORY_NAME>
+    <CATEGORY_ID>CLONE1-WES-VIPVISION</CATEGORY_ID>
+    <PARENT_CATEGORY>0</PARENT_CATEGORY>
+    <SHORT_DESC />
+    <IMAGE_FILE />
+    <IMAGE_FILE2 />
+    <IMAGE_NAME />
+    <IMAGE_NAME2 />
+    <CUSTOM_TEXT_FIELD2 />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////VIP-VISION2</EA_PATH>
+    <SUB_COUNT>1</SUB_COUNT>
+    <CATEGORY_NAME_TOP>VIP-VISION2</CATEGORY_NAME_TOP>
+  </Table1>
+</NewDataSet>

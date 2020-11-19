@@ -1,0 +1,241 @@
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 1:29:39 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 1:29:43 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 1:48:43 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 1:48:48 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 1:58:52 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 1:59:05 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 2:24:48 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 2:24:55 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 10:46:43 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 10:47:32 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : .Net SqlClient Data Provider
+Method        : OnError
+Date        : 11:18:21 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Invalid column name 'WEBSITE_ID'.
+Stack Trace    : at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Tradingbell\Development\VS_2017\WES_3_5\CatalogDB\OrderDB.cs:line 204
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 11:18:21 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Tradingbell\Development\VS_2017\WES_3_5\CatalogDB\OrderDB.cs:line 258
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in D:\Tradingbell\Development\VS_2017\WES_3_5\CatalogDB\OrderDB.cs:line 171
+   at TradingBell.WebCat.CommonServices.OrderServices.GetOrderDetails(Int32 OrderID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\OrderServices.cs:line 2376
+^^-------------------------------------------------------------------^^
+Source        : .Net SqlClient Data Provider
+Method        : OnError
+Date        : 11:18:33 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Invalid column name 'WEBSITE_ID'.
+Stack Trace    : at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Tradingbell\Development\VS_2017\WES_3_5\CatalogDB\OrderDB.cs:line 204
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 11:18:33 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Tradingbell\Development\VS_2017\WES_3_5\CatalogDB\OrderDB.cs:line 258
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in D:\Tradingbell\Development\VS_2017\WES_3_5\CatalogDB\OrderDB.cs:line 171
+   at TradingBell.WebCat.CommonServices.OrderServices.GetOrderDetails(Int32 OrderID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\OrderServices.cs:line 2376
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 11:21:05 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 11:21:08 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : .Net SqlClient Data Provider
+Method        : OnError
+Date        : 11:21:48 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Invalid column name 'WEBSITE_ID'.
+Stack Trace    : at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Tradingbell\Development\VS_2017\WES_3_5\CatalogDB\OrderDB.cs:line 204
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 11:21:48 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Tradingbell\Development\VS_2017\WES_3_5\CatalogDB\OrderDB.cs:line 258
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in D:\Tradingbell\Development\VS_2017\WES_3_5\CatalogDB\OrderDB.cs:line 171
+   at TradingBell.WebCat.CommonServices.OrderServices.GetOrderDetails(Int32 OrderID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\OrderServices.cs:line 2376
+^^-------------------------------------------------------------------^^
+Source        : .Net SqlClient Data Provider
+Method        : OnError
+Date        : 11:22:20 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Invalid column name 'WEBSITE_ID'.
+Stack Trace    : at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Tradingbell\Development\VS_2017\WES_3_5\CatalogDB\OrderDB.cs:line 204
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 11:22:53 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Tradingbell\Development\VS_2017\WES_3_5\CatalogDB\OrderDB.cs:line 258
+   at TradingBell.WebCat.CatalogDB.OrderDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in D:\Tradingbell\Development\VS_2017\WES_3_5\CatalogDB\OrderDB.cs:line 171
+   at TradingBell.WebCat.CommonServices.OrderServices.GetOrderDetails(Int32 OrderID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\OrderServices.cs:line 2376
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 11:28:59 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 11:29:02 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in D:\Tradingbell\Development\VS_2017\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : AddToCart
+Date        : 11:41:18 PM
+Time        : 9/27/2020
+Computer    : P3-sd14
+Error        : Thread was being aborted.
+Stack Trace    : at OrderTemplateList.AddToCart()
+   at OrderTemplateList.Page_Load(Object sender, EventArgs e)
+^^-------------------------------------------------------------------^^

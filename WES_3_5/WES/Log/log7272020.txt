@@ -1,0 +1,106 @@
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 2:23:06 PM
+Time        : 7/27/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1291
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 2:23:06 PM
+Time        : 7/27/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1291
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 2:23:06 PM
+Time        : 7/27/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1291
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 2:26:17 PM
+Time        : 7/27/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1291
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 2:26:17 PM
+Time        : 7/27/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1291
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 2:26:18 PM
+Time        : 7/27/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1291
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 2:30:58 PM
+Time        : 7/27/2020
+Computer    : P3-sd14
+Error        : Column 'BILL_FAX' does not belong to table User.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserBillInfo(Int32 UserID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\UserServices.cs:line 1291
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : Prepare
+Date        : 2:30:58 PM
+Time        : 7/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.Prepare(String sValue) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 455
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : Prepare
+Date        : 2:30:58 PM
+Time        : 7/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.Prepare(String sValue) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 455
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : Prepare
+Date        : 2:30:58 PM
+Time        : 7/27/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.HelperServices.Prepare(String sValue) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\HelperServices.cs:line 455
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64_ComputeResultLength
+Date        : 2:32:08 PM
+Time        : 7/27/2020
+Computer    : P3-sd14
+Error        : The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+Stack Trace    : at System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in D:\Tradingbell\Development\VS_2017\WES_3_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in D:\Tradingbell\Development\VS_2017\WES_3_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^

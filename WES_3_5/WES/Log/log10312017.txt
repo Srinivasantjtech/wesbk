@@ -1,0 +1,9 @@
+Source        : System.Data
+Method        : get_Item
+Date        : 12:46:01 PM
+Time        : 10/31/2017
+Computer    : P3-sd2
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UC_category.ST_Category_Load(String Package, String _SkinRootPath) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\category.ascx.cs:line 91
+^^-------------------------------------------------------------------^^

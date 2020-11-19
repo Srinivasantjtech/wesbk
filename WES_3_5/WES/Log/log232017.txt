@@ -1,0 +1,334 @@
+Source        : System.Data
+Method        : get_Item
+Date        : 2:49:23 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3615
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:04:11 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 3:04:16 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 115
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 101
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 3:04:37 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 284
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6493
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : get_Item
+Date        : 3:06:34 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3615
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:07:06 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 3:07:06 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 115
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 101
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:07:12 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 3:07:12 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 115
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 101
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ST_Product_Download
+Date        : 3:09:22 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_family.ST_Product_Download(DataSet TmpDs) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 700
+   at UC_family.ST_Family_Download() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 519
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ST_Familypage
+Date        : 3:09:22 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_family.ST_Familypage(String fid, String Rawurl) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 1517
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : AbortInternal
+Date        : 3:09:22 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Thread was being aborted.
+Stack Trace    : at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at UC_family.ST_BulkBuyPP() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 1303
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ST_Product_Download
+Date        : 3:12:44 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_family.ST_Product_Download(DataSet TmpDs) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 700
+   at UC_family.ST_Family_Download() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 519
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ST_Familypage
+Date        : 3:12:44 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_family.ST_Familypage(String fid, String Rawurl) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 1517
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : AbortInternal
+Date        : 3:12:44 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Thread was being aborted.
+Stack Trace    : at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at UC_family.ST_BulkBuyPP() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 1303
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 4:02:03 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 4:02:03 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 115
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 101
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 4:03:44 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : The operation has timed out
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 284
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6493
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 4:05:23 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 4:05:23 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 115
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 101
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 4:08:18 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : The operation has timed out
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 284
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6541
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : Bind
+Date        : 4:08:48 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Cannot find column [ATTRIBUTE_ID].
+Stack Trace    : at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.DataTable.Select(String filterExpression)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.BuildRecordsTemplateColumn() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 1255
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.RenderHTML(String rType) in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 216
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 5:21:11 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 284
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6523
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ST_Product_Download
+Date        : 5:21:12 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_family.ST_Product_Download(DataSet TmpDs) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 700
+   at UC_family.ST_Family_Download() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 519
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ST_Familypage
+Date        : 5:21:12 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_family.ST_Familypage(String fid, String Rawurl) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 1517
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : AbortInternal
+Date        : 5:21:12 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Thread was being aborted.
+Stack Trace    : at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at UC_family.ST_BulkBuyPP() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 1303
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 5:21:37 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 5:21:37 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 115
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproducts.ascx.cs:line 101
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 5:22:00 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 284
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6493
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 5:22:15 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 6:36:56 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 284
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6541
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 6:37:02 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Column 'PRODUCT_ID' does not belong to table Family.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.BuildRecordsTemplateColumn() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 1269
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.RenderHTML(String rType) in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 216
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 6:37:50 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 284
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6541
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 6:38:52 PM
+Time        : 2/3/2017
+Computer    : P3-sd2
+Error        : Column 'PRODUCT_ID' does not belong to table Family.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.BuildRecordsTemplateColumn() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 1269
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.RenderHTML(String rType) in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 216
+^^-------------------------------------------------------------------^^

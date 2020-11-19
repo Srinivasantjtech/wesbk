@@ -1,0 +1,372 @@
+Source        : mscorlib
+Method        : WinIOError
+Date        : 10:40:23 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 10:40:27 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3519
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 10:44:24 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3519
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 10:44:31 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 10:44:31 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at UC_category.ST_Category_Load(String Package, String _SkinRootPath) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\category.ascx.cs:line 74
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 10:44:31 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3519
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 10:53:14 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 284
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6142
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 10:53:14 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ST_Product_Download
+Date        : 10:53:15 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_family.ST_Product_Download(DataSet TmpDs) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 697
+   at UC_family.ST_Family_Download() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 516
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 10:53:15 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3519
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 10:53:17 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 10:53:18 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3519
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 10:54:31 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 10:54:31 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3519
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 10:54:39 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3519
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 10:55:11 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 10:55:34 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 11:04:13 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 11:09:26 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 11:12:08 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 11:13:28 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 11:15:15 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : The operation has timed out
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 284
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6142
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 11:15:15 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 11:17:08 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : The operation has timed out
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userSearch(String path, String question) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 284
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6142
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 11:17:08 AM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : WinIOError
+Date        : 12:24:15 PM
+Time        : 11/1/2016
+Computer    : P3-sd2
+Error        : Could not find file 'F:\Catalogstudio\VS_2012\WES_2_5\WES\xml\subds.txt'.
+Stack Trace    : at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetCategoryAndBrand(String ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 2534
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3346
+^^-------------------------------------------------------------------^^

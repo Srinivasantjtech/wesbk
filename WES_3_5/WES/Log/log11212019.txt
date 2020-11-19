@@ -1,0 +1,24 @@
+Source        : TradingBell.WebCat.TemplateRender
+Method        : ST_NewProduct_Load
+Date        : 2:16:12 PM
+Time        : 11/21/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_NewProduct_Load() in d:\Tradingbell\Production\WES_3_5\TemplateRender\TBWTemplateEngine.cs:line 4421
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 2:16:16 PM
+Time        : 11/21/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 2:16:59 PM
+Time        : 11/21/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^

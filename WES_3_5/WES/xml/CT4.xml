@@ -1,0 +1,436 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <ParentCategory>
+    <CATEGORY_ID>CT4</CATEGORY_ID>
+  </ParentCategory>
+  <MainCategory>
+    <CATEGORY_NAME>Audio Speakers &amp; PA</CATEGORY_NAME>
+    <CATEGORY_ID>WES-04D-[C1]</CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>AUTOMAINCAT2</PARENT_CATEGORY_NAME>
+    <PARENT_CATEGORY_ID>CT4</PARENT_CATEGORY_ID>
+    <SHORT_DESC>Complete range for Audio and Public Address Solutions. Headphones, Speaker Boxes, Ceiling and In-Wall, Speaker Drivers, Kits and Building Components, Multi-Room and PA Systems, 100V and 8 Ohm, Microphone and Instrument, Amplifiers, etc.</SHORT_DESC>
+    <IMAGE_FILE />
+    <IMAGE_FILE2>\media\pdf\wescat2014\03_Audio_Speakers_PA.pdf</IMAGE_FILE2>
+    <IMAGE_NAME2>03 - Audio Speakers PA</IMAGE_NAME2>
+    <IMAGE_NAME />
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2</EA_PATH>
+  </MainCategory>
+  <MainCategory>
+    <CATEGORY_NAME>CATSUB</CATEGORY_NAME>
+    <CATEGORY_ID>ST1-[C2]</CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>AUTOMAINCAT2</PARENT_CATEGORY_NAME>
+    <PARENT_CATEGORY_ID>CT4</PARENT_CATEGORY_ID>
+    <SHORT_DESC />
+    <IMAGE_FILE>/z_nathan_do_not_delete/imgtest/dec414!_th/20140117;pi_tifftest.jpg</IMAGE_FILE>
+    <IMAGE_FILE2>\z_nathan_do_not_delete\IMGTEST\Dec414!\TESTCAT5.pdf</IMAGE_FILE2>
+    <IMAGE_NAME2>CATSUB</IMAGE_NAME2>
+    <IMAGE_NAME />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2</EA_PATH>
+  </MainCategory>
+  <MainCategory>
+    <CATEGORY_NAME>CATSUB1</CATEGORY_NAME>
+    <CATEGORY_ID>CLONE2-ST2</CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>AUTOMAINCAT2</PARENT_CATEGORY_NAME>
+    <PARENT_CATEGORY_ID>CT4</PARENT_CATEGORY_ID>
+    <SHORT_DESC />
+    <IMAGE_FILE>/z_nathan_do_not_delete/imgtest/dec414!_th/20140117_pi_jpgtest.jpg</IMAGE_FILE>
+    <IMAGE_FILE2>\z_nathan_do_not_delete\IMGTEST\Dec414!\TESTCAT5.pdf</IMAGE_FILE2>
+    <IMAGE_NAME2>CATSUB1</IMAGE_NAME2>
+    <IMAGE_NAME />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2</EA_PATH>
+  </MainCategory>
+  <MainCategory>
+    <CATEGORY_NAME>Security</CATEGORY_NAME>
+    <CATEGORY_ID>WES-07G-[C1]</CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>AUTOMAINCAT2</PARENT_CATEGORY_NAME>
+    <PARENT_CATEGORY_ID>CT4</PARENT_CATEGORY_ID>
+    <SHORT_DESC>Surveillance systems including Cameras, IP, DVR, NVR. Door entry systems. Alarm systems and accessories.</SHORT_DESC>
+    <IMAGE_FILE />
+    <IMAGE_FILE2>\media\pdf\wescat2014\05_Security_Surveillance.pdf</IMAGE_FILE2>
+    <IMAGE_NAME2>05 - Security Surveillance</IMAGE_NAME2>
+    <IMAGE_NAME />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2</EA_PATH>
+  </MainCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-04D-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Audio Speakers &amp; PA</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Speaker Drivers HiFi</CATEGORY_NAME>
+    <CATEGORY_ID>WN1058J-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Audio Speakers &amp; PA</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-04D-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Audio Speakers &amp; PA</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Bosch Price List</CATEGORY_NAME>
+    <CATEGORY_ID>WES4080J-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Audio Speakers &amp; PA</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-04D-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Audio Speakers &amp; PA</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Speaker Systems</CATEGORY_NAME>
+    <CATEGORY_ID>WES4125J-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Audio Speakers &amp; PA</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-04D-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Audio Speakers &amp; PA</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Speaker Drivers</CATEGORY_NAME>
+    <CATEGORY_ID>WES1044J-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Audio Speakers &amp; PA</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-04D-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Audio Speakers &amp; PA</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Speaker Kits</CATEGORY_NAME>
+    <CATEGORY_ID>WES10948N-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Audio Speakers &amp; PA</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-04D-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Audio Speakers &amp; PA</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Speaker Drivers Audiophile</CATEGORY_NAME>
+    <CATEGORY_ID>WES10918N-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Audio Speakers &amp; PA</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-04D-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Audio Speakers &amp; PA</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Speaker GP Replacement</CATEGORY_NAME>
+    <CATEGORY_ID>WES10917N-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Audio Speakers &amp; PA</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-04D-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Audio Speakers &amp; PA</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Speaker Automotive</CATEGORY_NAME>
+    <CATEGORY_ID>WES10908N-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Audio Speakers &amp; PA</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-04D-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Audio Speakers &amp; PA</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Speaker Components</CATEGORY_NAME>
+    <CATEGORY_ID>WES10904N-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Audio Speakers &amp; PA</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-04D-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Audio Speakers &amp; PA</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Public Address</CATEGORY_NAME>
+    <CATEGORY_ID>WES10885N-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Audio Speakers &amp; PA</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-04D-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Audio Speakers &amp; PA</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Speaker Ceiling &amp; Inwall</CATEGORY_NAME>
+    <CATEGORY_ID>WES10879N-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Audio Speakers &amp; PA</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-04D-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Audio Speakers &amp; PA</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Microphones</CATEGORY_NAME>
+    <CATEGORY_ID>WES10896N-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>1</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Audio Speakers &amp; PA</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-07G-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Security</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Surveillance Misc</CATEGORY_NAME>
+    <CATEGORY_ID>WN5012J-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Security</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-07G-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Security</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Surveillance IP Cameras</CATEGORY_NAME>
+    <CATEGORY_ID>WES930N-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Security</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-07G-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Security</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>GeoVision</CATEGORY_NAME>
+    <CATEGORY_ID>WES921J-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Security</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-07G-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Security</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Alarm</CATEGORY_NAME>
+    <CATEGORY_ID>WES921N-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Security</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-07G-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Security</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Surveillance CCTV Cameras</CATEGORY_NAME>
+    <CATEGORY_ID>WES911N-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Security</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-07G-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Security</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Door Entry Security</CATEGORY_NAME>
+    <CATEGORY_ID>WES908N-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Security</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-07G-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Security</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Surveillance DVR</CATEGORY_NAME>
+    <CATEGORY_ID>WES4236J-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Security</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-07G-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Security</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Surveillance Accessories</CATEGORY_NAME>
+    <CATEGORY_ID>WES4232J-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Security</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-07G-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Security</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Surveillance IP Accessories</CATEGORY_NAME>
+    <CATEGORY_ID>WES5019J-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Security</EA_PATH>
+  </SubCategory>
+  <SubCategory>
+    <PARENT_CATEGORY_ID>WES-07G-[C1]</PARENT_CATEGORY_ID>
+    <PARENT_CATEGORY_NAME>Security</PARENT_CATEGORY_NAME>
+    <CATEGORY_NAME>Surveillance IP NVR</CATEGORY_NAME>
+    <CATEGORY_ID>WES5013J-[C1]</CATEGORY_ID>
+    <SHORT_DESC />
+    <CUSTOM_NUM_FIELD3>0</CUSTOM_NUM_FIELD3>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////Security</EA_PATH>
+  </SubCategory>
+  <Brand>
+    <TOSUITE_BRAND>Acer</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Acer'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Alcatel</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Alcatel'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Apple</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Apple'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Asus</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Asus'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>BenQ</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='BenQ'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>BlackBerry</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='BlackBerry'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Boost</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Boost'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Dodo</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Dodo'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Dopod</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Dopod'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Doro</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Doro'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Ericsson</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Ericsson'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Garmin-Asus</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Garmin-Asus'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Google</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Google'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Hiptop</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Hiptop'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>HP</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='HP'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>HTC</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='HTC'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Huawei</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Huawei'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>I-mate</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='I-mate'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Kyocera</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Kyocera'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>LG</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='LG'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Microsoft</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Microsoft'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Mio</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Mio'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Motorola</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Motorola'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>NEC</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='NEC'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Nokia</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Nokia'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>o2</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='o2'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Optus</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Optus'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>PalmOne</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='PalmOne'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Panasonic</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Panasonic'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Pendo</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Pendo'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Philips</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Philips'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Qtek</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Qtek'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Sagem</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Sagem'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Samsung</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Samsung'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Sharp</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Sharp'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Siemens</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Siemens'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Smart Navi</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Smart Navi'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Sony</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Sony'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Telcom</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Telcom'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Telstra</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Telstra'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Three</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Three'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>TomTom</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='TomTom'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Virgin</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Virgin'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>Vodafone 3G</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='Vodafone 3G'</EA_PATH>
+  </Brand>
+  <Brand>
+    <TOSUITE_BRAND>ZTE</TOSUITE_BRAND>
+    <EA_PATH>AllProducts////WESAUSTRALASIA////AUTOMAINCAT2////AttribSelect=Brand='ZTE'</EA_PATH>
+  </Brand>
+</NewDataSet>

@@ -1,0 +1,19 @@
+Source        : WES
+Method        : Page_Load
+Date        : 6:07:02 PM
+Time        : 5/19/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Tradingbell\Development\VS_2017\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 6:10:10 PM
+Time        : 5/19/2020
+Computer    : P3-sd14
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Tradingbell\Development\VS_2017\WES_3_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 324
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Tradingbell\Development\VS_2017\WES_3_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 229
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in D:\Tradingbell\Development\VS_2017\WES_3_5\EasyAsk\EasyAsk_WES.cs:line 6866
+^^-------------------------------------------------------------------^^

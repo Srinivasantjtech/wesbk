@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<component name='XMLSlideShowV3'>
+    <!-- 
+	-= DATA TAG  =-
+	
+	ATTRIBUTES:
+	contentPath -> the visual content to be loaded inside each item (each slide), external or internal (image.jpg , myMcLinkageId)
+	itemEvents -> optional boolean value. (default:false) if true, the slide will act like a button, triggering events on the component
+	
+	URL METHOD ATTRIBUTES
+	url -> a url address to be followed when user clicks on the menu
+	target -> the url target
+	
+	FUNCTION ATTRIBUTES
+	function -> the function with brackets and params like in eg.: myFunc(param1,param2)
+	
+	USER-DEFINED ATTRIBUTES
+	any other attributes can be inserted here. you will have acces to them from the item itself with dot notation
+	
+	-= DATA TAG =-
+	-->
+    <data>
+	    <item itemEvents='true' contentPath='images/img_logos/1.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/2.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/3.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/4.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/5.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/6.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/7.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/8.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/9.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/10.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/11.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/12.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/13.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/14.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/15.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/16.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/17.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/18.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/19.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/20.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/21.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/22.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/23.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/24.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/25.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/26.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/27.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/28.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/29.jpg' />
+	    <item itemEvents='true' contentPath='images/img_logos/30.jpg' />
+
+    </data>
+   
+</component>

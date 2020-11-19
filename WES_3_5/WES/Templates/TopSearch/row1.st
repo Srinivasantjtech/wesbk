@@ -1,0 +1,1 @@
+﻿<div class="viewmoresmall"><strong>$TBT_ATTRIBUTE_TITLE$</strong></div><ul>$TBWDataList1:{$it.TBWDataListItem1$}$</ul>$if(TBT_DISPLAY_LINK)$<a href="PowerSearch.aspx?srctext=$TBT_SEARCH_TEXT$" style="color:#0099FF;text-decoration:none;font-size:9px">View All Results</a>$endif$

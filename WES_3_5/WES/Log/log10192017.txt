@@ -1,0 +1,89 @@
+Source        : mscorlib
+Method        : System.IConvertible.ToInt32
+Date        : 11:38:48 AM
+Time        : 10/19/2017
+Computer    : P3-sd2
+Error        : Object cannot be cast from DBNull to other types.
+Stack Trace    : at System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at UC_sitemap.Category_RenderHTML(String Package, String SkinRootPath) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\sitemap.ascx.cs:line 153
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : System.IConvertible.ToInt32
+Date        : 12:34:51 PM
+Time        : 10/19/2017
+Computer    : P3-sd2
+Error        : Object cannot be cast from DBNull to other types.
+Stack Trace    : at System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at UC_sitemap.Category_RenderHTML(String Package, String SkinRootPath) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\sitemap.ascx.cs:line 153
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : System.IConvertible.ToInt32
+Date        : 12:43:37 PM
+Time        : 10/19/2017
+Computer    : P3-sd2
+Error        : Object cannot be cast from DBNull to other types.
+Stack Trace    : at System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at UC_sitemap.Category_RenderHTML(String Package, String SkinRootPath) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\sitemap.ascx.cs:line 153
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetPaymentoption
+Date        : 12:55:35 PM
+Time        : 10/19/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetPaymentoption(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1500
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetPaymentoption
+Date        : 12:56:39 PM
+Time        : 10/19/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetPaymentoption(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1500
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetPaymentoption
+Date        : 12:57:52 PM
+Time        : 10/19/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetPaymentoption(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1500
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetPaymentoption
+Date        : 5:01:30 PM
+Time        : 10/19/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetPaymentoption(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1500
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetPaymentoption
+Date        : 5:11:08 PM
+Time        : 10/19/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetPaymentoption(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1500
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 5:15:37 PM
+Time        : 10/19/2017
+Computer    : P3-sd2
+Error        : Column 'USER_STATUS' does not belong to table UserStatus.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.CommonServices.UserServices.GetPaymentoption(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1505
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : get_Item
+Date        : 5:33:36 PM
+Time        : 10/19/2017
+Computer    : P3-sd2
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3618
+^^-------------------------------------------------------------------^^

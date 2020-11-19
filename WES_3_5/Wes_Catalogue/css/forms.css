@@ -1,0 +1,102 @@
+
+.register_bg { background: url("../images/register.png") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0); height: 165px; }
+.checkout_input { border-radius: 0; box-shadow: none; height: 40px; background: #fff !important; }
+.customer_login { padding-left: 100px; height: 46px; color: #fff; line-height: 46px; font-weight: bold; font-size: 16px; background: url(../images/cus_img.png) no-repeat #0069B3; margin-left:-5px;  }
+.cus_login { background: #FAFAFA; display:block; }
+.mar_auto { margin: auto; }
+.font_12 { font-size: 12px; }
+.check_box { margin-left: 10px !important }
+.reg_sub { padding-left: 66px; padding-right: 66px; }
+.login_height { height: 1522px;  margin-bottom: 25px;}
+.padding_top40 { padding-top: 40px; }
+.new_customer { padding-left: 100px; height: 46px; margin-left:-5px; color: #fff; line-height: 46px; font-weight: bold; font-size: 16px; background: url(../images/new_cus.png) no-repeat #73BF45; }
+.new_cus_bg { background: #F3F3F3; }
+.padding_left { padding-left: 10px; }
+.list_style_none { list-style: none; }
+.margin_right16 { margin-right: 16px; }
+.address li { line-height: 35px; }
+.account_bg { background: #FDFDFD; border: solid thin #e7e7e7; }
+.tabs-left a:hover { background: #0069B3 !important; }
+.tabs-left .active { background: none !important; }
+.border_left_none { border-left: none !important }
+.mar_Account_top { margin-top: 30px; }
+.border_top_none { border-top: none !important }
+.view_profile { background: url(../images/profile.png) no-repeat; height: 71px; width: 71px; margin: auto auto 15px; margin-bottom:15px; }
+.order_history { background: url(../images/order_history.png) no-repeat; height: 71px; width: 71px; margin: auto auto 15px; }
+.change_pass { background: url(../images/change_pass.png) no-repeat; height: 71px; width: 111px; margin: auto auto 15px; }
+.login_name { background: url(../images/login_name.png) no-repeat; height: 71px; width: 71px; margin: auto auto 15px; }
+.cate_des_height { height: 80px; }
+.gray_table { background: #F9F9F9 }
+.checkbox_text { padding-left: 10px; padding-top: 5px; }
+
+
+.col-lg-10.new_cus_bg { padding-right:0;}
+.col-md-10.new_cus_bg  { padding-right:0;}
+.signup_inner { margin:25px 0 10px 20px;}
+.signup_inner .form-group label:first-child { margin-right:15px; margin-bottom:9px;}
+.signup_inner .form-horizontal .radio, .signup_inner .form-horizontal .checkbox, .signup_inner .form-horizontal .radio-inline, .form-horizontal .checkbox-inline  { padding-top:0px; }
+.form-group div { display:block; margin-bottom:15px;}
+.form-group div.martop10 { margin-top:10px;}
+
+.signup_inner span.keepmelog input[type="checkbox"] { margin-top:-1px; }
+
+h4.regformhead { font-size:15px; font-weight:700; color:#1059a3; margin-bottom:20px; margin-top:30px;}
+
+.register-panel label, .signup_inner label { vertical-align:middle !important; margin-top:10px; font-size:13px; font-weight:700;}
+.signup_inner label { margin-top:0px;}
+.register-panel label.martop0 { margin-top:0px;}
+.register-panel p, .register-panel span {
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 10px;
+    vertical-align: middle !important;
+}
+.register-panel a.tandc { font-size: 13px; font-weight:700; color:#1059a3; text-decoration:none;}
+.register-panel label span { color:red; margin-left:3px;}
+
+
+.btn-primary-green {
+  color: #ffffff;
+  background-color: #3ab54a ;
+  border-color: #3ab54a ;
+}
+.btn-primary-green:hover,
+.btn-primary-green:focus,
+.btn-primary-green.focus,
+.btn-primary-green:active,
+.btn-primary-green.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #21922f;
+  border-color: #fff;
+}
+
+label { font-weight:normal;}
+
+.tabs .nav-tabs button#myaccount-btn {    background-color: #1059a3;
+    border-color: #2e6da4;
+    color: #ffffff; }
+	
+.tabs .nav-tabs button#myaccount-btn:hover {    background-color: #1059a3;
+    border-color: #2e6da4;
+    color: #ffffff; }
+
+
+
+
+
+@media (max-width: 1199px) {
+	
+.login_height {height: 1424px; margin-bottom: 25px; }
+}
+
+@media (max-width: 991px) {
+	
+.login_height { height:505px;}
+	
+}
+@media (max-width: 485px) {
+	
+.login_height { height:535px;}
+	
+}

@@ -1,0 +1,15 @@
+Source        : mscorlib
+Method        : AbortInternal
+Date        : 3:15:38 PM
+Time        : 11/1/2017
+Computer    : P3-sd2
+Error        : Thread was being aborted.
+Stack Trace    : at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at shipping.GetPaymentTerm(String userid) in f:\Catalogstudio\VS_2012\WES_2_5\WES\Shipping.aspx.cs:line 964
+   at shipping.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\Shipping.aspx.cs:line 333
+^^-------------------------------------------------------------------^^

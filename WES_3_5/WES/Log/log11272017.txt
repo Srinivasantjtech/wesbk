@@ -1,0 +1,537 @@
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 10:10:32 AM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 10:42:21 AM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64_Decode
+Date        : 10:48:55 AM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Invalid length for a Base-64 char array or string.
+Stack Trace    : at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 10:48:55 AM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 10:48:55 AM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 10:48:55 AM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 10:48:55 AM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Add
+Date        : 10:48:57 AM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses
+Stack Trace    : at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BillInfoSP.SendMail_AfterPaymentSP(Int32 OrderId, Int32 OrderStatus, Boolean isau) in f:\Catalogstudio\VS_2012\WES_2_5\WES\BillInfoSP.aspx.cs:line 614
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 12:05:36 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : get_Item
+Date        : 12:13:27 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at TradingBell.WebCat.CommonServices.OrderServices.SentSignalOrderNotification(String InvoiceNo) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\OrderServices.cs:line 2121
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64_Decode
+Date        : 12:14:08 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Invalid length for a Base-64 char array or string.
+Stack Trace    : at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 12:14:08 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 12:14:08 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 12:14:08 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 12:14:08 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Add
+Date        : 12:14:08 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses
+Stack Trace    : at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BillInfoSP.SendMail_AfterPaymentSP(Int32 OrderId, Int32 OrderStatus, Boolean isau) in f:\Catalogstudio\VS_2012\WES_2_5\WES\BillInfoSP.aspx.cs:line 614
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 12:32:29 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : get_Item
+Date        : 12:56:19 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at TradingBell.WebCat.CommonServices.OrderServices.SentSignalOrderNotification(String InvoiceNo) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\OrderServices.cs:line 2121
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:06:08 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:06:09 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:06:09 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:20:44 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:20:44 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:20:44 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 1:25:54 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 1:39:08 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 3:24:15 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 3:29:52 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : TransformFinalBlock
+Date        : 3:34:05 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Length of the data to decrypt is invalid.
+Stack Trace    : at System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 280
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 3:34:05 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 3:34:05 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 3:34:05 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 3:34:05 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 4:50:59 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s, NumberStyles style, IFormatProvider provider)
+   at System.Convert.ToInt32(String value, IFormatProvider provider)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : get_Item
+Date        : 4:52:56 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at TradingBell.WebCat.CommonServices.OrderServices.SentSignalOrderNotification(String InvoiceNo) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\OrderServices.cs:line 2121
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 4:55:25 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s, NumberStyles style, IFormatProvider provider)
+   at System.Convert.ToInt32(String value, IFormatProvider provider)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : TransformFinalBlock
+Date        : 4:57:21 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Length of the data to decrypt is invalid.
+Stack Trace    : at System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 280
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 4:57:21 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 4:57:21 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 4:57:21 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 4:57:21 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Add
+Date        : 4:57:25 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses
+Stack Trace    : at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BillInfoSP.SendMail_AfterPaymentSP(Int32 OrderId, Int32 OrderStatus, Boolean isau) in f:\Catalogstudio\VS_2012\WES_2_5\WES\BillInfoSP.aspx.cs:line 614
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 5:01:44 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s, NumberStyles style, IFormatProvider provider)
+   at System.Convert.ToInt32(String value, IFormatProvider provider)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Top_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3539
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : get_Item
+Date        : 5:03:54 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at TradingBell.WebCat.CommonServices.OrderServices.SentSignalOrderNotification(String InvoiceNo) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\OrderServices.cs:line 2121
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64_Decode
+Date        : 5:12:00 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Invalid length for a Base-64 char array or string.
+Stack Trace    : at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 5:12:00 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 5:12:00 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 5:12:00 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 5:12:00 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : get_Item
+Date        : 5:24:16 PM
+Time        : 11/27/2017
+Computer    : P3-sd2
+Error        : Cannot find table 0.
+Stack Trace    : at System.Data.DataTableCollection.get_Item(Int32 index)
+   at TradingBell.WebCat.TemplateRender.TBWTemplateEngine.ST_Bottom_Load() in f:\Catalogstudio\VS_2012\WES_2_5\TemplateRender\TBWTemplateEngine.cs:line 3628
+^^-------------------------------------------------------------------^^

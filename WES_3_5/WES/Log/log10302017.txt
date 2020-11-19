@@ -1,0 +1,212 @@
+Source        : System
+Method        : Add
+Date        : 12:20:55 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses
+Stack Trace    : at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in f:\Catalogstudio\VS_2012\WES_2_5\WES\Shipping.aspx.cs:line 2793
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Add
+Date        : 12:32:41 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses
+Stack Trace    : at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at WES.MakePaymentMail_WES.SendMail(Int32 OrderId, Int32 OrderStatus, Boolean isau) in f:\Catalogstudio\VS_2012\WES_2_5\WES\MakePaymentMail_WES.aspx.cs:line 349
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 12:34:34 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at payonline.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\payonline.aspx.cs:line 326
+   at payonline.BuildBillAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\payonline.aspx.cs:line 219
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 12:34:34 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at payonline.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\payonline.aspx.cs:line 326
+   at payonline.BuildShippAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\payonline.aspx.cs:line 284
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64_Decode
+Date        : 12:40:30 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : Invalid length for a Base-64 char array or string.
+Stack Trace    : at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 12:40:30 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 12:40:30 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 12:40:30 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 12:40:30 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Add
+Date        : 3:21:29 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses
+Stack Trace    : at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in f:\Catalogstudio\VS_2012\WES_2_5\WES\Shipping.aspx.cs:line 2793
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 3:35:02 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1378
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String ReturnOption, ReturnType ReturnType) in f:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\HelperDB.cs:line 1266
+   at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1050
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Add
+Date        : 3:57:03 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses
+Stack Trace    : at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in f:\Catalogstudio\VS_2012\WES_2_5\WES\Shipping.aspx.cs:line 2793
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : StringToNumber
+Date        : 3:59:59 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : Input string was not in a correct format.
+Stack Trace    : at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value, IFormatProvider provider)
+   at TradingBell.WebCat.CommonServices.HelperServices.CI(Object obj) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\HelperServices.cs:line 464
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Add
+Date        : 4:32:22 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses
+Stack Trace    : at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in f:\Catalogstudio\VS_2012\WES_2_5\WES\Shipping.aspx.cs:line 2793
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64_Decode
+Date        : 4:54:02 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : Invalid length for a Base-64 char array or string.
+Stack Trace    : at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 4:54:02 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 4:54:02 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 4:54:02 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 4:54:02 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Add
+Date        : 4:54:09 PM
+Time        : 10/30/2017
+Computer    : P3-sd2
+Error        : The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses
+Stack Trace    : at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BillInfoSP.SendMail_AfterPaymentSP(Int32 OrderId, Int32 OrderStatus, Boolean isau) in f:\Catalogstudio\VS_2012\WES_2_5\WES\BillInfoSP.aspx.cs:line 522
+^^-------------------------------------------------------------------^^

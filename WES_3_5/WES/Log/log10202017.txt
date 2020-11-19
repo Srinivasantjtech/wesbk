@@ -1,0 +1,368 @@
+Source        : WES
+Method        : WrapText
+Date        : 1:27:59 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildBillAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 161
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 1:28:00 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildShippAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 226
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:28:00 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:28:01 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:28:01 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 1:40:58 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildBillAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 161
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 1:40:58 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildShippAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 226
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:41:00 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:41:00 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:41:00 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 1:42:21 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildBillAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 161
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 1:42:21 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildShippAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 226
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:42:24 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:42:24 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:42:24 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 1:42:57 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildBillAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 161
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 1:42:57 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildShippAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 226
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:43:00 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:43:00 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 1:43:00 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 3:25:46 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildBillAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 161
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 3:25:46 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildShippAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 226
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 3:27:00 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildBillAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 161
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 3:27:00 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildShippAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 226
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 3:27:03 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 3:27:03 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 3:27:03 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 3:36:13 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildBillAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 161
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 3:36:13 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildShippAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 226
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 3:36:15 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 3:36:15 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 3:36:15 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 4:12:01 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildBillAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 161
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : WrapText
+Date        : 4:12:01 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UI_InvoiceOrder.WrapText(String BillAdd) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 269
+   at UI_InvoiceOrder.BuildShippAddress() in f:\Catalogstudio\VS_2012\WES_2_5\WES\UI\InvoiceOrder.ascx.cs:line 226
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 4:12:06 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 4:12:06 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : GetUserInfo
+Date        : 4:12:06 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.UserServices.GetUserInfo(Int32 UserID) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\UserServices.cs:line 1051
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64_Decode
+Date        : 6:53:08 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+Stack Trace    : at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 6:53:08 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 6:53:08 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 6:53:08 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^
+Source        : mscorlib
+Method        : FromBase64String
+Date        : 6:53:08 PM
+Time        : 10/20/2017
+Computer    : P3-sd2
+Error        : Value cannot be null.
+Parameter name: s
+Stack Trace    : at System.Convert.FromBase64String(String s)
+   at TradingBell.WebCat.Helpers.Security.Decrypt(String cipherString, Boolean useHashing, String deKey) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 253
+   at TradingBell.WebCat.Helpers.Security.StringDeCrypt(String DecryptStrValue, String key) in f:\Catalogstudio\VS_2012\WES_2_5\Helper\Security.cs:line 120
+^^-------------------------------------------------------------------^^

@@ -1,0 +1,79 @@
+Source        : WES
+Method        : Page_Load
+Date        : 1:03:42 PM
+Time        : 8/10/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 1:04:55 PM
+Time        : 8/10/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : pricetablebinding
+Date        : 1:06:47 PM
+Time        : 8/10/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.FamilyServices.pricetablebinding(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds, DataSet dsPriceTable) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\FamilyServices.cs:line 6159
+   at TradingBell.WebCat.CommonServices.FamilyServices.AssemblePriceTable(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\FamilyServices.cs:line 6041
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : pricetablebinding
+Date        : 1:06:47 PM
+Time        : 8/10/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.FamilyServices.pricetablebinding(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds, DataSet dsPriceTable) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\FamilyServices.cs:line 6159
+   at TradingBell.WebCat.CommonServices.FamilyServices.AssemblePriceTable(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\FamilyServices.cs:line 6041
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : pricetablebinding
+Date        : 1:06:47 PM
+Time        : 8/10/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.FamilyServices.pricetablebinding(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds, DataSet dsPriceTable) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\FamilyServices.cs:line 6159
+   at TradingBell.WebCat.CommonServices.FamilyServices.AssemblePriceTable(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\FamilyServices.cs:line 6041
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : pricetablebinding
+Date        : 1:06:47 PM
+Time        : 8/10/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.FamilyServices.pricetablebinding(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds, DataSet dsPriceTable) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\FamilyServices.cs:line 6159
+   at TradingBell.WebCat.CommonServices.FamilyServices.AssemblePriceTable(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\FamilyServices.cs:line 6041
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : pricetablebinding
+Date        : 1:06:47 PM
+Time        : 8/10/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.FamilyServices.pricetablebinding(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds, DataSet dsPriceTable) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\FamilyServices.cs:line 6159
+   at TradingBell.WebCat.CommonServices.FamilyServices.AssemblePriceTable(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\FamilyServices.cs:line 6041
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : pricetablebinding
+Date        : 1:06:47 PM
+Time        : 8/10/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.FamilyServices.pricetablebinding(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds, DataSet dsPriceTable) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\FamilyServices.cs:line 6159
+   at TradingBell.WebCat.CommonServices.FamilyServices.AssemblePriceTable(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\FamilyServices.cs:line 6041
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : pricetablebinding
+Date        : 1:06:47 PM
+Time        : 8/10/2017
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.FamilyServices.pricetablebinding(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds, DataSet dsPriceTable) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\FamilyServices.cs:line 6159
+   at TradingBell.WebCat.CommonServices.FamilyServices.AssemblePriceTable(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds) in f:\Catalogstudio\VS_2012\WES_2_5\CommonServices\FamilyServices.cs:line 6041
+^^-------------------------------------------------------------------^^

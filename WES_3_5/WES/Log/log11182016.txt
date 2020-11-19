@@ -1,0 +1,187 @@
+Source        : System.Data
+Method        : RegisterName
+Date        : 10:20:42 AM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : A DataTable named '8126' already belongs to this DataSet.
+Stack Trace    : at System.Data.DataTableCollection.RegisterName(String name, String tbNamespace)
+   at System.Data.DataTableCollection.BaseAdd(DataTable table)
+   at System.Data.DataTableCollection.Add(DataTable table)
+   at System.Data.DataTableCollection.Add(String name)
+   at UC_family.ConstructFamilyDatajson(String familyid, DataRow[] SourceFtb, DataSet tempDs, Int32 tableinx) in f:\Catalogstudio\VS_2012\WES_2_5\WES\UC\family.ascx.cs:line 113
+^^-------------------------------------------------------------------^^
+Source        : WebDev.WebHost40
+Method        : get_LocalIP
+Date        : 10:41:15 AM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object '/2d3d021f_9639_493c_b1c8_7d06bf7e45c1/zy2+_ek2k7fejljuz0ofjvgh_237.rem' has been disconnected or does not exist at the server.
+Stack Trace    : at Microsoft.VisualStudio.WebHost.Connection.get_LocalIP()
+   at Microsoft.VisualStudio.WebHost.Request.GetLocalAddress()
+   at Microsoft.VisualStudio.WebHost.Request.GetServerName()
+   at System.Web.HttpRequest.BuildUrl(Func`1 pathAccessor)
+   at System.Web.HttpRequest.get_Url()
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6493
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 11:32:51 AM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 11:33:09 AM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at product_list.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\product_list.aspx.cs:line 47
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 11:33:09 AM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproductfamily.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 111
+   at search_searchrsltproductfamily.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 97
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 12:03:25 PM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 12:03:48 PM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at product_list.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\product_list.aspx.cs:line 47
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 12:03:48 PM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproductfamily.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 111
+   at search_searchrsltproductfamily.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 97
+^^-------------------------------------------------------------------^^
+Source        : WebDev.WebHost40
+Method        : get_LocalIP
+Date        : 12:16:09 PM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object '/e91421ae_42ce_48de_896d_646e710ba4b3/1iog3d6bqu9+1dlatnwsioif_684.rem' has been disconnected or does not exist at the server.
+Stack Trace    : at Microsoft.VisualStudio.WebHost.Connection.get_LocalIP()
+   at Microsoft.VisualStudio.WebHost.Request.GetLocalAddress()
+   at Microsoft.VisualStudio.WebHost.Request.GetServerName()
+   at System.Web.HttpRequest.BuildUrl(Func`1 pathAccessor)
+   at System.Web.HttpRequest.get_Url()
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in f:\Catalogstudio\VS_2012\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6493
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 12:25:04 PM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 12:25:21 PM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 12:25:24 PM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 12:26:25 PM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at product_list.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\product_list.aspx.cs:line 47
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 12:26:25 PM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproductfamily.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 111
+   at search_searchrsltproductfamily.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 97
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 5:53:36 PM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 5:57:56 PM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 5:58:14 PM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at product_list.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\product_list.aspx.cs:line 47
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 5:58:14 PM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproductfamily.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 111
+   at search_searchrsltproductfamily.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 97
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 7:49:56 PM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 7:51:26 PM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at product_list.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\product_list.aspx.cs:line 47
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 7:51:27 PM
+Time        : 11/18/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproductfamily.GetStoreConfig() in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 111
+   at search_searchrsltproductfamily.Page_Load(Object sender, EventArgs e) in f:\Catalogstudio\VS_2012\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 97
+^^-------------------------------------------------------------------^^

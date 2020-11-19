@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Blank.master.cs" Inherits="Blank" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+</head>
+
+<body >
+
+<asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+   <form id="form1" runat="server"> 
+    <asp:ScriptManager ID="ScriptManager1" runat="server"  EnablePageMethods="true" >
+    </asp:ScriptManager>
+      
+    <asp:ContentPlaceHolder ID="header"  runat="server"   Visible="false"></asp:ContentPlaceHolder>
+     <asp:ContentPlaceHolder ID="leftnav" runat="server"  Visible="false"></asp:ContentPlaceHolder>
+     <asp:ContentPlaceHolder ID="maincontent" runat="server" Visible="true" ></asp:ContentPlaceHolder>
+     <asp:ContentPlaceHolder ID="rightnav" runat="server"  Visible="false"></asp:ContentPlaceHolder>
+     <asp:ContentPlaceHolder ID="footer" runat="server"  Visible="false"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

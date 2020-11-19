@@ -1,0 +1,1 @@
+<li><a href="/powersearch.aspx?srctext=$TBT_SEARCH_TEXT$">$TBT_SEARCH_TEXT_FORMAT$</a></li>

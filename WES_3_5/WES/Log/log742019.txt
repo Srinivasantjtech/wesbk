@@ -1,0 +1,81 @@
+Source        : WES
+Method        : btnContinueOrder_Click
+Date        : 12:40:10 PM
+Time        : 7/4/2019
+Computer    : P3-sd14
+Error        : Thread was being aborted.
+Stack Trace    : at homepageST.btnContinueOrder_Click(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\home.aspx.cs:line 173
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 1:13:36 PM
+Time        : 7/4/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 1:14:26 PM
+Time        : 7/4/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 1:20:58 PM
+Time        : 7/4/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in d:\Tradingbell\Production\WES_3_5\CatalogDB\HelperDB.cs:line 1380
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in d:\Tradingbell\Production\WES_3_5\CatalogDB\HelperDB.cs:line 1260
+   at TradingBell.WebCat.CommonServices.ProductServices.GetProductID_code(String ProductCode) in d:\Tradingbell\Production\WES_3_5\CommonServices\ProductServices.cs:line 376
+^^-------------------------------------------------------------------^^
+Source        : System.Web
+Method        : get_Response
+Date        : 1:20:59 PM
+Time        : 7/4/2019
+Computer    : P3-sd14
+Error        : Response is not available in this context.
+Stack Trace    : at System.Web.UI.Page.get_Response()
+   at OrderDetails.AddOrderItem(Int32 OrID, Int32 UsrID) in d:\Tradingbell\Production\WES_3_5\WES\OrderDetails.aspx.cs:line 1844
+^^-------------------------------------------------------------------^^
+Source        : System.Web
+Method        : get_Response
+Date        : 1:21:01 PM
+Time        : 7/4/2019
+Computer    : P3-sd14
+Error        : Response is not available in this context.
+Stack Trace    : at System.Web.UI.Page.get_Response()
+   at OrderDetails.AddOrderItem(Int32 OrID, Int32 UsrID) in d:\Tradingbell\Production\WES_3_5\WES\OrderDetails.aspx.cs:line 1844
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 1:25:00 PM
+Time        : 7/4/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in d:\Tradingbell\Production\WES_3_5\CatalogDB\HelperDB.cs:line 1380
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in d:\Tradingbell\Production\WES_3_5\CatalogDB\HelperDB.cs:line 1260
+   at TradingBell.WebCat.CommonServices.ProductServices.GetProductID_code(String ProductCode) in d:\Tradingbell\Production\WES_3_5\CommonServices\ProductServices.cs:line 376
+^^-------------------------------------------------------------------^^
+Source        : System.Web
+Method        : get_Response
+Date        : 1:26:13 PM
+Time        : 7/4/2019
+Computer    : P3-sd14
+Error        : Response is not available in this context.
+Stack Trace    : at System.Web.UI.Page.get_Response()
+   at OrderDetails.AddOrderItem(Int32 OrID, Int32 UsrID) in d:\Tradingbell\Production\WES_3_5\WES\OrderDetails.aspx.cs:line 1844
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 1:26:21 PM
+Time        : 7/4/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in d:\Tradingbell\Production\WES_3_5\CatalogDB\HelperDB.cs:line 1380
+   at TradingBell.WebCat.CatalogDB.HelperDB.GetGenericDataDB(String Param1, String ReturnOption, ReturnType ReturnType) in d:\Tradingbell\Production\WES_3_5\CatalogDB\HelperDB.cs:line 1260
+   at TradingBell.WebCat.CommonServices.ProductServices.GetProductID_code(String ProductCode) in d:\Tradingbell\Production\WES_3_5\CommonServices\ProductServices.cs:line 376
+^^-------------------------------------------------------------------^^

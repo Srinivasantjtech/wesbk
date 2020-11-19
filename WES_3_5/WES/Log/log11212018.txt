@@ -1,0 +1,76 @@
+Source        : WES
+Method        : Page_Load
+Date        : 12:12:55 PM
+Time        : 11/21/2018
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 12:13:12 PM
+Time        : 11/21/2018
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at product_list.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_2_5\WES\product_list.aspx.cs:line 47
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 12:13:12 PM
+Time        : 11/21/2018
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproductfamily.GetStoreConfig() in d:\Tradingbell\Production\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 111
+   at search_searchrsltproductfamily.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 97
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 12:13:20 PM
+Time        : 11/21/2018
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at product_list.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_2_5\WES\product_list.aspx.cs:line 47
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 12:13:20 PM
+Time        : 11/21/2018
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproductfamily.GetStoreConfig() in d:\Tradingbell\Production\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 111
+   at search_searchrsltproductfamily.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 97
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 12:13:29 PM
+Time        : 11/21/2018
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at product_list.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_2_5\WES\product_list.aspx.cs:line 47
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 12:13:29 PM
+Time        : 11/21/2018
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproductfamily.GetStoreConfig() in d:\Tradingbell\Production\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 111
+   at search_searchrsltproductfamily.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 97
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 12:13:51 PM
+Time        : 11/21/2018
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at product_list.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_2_5\WES\product_list.aspx.cs:line 47
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 12:13:51 PM
+Time        : 11/21/2018
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproductfamily.GetStoreConfig() in d:\Tradingbell\Production\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 111
+   at search_searchrsltproductfamily.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 97
+^^-------------------------------------------------------------------^^

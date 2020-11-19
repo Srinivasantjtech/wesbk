@@ -1,0 +1,95 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+
+
+<%-- Button Style --%>
+    <asp:Button SkinID="btnNormalSkin" runat ="server" Font-Names ="Arial Unicode MS, Arial" Font-Size ="10px" BackColor="White" BorderColor="Black" BorderStyle="Solid" BorderWidth="1"/>
+<%-- Button Style --%>
+
+<%-- Link Button Style--%>
+    <asp:LinkButton runat="server" SkinId="CompanylinkSkin" Font-Names ="Arial Unicode MS, Arial" Font-Size ="11px" ForeColor ="#6D6D6D" Font-Underline ="false"></asp:LinkButton>
+    <asp:LinkButton runat="server" SkinId="TopLevelSkin" Font-Names ="Arial Unicode MS, Arial" Font-Size ="9px" ForeColor ="#FFFFFF" Font-Underline ="false" ></asp:LinkButton>
+    <asp:LinkButton runat="server" SkinId="MainLinkSkin" Font-Names ="Arial Unicode MS, Arial" Font-Size ="11px" ForeColor ="#FFFFFF" Font-Underline ="false"></asp:LinkButton>
+    <asp:LinkButton runat="server" SkinId="CommonLinkSkin" Font-Names ="Arial Unicode MS, Arial" Font-Size ="11px" ForeColor ="#7D7D7D" Font-Underline ="false"></asp:LinkButton>
+    <asp:LinkButton runat="server" SkinId="SearchLinkSkin" Font-Names ="Arial Unicode MS, Arial" Font-Size ="11px" ForeColor ="#FFA800" Font-Underline ="false"></asp:LinkButton>
+
+<%-- Link Button Style--%>
+<%-- Hyperlink --%>
+    <asp:HyperLink SkinID ="CommonLinkSkin"  runat ="server" Font-Names ="Arial Unicode MS, Arial" Font-Size ="9px" ForeColor ="#6D6D6D" Font-Underline ="false"></asp:HyperLink>
+<%-- Hyperlink --%>
+
+<%-- Dropdown List --%>
+    <asp:DropDownList runat="server" SkinID="DropdownlistSkin" Font-Names ="Arial Unicode MS, Arial" Font-Size =11px ForeColor =#7D7D7D></asp:DropDownList>
+<%-- Dropdown List --%>
+
+<%-- Label Control --%>
+    <asp:Label SkinID="lblSearchSkin" runat="server"  Font-Size="11px" ForeColor="#FFA800" Font-Names ="Arial Unicode MS, Arial"></asp:Label>
+    <asp:Label SkinID="lblCompanySkin" runat="server"  Font-Size="20px" Font-Bold ="true" ForeColor="#FFFFFF" Font-Names ="Arial Unicode MS, Arial"></asp:Label>
+    <asp:Label SkinID="lblComPhoneSkin" runat="server"  Font-Size="10px" Font-Bold ="true" ForeColor ="#6D6D6D" Font-Names ="Arial Unicode MS, Arial"></asp:Label>
+    <asp:Label SkinID="CopyRightsSkin" Font-Names ="Arial Unicode MS, Arial" Font-Size ="9px" ForeColor ="#6D6D6D" Font-Underline ="false" runat="server" ></asp:Label>
+    <asp:Label SkinID="lblStaticSkin" runat="server"  Font-Size="12px" Font-Bold ="true" ForeColor="black" Font-Names ="Arial Unicode MS, Arial"></asp:Label>
+    <asp:Label SkinID="lblRequiredSkin" runat="server"  Font-Size="12px" Font-Bold ="true" ForeColor="red" Font-Names ="Arial Unicode MS, Arial"></asp:Label>
+    <asp:Label Class="lblNormalSkin" runat="server"  Font-Size="12px" Font-Bold ="false" ForeColor="black" Font-Names ="Arial Unicode MS, Arial"></asp:Label>
+    <asp:Label SkinID="lblWarningSkin" runat="server"  Font-Size="8px" Font-Bold ="true" ForeColor="red" Font-Names ="Arial Unicode MS, Arial"></asp:Label>
+    <asp:Label SkinID="lblBoldSkin" runat="server"  Font-Size="12px" Font-Bold ="true" ForeColor="#7D7D7D" Font-Names ="Arial Unicode MS, Arial"></asp:Label>
+    <asp:Label SkinID="lblBoldHeadSkin" runat="server"  Font-Size="12px" Font-Bold ="true" ForeColor="#FFFFFF" Font-Names ="Arial Unicode MS, Arial"></asp:Label>
+    <asp:Label SkinID="lblResultSkin" runat="server"  Font-Size="12px" Font-Bold ="true" ForeColor="green" Font-Names ="Arial Unicode MS, Arial"></asp:Label>
+    <asp:Label SkinID="lblErrorSkin" runat="server"  Font-Size="12px" Font-Bold ="true" ForeColor="red" Font-Names ="Helvetica, Tahoma, Arial"></asp:Label>
+    <asp:Label SkinID="lblCartSkin" runat="server"  Font-Size="13px" Font-Bold ="true" ForeColor="#003366" Font-Names ="Arial Unicode MS, Arial"></asp:Label>
+     <asp:Label SkinID="lblGraySkin" runat="server"  Font-Size="11px" Font-Bold ="false" ForeColor ="#6D6D6D" Font-Names ="Arial Unicode MS, Arial"></asp:Label>
+    <asp:Label SkinID="lblCartSkinHome" runat="server"  Font-Size="13px" Font-Bold ="true" ForeColor="white" Font-Names ="Arial Unicode MS, Arial"></asp:Label>
+
+<%-- Label Control --%>
+
+<%-- Validate Control --%>
+    <asp:RequiredFieldValidator SkinID="vldRequiredSkin" runat="server"  Font-Names ="Arial Unicode MS, Arial" Font-Size ="10px"></asp:RequiredFieldValidator>
+    <asp:CompareValidator SkinID ="vldCompareSkin" Font-Names ="Arial Unicode MS, Arial" Font-Size ="10px" runat="server" ></asp:CompareValidator>
+    <asp:RegularExpressionValidator SkinID="vldRegExSkin" runat="server" Font-Names ="Arial Unicode MS, Arial" Font-Size ="10px" ></asp:RegularExpressionValidator>
+    <asp:RangeValidator SkinID ="vldRangeSkin" runat="server" Font-Names ="Arial Unicode MS, Arial" Font-Size ="10px"></asp:RangeValidator>
+    <asp:CustomValidator SkinID ="vldCustomSkin" runat="server" Font-Names ="Arial Unicode MS, Arial" Font-Size ="10px" ></asp:CustomValidator>
+<%-- Validate Control --%>
+
+<%-- TextBox Control --%>
+    <asp:TextBox  autocomplete="off"  SkinID="textSkin" runat="server" Font-Names ="Tahoma, Arial, Verdana;" BackColor="White"></asp:TextBox>
+<%-- TextBox Control --%>
+
+<%--Radio Button --%>
+    <asp:RadioButton SkinID="RadioSkin" Font-Names ="Arial Unicode MS, Arial" Font-Size ="10px" runat ="server" />
+<%--Radio Button --%>
+
+<%--Check Box--%>
+    <asp:CheckBox SkinID="CheckBoxSkin" Font-Names ="Arial Unicode MS, Arial" Font-Size ="11px" runat ="server" BackColor="White"/>
+    <asp:CheckBox SkinID="CheckBoxSkin1" Font-Names ="Arial Unicode MS, Arial" Font-Size ="11px" runat ="server" BackColor="#F2F2F2"/>
+<%--Check Box--%>
+
+<%-- BuilletedList Control --%>
+    <asp:BulletedList SkinID="BulletedListSkin" runat="server" Font-Names ="Arial Unicode MS, Arial" Font-Size="11px" Font-Underline ="false" ></asp:BulletedList> 
+<%-- BuilletedList Control --%>
+
+
+<%-- Web Tree Control   --%>
+     <asp:TreeView SkinID="TrvSkin" Font-Bold="true" LeafNodeStyle-ImageUrl="~/images/bullet2.JPG" ExpandImageUrl="~/images/bullet1.JPG" CollapseImageUrl="~/images/bullet1.JPG" runat="server" ExpandDepth=1 NodeWrap="true" BorderWidth="0px" Font-Names ="Arial, Helvetica, sans-serif" Font-Size="12px" ForeColor="BLACK" ShowLines="TRUE">
+           <ParentNodeStyle  CssClass="ParentCategory" Font-Bold="true"  />
+                 <LeafNodeStyle CssClass="ChildCategory" Font-Bold="false" />    
+    </asp:TreeView>
+<%-- Web Tree Control   --%>
+
+
+
+
+    
+            

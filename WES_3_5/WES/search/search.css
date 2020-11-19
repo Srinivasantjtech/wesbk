@@ -1,0 +1,34 @@
+﻿.categoryheader {
+	font-family: tahoma;
+	font-size: small;
+	font-weight: bold;
+	color: #800000;
+}
+.category {
+	font-family: tahoma;
+	font-size: small;
+	font-weight: normal;
+}
+.producttable{
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right: 1px solid #C0C0C0;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom: 1px solid #C0C0C0;
+	background-color: #FFFFFF;
+}
+.producttableheader {
+	border-left: 1px solid #C0C0C0;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top: 1px solid #C0C0C0;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.productrowodd {
+	background-color: #99CCFF;
+}
+.productroweven {
+	background-color: #99CCFF;
+}

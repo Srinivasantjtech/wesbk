@@ -1,0 +1,7 @@
+F:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\bin\Release\TradingBell.WebCat.CatalogDB.dll
+F:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\bin\Release\TradingBell.WebCat.CatalogDB.pdb
+F:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\bin\Release\TradingBell.WebCat.Helper.dll
+F:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\bin\Release\TradingBell.WebCat.Helper.pdb
+F:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\obj\Release\CatalogDB.csprojResolveAssemblyReference.cache
+F:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\obj\Release\TradingBell.WebCat.CatalogDB.dll
+F:\Catalogstudio\VS_2012\WES_2_5\CatalogDB\obj\Release\TradingBell.WebCat.CatalogDB.pdb

@@ -1,0 +1,1 @@
+﻿<a href="Family.aspx?&amp;srctext=$TBW_SEARCH_TEXT$&amp;fid=$TBW_Family_ID$&amp;tsb=$TBW_LINK_REF1$&amp;type=$TBW_ATTRIBUTE_TYPE$&amp;Path=$EA_PATH$">$TBW_LINK_REF$</a>

@@ -1,0 +1,195 @@
+Source        : WES
+Method        : Page_Load
+Date        : 11:21:27 AM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Catalogstudio\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 11:34:31 AM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6086
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ST_Categories
+Date        : 11:34:31 AM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_maincategory.ST_Categories() in D:\Catalogstudio\WES_2_5\WES\UC\maincategory.ascx.cs:line 772
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Category_RenderHTML
+Date        : 11:34:31 AM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_categorylist.Category_RenderHTML(String Package, String SkinRootPath) in D:\Catalogstudio\WES_2_5\WES\UC\categorylist.ascx.cs:line 2180
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 11:36:23 AM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Catalogstudio\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : GetResponse
+Date        : 11:36:25 AM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Unable to connect to the remote server
+Stack Trace    : at System.Net.HttpWebRequest.GetResponse()
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.urlPostjson(String url) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 315
+   at TradingBell.WebCat.EasyAsk.Impl.RemoteEasyAsk.userBreadCrumbClick(String path) in D:\Catalogstudio\WES_2_5\EasyAsk\ASPClient\Impl\RemoteEasyAsk.cs:line 226
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.GetAttributeProductsJson(String DataPage, String SearchStr, String AttributeType, String AttributeValue, String Brand, String resultPerPage, String CurrentPageNo, String NextPage, String EA) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 6086
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : ST_Categories
+Date        : 11:36:25 AM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_maincategory.ST_Categories() in D:\Catalogstudio\WES_2_5\WES\UC\maincategory.ascx.cs:line 772
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Category_RenderHTML
+Date        : 11:36:25 AM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at UC_categorylist.Category_RenderHTML(String Package, String SkinRootPath) in D:\Catalogstudio\WES_2_5\WES\UC\categorylist.ascx.cs:line 2180
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:17:02 PM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in D:\Catalogstudio\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 3:18:10 PM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Column 'PROD_STK_STATUS_DSC' does not belong to table Table.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.Get_Family_Product_ValuesJson(String DataType, DataTable ds, INavigateResults res, IResultRow item1, String name, DataSet Dssdv) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 3444
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 3:38:00 PM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Column 'PROD_STK_STATUS_DSC' does not belong to table Table.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.Get_Family_Product_ValuesJson(String DataType, DataTable ds, INavigateResults res, IResultRow item1, String name, DataSet Dssdv) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 3444
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:38:13 PM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at product_list.Page_Load(Object sender, EventArgs e) in D:\Catalogstudio\WES_2_5\WES\product_list.aspx.cs:line 47
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 3:38:15 PM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproductfamily.GetStoreConfig() in D:\Catalogstudio\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 111
+   at search_searchrsltproductfamily.Page_Load(Object sender, EventArgs e) in D:\Catalogstudio\WES_2_5\WES\search\searchrsltproductfamily.ascx.cs:line 97
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 3:38:23 PM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Column 'PROD_STK_STATUS_DSC' does not belong to table Table.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.Get_Family_Product_ValuesJson(String DataType, DataTable ds, INavigateResults res, IResultRow item1, String name, DataSet Dssdv) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 3444
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 3:47:57 PM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Column 'PROD_STK_STATUS_DSC' does not belong to table Table.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.Get_Family_Product_ValuesJson(String DataType, DataTable ds, INavigateResults res, IResultRow item1, String name, DataSet Dssdv) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 3444
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 3:48:10 PM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Column 'PROD_STK_STATUS_DSC' does not belong to table Table.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.Get_Family_Product_ValuesJson(String DataType, DataTable ds, INavigateResults res, IResultRow item1, String name, DataSet Dssdv) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 3444
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 3:48:14 PM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Column 'PROD_STK_STATUS_DSC' does not belong to table Table.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.Get_Family_Product_ValuesJson(String DataType, DataTable ds, INavigateResults res, IResultRow item1, String name, DataSet Dssdv) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 3444
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 3:48:16 PM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Column 'PROD_STK_STATUS_DSC' does not belong to table Table.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.Get_Family_Product_ValuesJson(String DataType, DataTable ds, INavigateResults res, IResultRow item1, String name, DataSet Dssdv) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 3444
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 3:48:20 PM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Column 'PROD_STK_STATUS_DSC' does not belong to table Table.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.Get_Family_Product_ValuesJson(String DataType, DataTable ds, INavigateResults res, IResultRow item1, String name, DataSet Dssdv) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 3444
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 3:48:22 PM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Column 'PROD_STK_STATUS_DSC' does not belong to table Table.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.Get_Family_Product_ValuesJson(String DataType, DataTable ds, INavigateResults res, IResultRow item1, String name, DataSet Dssdv) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 3444
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : GetDataColumn
+Date        : 3:48:24 PM
+Time        : 6/6/2016
+Computer    : P3-sd2
+Error        : Column 'PROD_STK_STATUS_DSC' does not belong to table Table.
+Stack Trace    : at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at TradingBell.WebCat.EasyAsk.EasyAsk_WES.Get_Family_Product_ValuesJson(String DataType, DataTable ds, INavigateResults res, IResultRow item1, String name, DataSet Dssdv) in D:\Catalogstudio\WES_2_5\EasyAsk\EasyAsk_WES.cs:line 3444
+^^-------------------------------------------------------------------^^

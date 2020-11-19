@@ -1,0 +1,299 @@
+Source        : WES
+Method        : Page_Load
+Date        : 3:44:22 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at product_list.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\product_list.aspx.cs:line 47
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 3:44:23 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproductfamily.GetStoreConfig() in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproductfamily.ascx.cs:line 111
+   at search_searchrsltproductfamily.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproductfamily.ascx.cs:line 97
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:44:28 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 3:44:28 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:44:52 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : ParseSortString
+Date        : 3:44:54 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Cannot find column CATEGORY_NAME.
+Stack Trace    : at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression, String sort)
+   at UC_categorylist.Category_RenderHTML(String Package, String SkinRootPath) in d:\Tradingbell\Production\WES_3_5\WES\UC\categorylist.ascx.cs:line 2415
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:44:54 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 3:44:54 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:45:28 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : System.Data
+Method        : ParseSortString
+Date        : 3:45:42 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Cannot find column CATEGORY_NAME.
+Stack Trace    : at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression, String sort)
+   at UC_categorylist.Category_RenderHTML(String Package, String SkinRootPath) in d:\Tradingbell\Production\WES_3_5\WES\UC\categorylist.ascx.cs:line 2415
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:45:52 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at product_list.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\product_list.aspx.cs:line 47
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 3:45:52 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproductfamily.GetStoreConfig() in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproductfamily.ascx.cs:line 111
+   at search_searchrsltproductfamily.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproductfamily.ascx.cs:line 97
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:45:56 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 3:45:56 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:53:23 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 3:53:23 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : pricetablebinding
+Date        : 3:57:56 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.FamilyServices.pricetablebinding(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds, DataSet dsPriceTable) in d:\Tradingbell\Production\WES_3_5\CommonServices\FamilyServices.cs:line 6301
+   at TradingBell.WebCat.CommonServices.FamilyServices.AssemblePriceTable(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds) in d:\Tradingbell\Production\WES_3_5\CommonServices\FamilyServices.cs:line 6183
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : pricetablebinding
+Date        : 3:57:56 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.FamilyServices.pricetablebinding(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds, DataSet dsPriceTable) in d:\Tradingbell\Production\WES_3_5\CommonServices\FamilyServices.cs:line 6301
+   at TradingBell.WebCat.CommonServices.FamilyServices.AssemblePriceTable(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds) in d:\Tradingbell\Production\WES_3_5\CommonServices\FamilyServices.cs:line 6183
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : pricetablebinding
+Date        : 3:57:56 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.FamilyServices.pricetablebinding(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds, DataSet dsPriceTable) in d:\Tradingbell\Production\WES_3_5\CommonServices\FamilyServices.cs:line 6301
+   at TradingBell.WebCat.CommonServices.FamilyServices.AssemblePriceTable(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds) in d:\Tradingbell\Production\WES_3_5\CommonServices\FamilyServices.cs:line 6183
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CommonServices
+Method        : pricetablebinding
+Date        : 3:57:56 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CommonServices.FamilyServices.pricetablebinding(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds, DataSet dsPriceTable) in d:\Tradingbell\Production\WES_3_5\CommonServices\FamilyServices.cs:line 6301
+   at TradingBell.WebCat.CommonServices.FamilyServices.AssemblePriceTable(Int32 ProductID, Int32 _priceCode, String _ProCode, String _ProStkStatusdesc, String _Pro_stock_Status, String CustomerType, Int32 user_id, String _Pro_stock_Flag, String _Eta, DataSet Ds) in d:\Tradingbell\Production\WES_3_5\CommonServices\FamilyServices.cs:line 6183
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:57:57 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:58:04 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 3:58:36 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 3:58:37 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 4:01:04 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 4:01:35 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 4:02:58 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 4:06:19 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 4:06:32 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 4:07:24 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 4:09:15 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 4:09:38 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 4:09:38 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 4:15:22 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at PowerSearchPage.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\PowerSearch.aspx.cs:line 61
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : GetStoreConfig
+Date        : 4:15:24 PM
+Time        : 6/27/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at search_searchrsltproducts.GetStoreConfig() in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 118
+   at search_searchrsltproducts.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_3_5\WES\search\searchrsltproducts.ascx.cs:line 104
+^^-------------------------------------------------------------------^^

@@ -1,0 +1,23 @@
+Source        : System.Data
+Method        : ValidateCommand
+Date        : 5:04:33 PM
+Time        : 10/29/2020
+Computer    : P3-sd14
+Error        : ExecuteReader requires an open and available Connection. The connection's current state is closed.
+Stack Trace    : at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at TradingBell.WebCat.CatalogDB.CategoryDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Tradingbell\Development\VS_2017\WES_3_5\CatalogDB\CategoryDB.cs:line 205
+^^-------------------------------------------------------------------^^
+Source        : TradingBell.WebCat.CatalogDB
+Method        : GetGenericDataDB
+Date        : 5:04:34 PM
+Time        : 10/29/2020
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at TradingBell.WebCat.CatalogDB.CategoryDB.GetGenericDataDB(String Catalog_ID, String Param1, String Param2, String Param3, String Param4, String ReturnOption, ReturnType ReturnType) in D:\Tradingbell\Development\VS_2017\WES_3_5\CatalogDB\CategoryDB.cs:line 259
+   at TradingBell.WebCat.CatalogDB.CategoryDB.GetGenericDataDB(String Catalog_ID, String Param1, String ReturnOption, ReturnType ReturnType) in D:\Tradingbell\Development\VS_2017\WES_3_5\CatalogDB\CategoryDB.cs:line 175
+   at TradingBell.WebCat.CommonServices.CategoryServices.GetSubCategories(Int32 CatalogID) in D:\Tradingbell\Development\VS_2017\WES_3_5\CommonServices\CategoryServices.cs:line 687
+^^-------------------------------------------------------------------^^

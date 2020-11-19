@@ -1,0 +1,677 @@
+<td>
+  <div class="product_top" onmouseover="buttonmouseout()">
+    <div class="family_img" id="lboximgpopup">
+      <div  id="product-image"  style="width:260px; height:260px; float:left;">
+        <a href="/prodimages$TBT_TFWEB_LIMAGE$">
+          
+          <img style="display: block;max-height:256px;max-width:256px;" alt="" data-original="prodimages$TBT_TWEB_IMAGE1$" class="lazy" id="popupmaindel"/>
+        </a>
+      </div>
+
+      <div class="gallery-thumbnails"  style="float:left;" onmouseover="buttonmouseout()">
+        <div id="gallery">
+          <ul>
+            $TBT_MULTIIMAGES:{
+            <li width="50" height="50">
+              <a href="prodimages$it.LargeImage$">
+               
+                <img data-original="prodimages$it.Thumpnail$" alt="" style="max-width:50px;max-height:50px" class="lazy"/>
+              </a>
+            </li>}$
+          </ul>
+        </div>
+      </div>  
+
+    </div>
+    <div class="item_txt" onmouseover="buttonmouseout()">
+      <h1 class="pad10" style=" color: #666666;font-size: 16px;text-align:left;" id="familyName">$TBT_FAMILY_NAME$ </h1>
+      <p align="left">
+        $TBT_SHORT_DESCRIPTION$
+      </p>
+      <div id="div1" style="color: #222222;font-size: 11px;line-height: 14px;margin: 5px 0 0 0px;overflow:hidden;text-align:left;min-height:160px;">
+        $if(TBT_PROD_DESC_SHOW)$
+        <p>$TBT_DESCRIPTION$</p>
+        $endif$
+        <p>
+          $TBT_MORE$
+        </p>
+      </div>
+      <div id="div2" style="display:none;color: #222222;font-size: 11px;line-height: 14px;margin: 5px 0 0 0px;overflow:hidden;text-align:left;min-height:160px;">
+        <p>
+          $TBT_DESCALL$
+        </p>
+      </div>
+      $if(TBT_MORE_SHOW)$
+      <div id="preview" >
+        <div id="smo" class="show_hide12" style="">
+          <a class="redmoew"  >Read More! Show Full Description</a>
+          <br/>
+        </div>
+        <div id="lmo" class="show_hide12" style="">
+          <a class="redmoewless">Show Less Description</a>
+          <br/>
+        </div>
+      </div>
+
+      $endif$
+      <!--<a href="family.aspx?fid=$TBT_PARENT_FAMILY_ID$&amp;cid=$TBT_CATEGORY_ID$&amp;Path=$TBT_EA_PATH$" class="btnfamily" style="display:$TBT_DISPLAY_TIP$;margin:69px 10px 0px 1px;">
+        View All $TBT_FAMILY_PROD_COUNT$ Products in this family
+      </a>-->
+    </div>
+
+    <div class="item_txt1" onmouseover="buttonmouseout()">
+      <div class="box5"> 
+        <div style="width:110px; margin:auto">
+          $if(TBT_ECOMENABLED)$
+          $if(TBT_STOCK_STATUS_2)$
+          <input name="txt$TBT_PRODUCT_ID$_$TBT_QTY_AVAIL$_$TBT_MIN_ORD_QTY$_$TBT_FAMILY_ID$" value="1" onkeyup="callproductqtykeypress(event)" style="height: 21px; margin:7px 0; width: 40px; float:left;background-color:white;border: 1px solid #86B7CD;text-align: center;" size="5" maxlength="6" type="text" onkeydown="return keyct(event)" id="txt$TBT_PRODUCT_ID$_$TBT_QTY_AVAIL$_$TBT_MIN_ORD_QTY$_$TBT_FAMILY_ID$" />
+          <a class="btnbuy2 button smallsiz btngreen costable" onClick="productbuy('txt$TBT_PRODUCT_ID$_$TBT_QTY_AVAIL$_$TBT_MIN_ORD_QTY$_$TBT_FAMILY_ID$','$TBT_PRODUCT_ID$');">Buy</a>
+          $endif$
+          $endif$
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div style="border-top:none;" class="box5">
+        <table style="margin:0" class="table table-striped  table-bordered table-condensed">
+          <tbody>
+            <!--<tr class="success">
+              <td width="28%">ORDER CODE</td>
+              <td colspan="2">STOCK STATUS</td>
+            </tr>-->
+            $if(TBT_REPLACED)$
+                <!--$TBT_REPLACED_DETAIL$-->
+            $if(TBT_NIL_REPLACED)$
+            <tr class="success">
+            <td width="28%">ORDER CODE</td>
+            <td colspan="2">STOCK STATUS</td>
+          </tr>
+            <tr>
+              <td>
+                $TBT_REP_NIL_CODE$
+              </td>
+              <td style="color:red;">$TBT_REP_STATUS$</td>
+            </tr>
+            $else$
+            <tr>
+              <td colspan="2">
+                <div class="subproduct_head">
+                  <img width="28" height="28" src="/images/subproduct_icon.jpg"/>
+                  <h4>
+                    SUBSTITUTED
+                    PRODUCT ITEM
+                  </h4>
+                </div>
+                <div class="subproduct_details">
+                  <p>
+                    <span>NOTICE!</span>This product is currently unavailable and has been replaced with the product below:
+                  </p>
+                  <span>
+                    <a href="$TBT_REP_EA_PATH$" style="font-size:15px;color:#dc133d;">$TBT_REP_NIL_CODE$</a>
+                  </span>
+                  <a href="$TBT_REP_EA_PATH$">View Substitute Product</a>
+                </div>
+              </td>
+            </tr>
+            $endif$
+            $else$
+            <tr class="success">
+              <td width="28%">ORDER CODE</td>
+              <td colspan="2">STOCK STATUS</td>
+            </tr>
+            <tr>
+              <td>
+                <span id="productcode">$TBT_CODE$</span>
+              </td>
+              <td colspan="2">
+                $TBT_STOCK_STATUS$
+                $TBT_STOCK_STATUS_3$
+                $TBT_STOCK_STATUS_1$
+              </td>
+            </tr>
+            $TBT_STOCK_STATUS_ETA$
+            <tr class="success">
+              <td>QTY</td>
+              <td width="38%">Cost INC GST</td>
+              <td width="34%">Cost EX GST</td>
+            </tr>
+            <tr>
+
+              $TBT_PRICE_TABLE$
+            </tr>
+            $endif$
+          </tbody>
+        </table>
+      </div>
+   
+    </div>
+    
+    <div class="clear"></div>
+
+  </div>
+  <div class="clear"></div>
+  <lable id="lblmessage" runnat="server" style="display:none"></lable>
+
+  <div style="visibility:visible">
+    <table boder="1px" width="761px"  align="right" style="border-color:grey">
+      <tr>
+        <td>
+          <div class="costable">
+
+            <div class="pricepopup">
+              <div class="popupouterdiv3" id="divprintpop">
+                <div class="popupaero15_1"></div>
+                <table>
+                  <tr>
+                    <td>
+                      <div class="row-mid">
+                        <div class="poptitle">
+                          <span class="titleimg-pop">
+                            <img src="/images/print.png" />
+                          </span>
+                          <span class="title-pop">Print Product Details Page Options</span>
+                        </div>
+                      </div>
+                      <div class="row-mid">
+                        <p>Available options when creating Page</p>
+                      </div>
+                      <div class="row-mid">
+                        <div class="opochoice">
+                          <table align="center">
+                            <tr>
+                              <td>
+                                <input type="checkbox" id="chkpriceprint" runat="server"  value="false" />
+                              </td>
+                              <td align="left">
+
+                                <label>Show price</label>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <input type="checkbox" runat="server" id="chkDetailprint"  value="false" />
+
+                              </td>
+                              <td>
+                                <label>Display WES Detail</label>
+                              </td>
+                            </tr>
+                          </table>
+
+
+
+
+                        </div>
+                      </div>
+
+                      <div class="row-center">
+                        <table align="center">
+                          <tr>
+                            <td>
+                              <!--<a class="btnbuy2 button psmallsiz btngreen" href="#"  onclick="webmethodprint_test();" >Submit</a>-->
+                              <!--<input class="btnbuy2 button psmallsiz btngreen" type="button" value="Submit" id="btnPrint"  height="50px"  style="border:none;"/>-->
+                              <a class="btnbuy2 button psmallsiz btngreen" href="#"   id="btnPrint"  >Submit</a>
+                            </td>
+                          </tr>
+                        </table >
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!--<a id="print" class="aprint costable" href="#" onmouseover="showpopup_print();" style="visibility:hidden;"></a>-->
+          <div class="costable">
+
+            <div class="pricepopup">
+              <div class="popupouterdiv4" id="divpdfpop">
+                <div class="popupaero15_2"></div>
+                <table>
+                  <tr>
+                    <td>
+                      <div class="row-mid">
+                        <div class="poptitle">
+                          <span class="titleimg-pop">
+                            <img src="/images/pdf.png" />
+                          </span>
+                          <span class="title-pop">PDF Product Details Page Options</span>
+                        </div>
+                      </div>
+                      <div class="row-mid">
+                        <p>Available options when creating Page</p>
+                      </div>
+                      <div class="row-mid">
+                        <div class="opochoice">
+                          <table align="center">
+                            <tr>
+                              <td>
+                                <input type="checkbox" runat="server" id="chkpricepdf" value="false"/>
+                              </td>
+                              <td align="left">
+                                <label>Show price</label>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <input type="checkbox" runat="server" id="chkDetailpdf"   value="false"/>
+                              </td>
+                              <td>
+                                <label>Display WES Detail</label>
+                              </td>
+                            </tr>
+                          </table>
+
+
+
+
+                        </div>
+                      </div>
+                      <div class="row-center">
+                        <table align="center">
+                          <tr>
+                            <td>
+                              <a class="btnbuy2 button psmallsiz btngreen"  href="#"   onClick="javascript:webmethodpdf();" >Submit</a>
+                              <!--<a class="btnbuy2 button psmallsiz btngreen" href="#" onclick="webmethodclose('divpdfpop');" >Close</a>-->
+                            </td>
+                          </tr>
+                        </table >
+
+
+                        <!--<input type="button" class="submit-btn-pop" value="Submit" id="btnpdf" runat="server" onserverclick="btnpdf_Click"  />-->
+                      </div>
+
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+         
+          <div class="costable">
+            <div class="pricepopup">
+              <div class="popupouterdiv5" id="divemailpop">
+                <div class="popupaero15_3"></div>
+                <table>
+                  <tr>
+                    <td>
+                      <div class="row-mid">
+                        <div class="poptitle">
+                          <span class="titleimg-pop">
+                            <img src="/images/email.png" />
+                          </span>
+                          <span class="title-pop">Email Product Details Page Options</span>
+
+                        </div>
+                      </div>
+                      <div class="row-mid">
+                        <table align="center">
+                          <tr>
+                            <td style="width:20px;height:60px">
+
+                              <label>Send to Email Address</label>
+                              <textarea runat="server" id="txtemail" name="txtemail" value="" autofocus="true" rows="1" cols="50" style="width:200px;height:20px"></textarea>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="width:20px;height:70px">
+                              <label>Notes</label>
+                              <textarea runat="server" id="txtnotes" name="txtnotes" value="" autofocus="true" rows="1" cols="50" style="width:200px;height:40px"></textarea>
+
+                            </td>
+                          </tr>
+
+                        </table>
+                      </div>
+                      <div class="row-mid">
+                        <p>Available options when creating Page</p>
+                      </div>
+                      <div class="row-mid">
+                        <div class="opochoice">
+                          <table align="center">
+                            <tr>
+                              <td>
+                                <input type="checkbox"  runat="server" id="chkPriceemail"  value="false"/>
+                              </td>
+                              <td align="left">
+                                <label>Show price</label>
+
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <input type="checkbox" runat="server" id="chkDetialsemail"  value="false" />
+
+                              </td>
+                              <td>
+                                <label>Display WES Detail</label>
+                              </td>
+                            </tr>
+                          </table>
+
+
+
+
+                        </div>
+                      </div>
+
+                      <div class="row-center">
+                        <table align="center">
+                          <tr>
+                            <td>
+                              <a class="btnbuy2 button psmallsiz btngreen" href="#" onclick="webmethodemail();">Send</a>
+                              <!--<a class="btnbuy2 button psmallsiz btngreen" href="#" onclick="webmethodclose('divemailpop');">Close</a>-->
+                            </td>
+                          </tr>
+                        </table>
+                        <!--<input type="button" class="submit-btn-pop" value="Submit" runat="server" id="btnemail" onclick ="btnemail_Click" />-->
+                      </div>
+                      <Label ID="lblmessage" runat ="server" Text="">
+                      </Label>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="button-group" id="btngrop" >
+            <a id="avrp" href="family.aspx?fid=$TBT_PARENT_FAMILY_ID$&amp;cid=$TBT_CATEGORY_ID$&amp;Path=$TBT_EA_PATH$" onmouseover="buttonmouseout();" class="seeall-pro-btn" style="display:$TBT_DISPLAY_TIP$;">
+              See all $TBT_FAMILY_PROD_COUNT$ Products in this Group <br/>
+             </a>
+            <a id="apdf" onmouseover="showpopup_pdf();" class="printpdf-btn">
+              Print PDF Product Page<br/>
+            </a>
+            <div class="clearfix"></div>
+            <a href="$TBT_VPCHREF$" class="all-ctgry-btn" onmouseover="buttonmouseout();">
+              View all Products from Category $TBT_CAT_NAME_VPC$ <br/>
+            </a>
+            <!--<a  class="vrelated-btn">
+              See All $TBT_FAMILY_PROD_COUNT$ products in the Group
+            </a>
+            <a class="print-btn">
+              Print PDF Product Page
+            </a>
+            <a class="vproduct-btn" href="#">
+              View All Products from Category $TBT_CAT_NAME_VPC$
+            </a>-->
+          </div>
+          <!--<a class="aemail" href="#" onmouseover="showpopup_email(); " style="visibility:hidden;"> </a>-->
+          <!--<div style="float:right;margin-right:2px;">
+          <a class="apdf" href="#" onmouseover="showpopup_pdf();" style="visibility:visible;"> </a>
+          <a href="$TBT_VPCHREF$" class="avpc" style="visibility:visible;" onmouseover="buttonmouseout();"> </a>
+          <a id="avrp" href="family.aspx?fid=$TBT_PARENT_FAMILY_ID$&amp;cid=$TBT_CATEGORY_ID$&amp;Path=$TBT_EA_PATH$" onmouseover="buttonmouseout();" class="vrp" style="display:$TBT_DISPLAY_TIP$;"></a>
+          </div>-->
+        </td>
+
+
+      </tr>
+
+    </table>
+
+
+  </div>
+  <div style="height: 6px;" class="clear"></div>
+  <div class="tabbable" onmouseover="buttonmouseout_clear()">
+    <ul class="tabs">
+      <li>
+        <a href="#tab1">Product Specs</a>
+      </li>
+      <li>
+        <a href="#tab3">Ask a Question</a>
+      </li>
+      <li>
+        <a href="#tab4">Bulk Buy / Project Pricing</a>
+      </li>
+      $if(TBT_DOWNLOAD)$
+      <li>
+        <a href="#tab2">Downloads</a>
+      </li>
+      $endif$
+     
+      
+    </ul>
+    <div class="clear"></div>
+
+  </div >
+  <div class="tab-content" onmouseover="buttonmouseout()">
+    <div id="tab1" class="tab_content" style="padding: 10px;">
+      <table class="table table-bordered" width="100%">
+        <colgroup>
+          <col style="background-color:#C8E6FF;"/>
+        </colgroup>
+        <tbody>
+          $TBT_PRODDETAILS:{
+          <tr>
+            <td width="26%">$it.AttributeName$</td>
+            <td width="74%">$it.SpecValue$</td>
+          </tr>
+          }$
+        </tbody>
+      </table>
+    </div>  
+    <div id="tab3" class="tab_content" >
+      <div id="divaskquestion" style="display:block;">
+        <table >
+          <tr>
+            <td valign="top" width="275px;" height="270px">
+              <div class="cl"></div>
+
+              <div class="form-col-2-81">
+                <span style=" color: #7f7f7f;font-size: 12px;font-weight: bold;" >Full Name*</span>
+
+                <input type="text" id="txtFullname"  class="cardinputAQ" style="width:248px;"   maxlength="30"  onblur="Controlvalidate('fn')" />
+
+              </div>
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span class="error-text" id="Errfullname" style="display:none;color: Red;"> Enter Full Name </span>
+
+              </div>
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span style=" color: #7f7f7f;font-size: 12px;font-weight: bold;" >Email*</span>
+
+
+                <input type="text" id="txtEmailAdd"  class="cardinputAQ" style="width:248px;"   maxlength="50"  onblur="Controlvalidate('ea')" />
+              </div>
+              <div class="form-col-2-81">
+                <span class="error-text" id="erremailadd" style="display:none;color: Red;"> Enter Email Address </span>
+                <span class="error-text" id="errvalidmail" style="display:none;color: Red;">Enter Valid Email </span>
+
+              </div>
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span style=" color: #7f7f7f;font-size: 12px;font-weight: bold;" >Phone*</span>
+
+                <input type="text" id="txtPhone"  class="cardinputAQ" style="width:248px;"   maxlength="30"  onblur="Controlvalidate('p');" onkeypress="return validateNumber(event);"  />
+              </div>
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span class="error-text" id="Errphone" style="display:none;color: Red;">Enter Phone Number </span>
+
+              </div>
+              <div class="cl"></div>
+              <div >
+                <a onclick="MailSend()" Class="Familysumit" style="width:87px;height:27px; ">Submit</a>
+
+                <a onclick="MailReset()" Class="Familysumit" style="width:68px;height:27px; ">Reset</a>
+
+              </div>
+            </td>
+            <td valign="top">
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span style=" color: #7f7f7f;font-size: 12px;font-weight: bold;" >Question*</span>
+
+
+
+                <textarea id="txtQuestionx" cols="34"   class="textarea2"   rows="10" maxlength="600"
+                                                      onblur="Controlvalidate('q')" onkeypress="textCounter(this,this.form.counter,600);"  ></textarea>
+                <input class="cardinputAQ" type="text" onblur="textCounter(this.form.counter,this,600);" value="600" size="3" readonly="readonly" maxlength="3" name="counter" style="width:35px; color:#B2B2B2;height:10px;"/>
+                  <span style=" color: #7f7f7f;">Chars Remaining </span>
+              </div>
+              <div class="form-col-2-81">
+                <span class="error-text" id="errquestion" style="display:none;color: Red;">Enter The Question </span>
+
+
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="divAskQuestionSubmit" style="text-align:center;display:none; height: 160px; padding-bottom: 135px;padding-top: 33px;" >
+        <div style="background-color: #e6f7ee;border: thin solid #85d6ad;border-radius: 6px;color: #339966;font-size: 12px;font-weight: bold;padding: 14px;width: 558px;">
+          <img src="/images/tick2.png"  style="margin-left: -58px;margin-right: 10px;vertical-align: middle;" />
+          <span>
+            Thanks for your enquiry. Our Customer Sales Team will be in contact with you Shortly.</span>
+          </div>
+
+      </div>
+    </div>
+    <div id="tab4" class="tab_content" style="text-align: left;margin-left: 6px;">
+      <br/>
+      <br/>
+      <br/>
+      <span style=" color: #7f7f7f;font-size: 12px;font-weight: bold;" >Contact us for Bulk Buy and Project Based Pricing</span>
+      <br/>
+      <br/>
+      <div id="BulkBuyPP" style="display:block;">
+        <table>
+          <tr>
+            <td valign="top" width="275px">
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span style=" color: #7f7f7f;font-size: 12px;font-weight: bold;" >Product Code</span>
+
+                <input type="text" id="txtproductcode"  class="cardinputAQ" style="width:248px;"  readonly="true" value="$TBT_CODE$"  maxlength="30"   />
+               
+              </div>
+            </td>
+            <td width="30px">
+
+            </td>
+            <td>
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span style=" color: #7f7f7f;font-size: 12px;font-weight: bold;" >Full Name*</span>
+
+                <input type="text" id="txtFullname_BBPP"  class="cardinputAQ" style="width:248px;"   maxlength="30"  onblur="Controlvalidate_BulkBuyPP('fullname')" />
+              </div>
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span class="error-text" id="Errfullname_BBPP" style="display:none;color: Red;"> Enter Full Name </span>
+
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" width="275px">
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span style=" color: #7f7f7f;font-size: 12px;font-weight: bold;" >QTY Required *</span>
+
+                <input type="text" id="txtQTY"  class="cardinputAQ" style="width:248px;"   maxlength="30"  onblur="Controlvalidate_BulkBuyPP('qty')"   onkeypress="return validateNumber(event);"/>
+              </div>
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span class="error-text" id="ErrQTY" style="display:none;color: Red;"> Enter QTY </span>
+
+              </div>
+            </td>
+            <td width="30px">
+
+            </td>
+            <td>
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span style=" color: #7f7f7f;font-size: 12px;font-weight: bold;" >Email*</span>
+                <input type="text" id="txtEmail"  class="cardinputAQ" style="width:248px;"   maxlength="50"  onblur="Controlvalidate_BulkBuyPP('email')" />
+              </div>
+              <div class="form-col-2-81">
+                <span class="error-text" id="erremailadd_BBPP" style="display:none;color: Red;"> Enter Email Address </span>
+                <span class="error-text" id="errvalidmail_BBPP" style="display:none;color: Red;">Enter Valid Email </span>
+
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" width="275px">
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span style=" color: #7f7f7f;font-size: 12px;font-weight: bold;" >Delivery Time *</span>
+
+                <input type="text" id="txtdeliverytime"  class="cardinputAQ" style="width:248px;"   maxlength="30"  onblur="Controlvalidate_BulkBuyPP('deltime')" />
+              </div>
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span class="error-text" id="Errdeliverytime" style="display:none;color: Red;">Enter Delivery Time </span>
+              </div>
+            </td>
+            <td width="30px">
+
+            </td>
+            <td>
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span style=" color: #7f7f7f;font-size: 12px;font-weight: bold;" >Phone*</span>
+
+                <input type="text" id="txtPhone_BBPP"  class="cardinputAQ" style="width:248px;height:12px;"   maxlength="30"  onblur="Controlvalidate_BulkBuyPP('phone');" onkeypress="return validateNumber(event);"  />
+              </div>
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span class="error-text" id="Errphone_BBPP" style="display:none;color: Red;">Enter Phone Number </span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" width="275px" colspan="3">
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span style=" color: #7f7f7f;font-size: 12px;font-weight: bold;" >Target Price</span>
+
+                <input type="text" id="txttargetprice"  class="cardinputAQ" style="width:248px;"   maxlength="30"  onblur="Controlvalidate_BulkBuyPP('fullname')"  />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" width="275px" colspan="3">
+              <div class="cl"></div>
+              <div class="form-col-2-81">
+                <span style=" color: #7f7f7f;font-size: 12px;font-weight: bold;" >Notes / Addtional Info.</span>
+
+                <textarea id="txtnotesadditionalinfo" cols="34"   class="textarea2"   rows="10" maxlength="600" style="box-shadow: 0 0 0px #CCCCCC; border:1px solid #b2b2b2;height:100px;width:435px;"
+                                                    onblur="Controlvalidate_BulkBuyPP('notes')" onkeypress="textCounter_BulkBuyPP(this,this.form.counter_BBPP,600);" ></textarea>
+                <input class="cardinputAQ" type="text" onblur="textCounter_BulkBuyPP(this.form.counter_BBPP,this,600);" value="600" size="3" readonly="readonly" maxlength="3" name="counter_BBPP" style="width:35px; color:#B2B2B2;height:12px;" />
+                <span style=" color: #7f7f7f;font-size: 11px;font-weight: bold;">Chars Remaining </span>
+              </div>
+              <div class="form-col-2-81">
+                <span class="error-text" id="errnotes" style="display:none;color: Red;">Enter The Notes / Addtional Info.</span>
+
+
+              </div>
+              <div class="cl"></div>
+             
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" width="275px" colspan="3">
+              <a onclick="MailSend_BulkBuyPP()" Class="Familysumit" style="width:87px;height:27px; ">Submit</a>
+
+              <a onclick="MailReset_BulkBuyPP()" Class="Familysumit" style="width:68px;height:27px; ">Reset</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="BulkBuyPPSubmit" style="text-align:center;display:none; height: 160px; padding-bottom: 135px;padding-top: 33px;" >
+        <div style="background-color: #e6f7ee;border: thin solid #85d6ad;border-radius: 6px;color: #339966;font-size: 12px;font-weight: bold;padding: 14px;width: 663px;">
+          <img src="/images/tick2.png"  style="margin-left: -20px;margin-right: 10px;vertical-align: middle;" />
+          <span  >
+            Thanks for your Bulk Buy enquiry. Our Customer Sales Team will be in contact with you Shortly.
+          </span>
+        </div>
+
+      </div>
+
+    </div>
+    $TBT_DOWNLOAD_DATA$
+  </div>
+</td>

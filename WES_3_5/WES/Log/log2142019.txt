@@ -1,0 +1,67 @@
+Source        : WES
+Method        : SendMail
+Date        : 11:36:56 AM
+Time        : 2/14/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in d:\Tradingbell\Production\WES_2_5\WES\Shipping.aspx.cs:line 2337
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : Page_Load
+Date        : 11:37:03 AM
+Time        : 2/14/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at CategoryList.Page_Load(Object sender, EventArgs e) in d:\Tradingbell\Production\WES_2_5\WES\CategoryList.aspx.cs:line 36
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : SendMail
+Date        : 11:38:57 AM
+Time        : 2/14/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in d:\Tradingbell\Production\WES_2_5\WES\Shipping.aspx.cs:line 2337
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : SendMail
+Date        : 11:53:50 AM
+Time        : 2/14/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in d:\Tradingbell\Production\WES_2_5\WES\Shipping.aspx.cs:line 2337
+^^-------------------------------------------------------------------^^
+Source        : WES
+Method        : SendMail
+Date        : 1:00:12 PM
+Time        : 2/14/2019
+Computer    : P3-sd14
+Error        : Object reference not set to an instance of an object.
+Stack Trace    : at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in d:\Tradingbell\Production\WES_2_5\WES\Shipping.aspx.cs:line 2370
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Send
+Date        : 1:01:32 PM
+Time        : 2/14/2019
+Computer    : P3-sd14
+Error        : Failure sending mail.
+Stack Trace    : at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in d:\Tradingbell\Production\WES_2_5\WES\Shipping.aspx.cs:line 2403
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Send
+Date        : 5:19:13 PM
+Time        : 2/14/2019
+Computer    : P3-sd14
+Error        : Failure sending mail.
+Stack Trace    : at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in d:\Tradingbell\Production\WES_2_5\WES\Shipping.aspx.cs:line 2435
+^^-------------------------------------------------------------------^^
+Source        : System
+Method        : Send
+Date        : 5:21:19 PM
+Time        : 2/14/2019
+Computer    : P3-sd14
+Error        : Failure sending mail.
+Stack Trace    : at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at shipping.SendMail(Int32 OrderId, Int32 OrderStatus) in d:\Tradingbell\Production\WES_2_5\WES\Shipping.aspx.cs:line 2435
+^^-------------------------------------------------------------------^^

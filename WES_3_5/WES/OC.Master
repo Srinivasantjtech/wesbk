@@ -1,0 +1,226 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="OC.master.cs" Inherits="WES.OC" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<title></title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="WES Australasia is a leading wholesale distributor for electronic components and accessories. Our products are sourced globally supplying Engineers, Installers and Retailers throughout many industries in the Australasia Pacific Region. We pride ourselves on fast delivery, great customer service and our extensive product range that extends over the following categories Data / Cabling / Racking, Audio / Visual Installation, Electronic Components, Security and Surveillance Communications, Tools and Test Equipment, AC / DC Power,  Plus More!"/>
+<meta name="keywords" content="Audio, amplifiers, speakers, alarms, transformers, relays and switches, connectors, hi fi, tv brackets, surround sound, memory cards / blank media, subwoofer, amplifier, mp3 player, cctv camera & domes, Electronic Components, Hakko, Tools, Engineers, cellink, fire evacuation, enclosures, opus one, remote controls, heatshrink, capacitors and resistors, inductors and toroids, phoenolic pcb, heatsinks, fuses / circuit breakers, trimpots, crimps, intercoms, multimeters, digital video recorders, cctv domes, microphones, level controls, mixers, electronics, wagner electronics, jaycar, electus, electus distribution, mwave, altech, all electronics, altronic, alltronics, altronic distributors, all-tronics, Cellink, Cellular Accessories, Audio Visual Installation, Network, Optical Fibre, Data Centre, Custom Manufacturing, Surge Protection, Interconnect, Apple, Samsung, Nokia, Distributors"/>
+<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+     <link rel="stylesheet" type="text/css" media="screen" href="css/AllCss.css?v=<%=System.Configuration.ConfigurationManager.AppSettings["CSSVersion"].ToString()%>" />
+    <script src="Scripts/All_JQ_Mainpage.js?v=<%=System.Configuration.ConfigurationManager.AppSettings["JSVersion"].ToString()%>" type="text/javascript"></script>
+<%--    <script type="text/javascript"  >
+        (function () {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = 'Scripts/All_JQ_Mainpage.js?v=<%=System.Configuration.ConfigurationManager.AppSettings["JSVersion"].ToString()%>';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        })();
+</script>--%>
+
+      <script src="Scripts/All_Js_Top.js?v=<%=System.Configuration.ConfigurationManager.AppSettings["JSVersion"].ToString()%>" type="text/javascript"></script>
+<%--              <script type="text/javascript"  >
+                  (function () {
+                      var s = document.createElement('script');
+                      s.type = 'text/javascript';
+                      s.async = true;
+                      s.src = 'Scripts/All_Js_Top.js?v=<%=System.Configuration.ConfigurationManager.AppSettings["JSVersion"].ToString()%>';
+                      var x = document.getElementsByTagName('script')[0];
+                      x.parentNode.insertBefore(s, x);
+                  })();
+</script>--%>
+
+     <%-- <script src="Scripts/All_JS_MASTER.js?v=<%=System.Configuration.ConfigurationManager.AppSettings["JSVersion"].ToString()%>" type="text/javascript"></script>--%>
+           <script type="text/javascript"  >
+               (function () {
+                   var s = document.createElement('script');
+                   s.type = 'text/javascript';
+                   s.async = true;
+                   s.src = 'Scripts/All_JS_MASTER.js?v=<%=System.Configuration.ConfigurationManager.AppSettings["JSVersion"].ToString()%>';
+                   var x = document.getElementsByTagName('script')[0];
+                   x.parentNode.insertBefore(s, x);
+               })();
+</script>
+     <%-- <script src="/Scripts/Notification_Subscribe.js" type="text/javascript"></script>
+     <script src="/Scripts/Notification_Subscribe.js" type="text/javascript"></script>--%>
+   <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="images/favicon.ico" /> 
+    <% if (!(HttpContext.Current.Request.Url.ToString().Contains("orderdetails")))
+       { %>
+      <link rel="Stylesheet" href="css/thickboxAddtocart.css?v=<%=System.Configuration.ConfigurationManager.AppSettings["CSSVersion"].ToString()%>" type="text/css" />
+     <%--<script language="javascript" src="Scripts/thickboxaddtocart.js?v=<%=System.Configuration.ConfigurationManager.AppSettings["JSVersion"].ToString()%>" type="text/javascript" />--%>
+              <script type="text/javascript"  >
+                  (function () {
+                      var s = document.createElement('script');
+                      s.type = 'text/javascript';
+                      s.async = true;
+                      s.src = 'Scripts/thickboxaddtocart.js?v=<%=System.Configuration.ConfigurationManager.AppSettings["JSVersion"].ToString()%>';
+                      var x = document.getElementsByTagName('script')[0];
+                      x.parentNode.insertBefore(s, x);
+                  })();
+</script>
+     <%} %>
+      </asp:ContentPlaceHolder>
+
+<%-- <script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>--%>
+<%--<script type="text/javascript"  >
+    (function () {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'scripts/jquery-1.4.1.min.js';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    })();
+</script>--%>
+<script type="text/javascript" language="javascript">
+    jQuery(document).ready(function () {
+        $("img.lazy").lazyload();
+    });
+</script>
+
+<style>
+.fixed {
+    position: fixed;
+    left: 180px;
+    margin-left:0px;
+	width:184px;
+	height:500px;
+	overflow-y:auto;
+}
+
+</style>
+</head>
+   <%--   <div class="notify_box clearfix">
+	<div class="notity_img" id="notification_wes" style="display:none">
+    	<img src="images/push-notifiy_wes.png" class="img-responsive" alt="Notification">
+    </div>
+    <div class="notify_text">
+    	<h4>Get Latest Updates by Wes Online</h4>
+        <p>Click allow when prompted about Notification</p>
+    </div>
+    <div class="notify_btn">
+    	<a href="#" class="btn_pink" onclick="HideSubscribe();">Not Now</a>
+        <a href="#" class="btn btn-primary" onclick="CallSubscribe();">Allow</a>
+    </div>
+</div>--%>
+<body class="fondo_" style="-webkit-print-color-adjust:exact;">
+<div id="top" ></div>
+<div id="toTop"><img src="/images/go_top.png" alt="Go To Top" /></div>
+
+
+<asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <form id="form1" runat="server">     
+    <asp:ScriptManager ID="ScriptManager1" runat="server"  EnablePageMethods="true" ScriptMode="Release" EnablePartialRendering="false" >
+    </asp:ScriptManager>
+      <table class="back_sitio" border="0" style="height:100%;width:990px;text-align:center;" align="center" cellpadding="0" cellspacing="0">     
+            <tr>
+                <td valign="top" align ="center">
+                        <asp:ContentPlaceHolder ID="header"  runat="server" >
+                        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="style2" style="border-style:none" valign="top" align="center">
+                    <table width="100%" height="100%"  border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="6" align="left" valign="top"></td>
+                        </tr>
+                       <tr>
+                        <td align="center" valign="top">
+                            <table border="0" width="970" cellpadding="0" cellspacing="0" >
+                            <tr>
+                      
+                            <td  width="970" align="center" valign="top" >
+
+                                <asp:ContentPlaceHolder ID="maincontent" runat="server">
+                                 
+                                </asp:ContentPlaceHolder>
+                              
+                            </td>
+                        
+                        </tr>
+                   
+            </table>
+            </td></tr></table></td></tr>
+            <tr>
+                <td style="border-style: none">
+                    <asp:ContentPlaceHolder ID="footer" runat="server">
+                        
+                    </asp:ContentPlaceHolder></td>
+            </tr>
+        </table>    
+<%--<script src="Scripts/All_K_button.js" type="text/javascript"></script>--%>
+<script type="text/javascript"  >
+    (function () {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'scripts/All_K_button.js';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    })();
+</script>
+
+<%--<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38373387-1']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+ 
+</script>--%>
+   <script type="text/javascript">
+       (function (i, s, o, g, r, a, m) {
+           i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+               (i[r].q = i[r].q || []).push(arguments)
+           }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+       })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+       ga('create', 'UA-38373387-1', 'auto');
+       ga('send', 'pageview');
+</script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $('.scrollup').click(function () {
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+    });
+    $(function () {
+        $("#gallery a").mouseover(function () {
+            // var mimg = $(this).children("img").attr("src");
+            //$("#product-image > img").attr("src", mimg.replace("_th50", "_images_200"));
+            var mimg1 = $(this).children("img").attr("src");
+
+            $("#product-image > a").attr("href", mimg1.replace("_th50", "_images"));
+            $("#product-image > a > img").attr("src", mimg1.replace("_th50", "_images_200"));
+        });
+    });
+</script>
+<script type="text/javascript">
+    var fby = fby || [];
+    fby.push(['showTab', { id: '7210', position: 'right', color: '#FF1F3A' }]);
+    (function () {
+        var f = document.createElement('script'); f.type = 'text/javascript'; f.async = true;
+        f.src = '//cdn.feedbackify.com/f.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(f, s);
+    })();
+</script>
+
+
+<script type="text/javascript" src="Scripts/lazyload.js"></script>
+        <script src="Scripts/jquery-1.8.1.min.js"></script>
+    </form>
+</body>
+</html>
